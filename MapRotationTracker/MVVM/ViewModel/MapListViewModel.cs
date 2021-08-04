@@ -41,25 +41,29 @@ namespace MapRotationTracker.MVVM.ViewModel
             MapImages[0] = new MapImage()
             {
                 ImagePath = @"/MapRotationTracker;component/Images/95.png",
-                MapName = "Ghost Town"
+                MapName = "Ghost Town",
+                Map = Enums.Map.Ghost_Town
             };
 
             MapImages[1] = new MapImage()
             {
                 ImagePath = @"/MapRotationTracker;component/Images/23.png",
-                MapName = "Westfield"
+                MapName = "Westfield",
+                Map = Enums.Map.Westfield
             };
 
             MapImages[2] = new MapImage()
             {
                 ImagePath = @"/MapRotationTracker;component/Images/1.png",
-                MapName = "Karelia"
+                MapName = "Karelia",
+                Map = Enums.Map.Karelia
             };
 
             MapImages[3] = new MapImage()
             {
                 ImagePath = @"/MapRotationTracker;component/Images/29.png",
-                MapName = "El Halluf"
+                MapName = "El Halluf",
+                Map = Enums.Map.El_Halluf
             };
 
         }

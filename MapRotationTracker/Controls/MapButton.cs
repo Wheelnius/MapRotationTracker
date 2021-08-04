@@ -13,16 +13,33 @@ namespace MapRotationTracker.Controls
 {
     public class MapButton : Button
     {
-        private Button _button;
-        private Image _image;
-        private TextBlock _text;
+        public enum ButtonSize
+        {
+            Small,
+            Medium,
+            Large
+        }
 
         public static DependencyProperty MapProperty = DependencyProperty.Register("Map", typeof(MapImage), typeof(MapButton), new PropertyMetadata(GetDefaultMap()));
+        public static DependencyProperty SizeProperty = DependencyProperty.Register("Size", typeof(ButtonSize), typeof(MapButton), new PropertyMetadata(ButtonSize.Small));
+        public static DependencyProperty IsNameVisibleProperty = DependencyProperty.Register("IsNameVisible", typeof(bool), typeof(MapButton), new PropertyMetadata(false));
 
         public MapImage Map
         {
             get => (MapImage)GetValue(MapProperty);
             set => SetValue(MapProperty, value);
+        }
+
+        public ButtonSize Size
+        {
+            get => (ButtonSize)GetValue(SizeProperty);
+            set => SetValue(SizeProperty, value);
+        }
+
+        public bool IsNameVisible
+        {
+            get => (bool)GetValue(IsNameVisibleProperty);
+            set => SetValue(IsNameVisibleProperty, value);
         }
 
         static MapButton()
@@ -32,27 +49,6 @@ namespace MapRotationTracker.Controls
 
         public override void OnApplyTemplate()
         {
-            //_button = Template.FindName("MainButton", this) as Button;
-            //_image = Template.FindName("MapIcon", this) as Image;
-            //_text = Template.FindName("MapName", this) as TextBlock;
-
-            //Binding mapImageBinding = new()
-            //{
-            //    Path = new PropertyPath(nameof(Map)),
-            //    Source = this,
-            //    Converter = new MapImageToSourceConverter()
-            //};
-
-            //Binding textBlockBinding = new()
-            //{
-            //    Path = new PropertyPath(nameof(Map)),
-            //    Source = this,
-            //    Converter = new MapImageToNameConverter()
-            //};
-
-            //_ = _text.SetBinding(TextBlock.TextProperty, textBlockBinding);
-            //_ = _image.SetBinding(Image.SourceProperty, mapImageBinding);
-
             base.OnApplyTemplate();
         }
 

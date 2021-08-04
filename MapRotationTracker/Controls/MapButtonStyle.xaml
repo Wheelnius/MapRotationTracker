@@ -12,58 +12,51 @@
                     <ControlTemplate.Resources>
                         <converters:MapImageToSourceConverter x:Key="MapImageToSourceConverter"/>
                         <converters:MapImageToNameConverter x:Key="MapImageToNameConverter"/>
+                        <converters:ButtonSizeToRectWidthConverter x:Key="ButtonSizeToRectWidthConverter"/>
+                        <converters:MapImageToButtonVisibilityConverter x:Key="MapImageToButtonVisibilityConverter"/>
+                        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
                     </ControlTemplate.Resources>
 
-
-
-                    <Border BorderBrush="Transparent" x:Name="BaseBorder">
-
-                        <Button x:Name="MainButton"                               
+                    <Border>
+                        <Grid>
+                            <Image x:Name="MapIcon" Stretch="Fill" Source="{TemplateBinding Map, Converter={StaticResource MapImageToSourceConverter}}" Opacity="0.9"/>
+                            
+                            <Rectangle x:Name="TextRectangle"
+                                Stroke="#2F2F2F"
+                                Width="{TemplateBinding Size, Converter={StaticResource ButtonSizeToRectWidthConverter}}"
+                                Visibility="{TemplateBinding IsNameVisible, Converter={StaticResource BooleanToVisibilityConverter}}"
+                                Height="20" 
+                                Margin="0,20,0,0"
+                                VerticalAlignment="Top"
+                                Fill="LightGray"
+                                Opacity="0.4"/>
+                            
+                            <TextBlock x:Name="MapNameLabel" Text="{TemplateBinding Map, Converter={StaticResource MapImageToNameConverter}}"                                     
+                                FontSize="15"
+                                Visibility="{TemplateBinding IsNameVisible, Converter={StaticResource BooleanToVisibilityConverter}}"
+                                Foreground="Black"
+                                Margin="0,20,0,0"
+                                VerticalAlignment="Top"
+                                HorizontalAlignment="Center"/>
+                            
+                            <Button x:Name="MainButton" 
+                                Visibility="{TemplateBinding Map, Converter={StaticResource MapImageToButtonVisibilityConverter}}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                Background="{TemplateBinding Background}"  
                                 Command="{Binding MapInfoCommand}" 
-                                CommandParameter="{TemplateBinding Map}"
-                                Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
-                            <Button.Content>
-                                <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" x:Name="ContentBorder">
-                                    <Grid>
-
-                                        <Image x:Name="MapIcon" Stretch="Fill" Source="{TemplateBinding Map, Converter={StaticResource MapImageToSourceConverter}}" Opacity="0.9"/>
-                                        <Rectangle Stroke="#2F2F2F"
-                                                   Width="150"
-                                                   Height="20"
-                                                   Margin="0,20,0,0"
-                                                   VerticalAlignment="Top"
-                                                   Fill="LightGray"
-                                                   Opacity="0.4"/>
-                                        <TextBlock Text="{TemplateBinding Map, Converter={StaticResource MapImageToNameConverter}}"
-                                                   FontSize="15"
-                                                   Foreground="Black"
-                                                   Margin="0,20,0,0"
-                                                   VerticalAlignment="Top"
-                                                   HorizontalAlignment="Center"/>
-                                    </Grid>
-                                </Border>
-                            </Button.Content>
-                        </Button>
+                                CommandParameter="{TemplateBinding Map}">
+                            </Button>
+                            
+                        </Grid>
                     </Border>
 
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <!--<Setter Property="BorderBrush" Value="Red"/>
-                            <Setter Property="Foreground" Value="Red"/>-->
-                            <!--<Setter Property="Background" TargetName="MainButton"  Value="Gray" />
-                            <Setter Property="BorderBrush" TargetName="MainButton"  Value="Gray" />
-                            <Setter Property="Background" TargetName="ContentBorder"  Value="Gray" />
-                            <Setter Property="BorderBrush" TargetName="ContentBorder"  Value="Gray" />-->
-
-                            <!--<Setter Property="Opacity" Value="0.6" />-->
-                            <!--<Setter Property="BorderThickness" Value="6" />-->
-
+                            <Setter Property="Opacity" TargetName="MainButton" Value="0.1"/>
+                            <Setter Property="IsNameVisible" Value="True"/>
                         </Trigger>
-
                         <Trigger Property="IsPressed" Value="True">
-                            <!--<Setter Property="Opacity" Value="0.4" />-->
-
-                            <!--<Setter Property="Background" Value="Gray" />-->
+                            <Setter Property="Opacity" TargetName="MainButton" Value="0.2"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
 
