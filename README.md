@@ -1,6 +1,7 @@
 # MapRotationTracker
 
 Refactoring project for the original Rotation Tracker. Currently focusing on applying the best MVVM practices, keeping code clean and consistent.
+Original source is currently private.
 
 *Original description*
 
