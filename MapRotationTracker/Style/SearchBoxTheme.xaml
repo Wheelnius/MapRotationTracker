@@ -12,14 +12,13 @@
                         <Grid>
                             <Rectangle StrokeThickness="1"/>
                             <TextBox Margin="1"
-                                     Text="{TemplateBinding Text}"
+                                     Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"
                                      BorderThickness="0"
                                      Background="Transparent"
                                      Foreground="White"
                                      Padding="5"
                                      VerticalContentAlignment="Center"
                                      x:Name="SearchBox">
-                                
                             </TextBox>
                             <TextBlock IsHitTestVisible="False"
                                        Text="Search maps.."

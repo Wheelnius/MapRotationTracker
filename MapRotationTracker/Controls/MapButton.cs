@@ -22,7 +22,7 @@ namespace MapRotationTracker.Controls
 
         public static DependencyProperty MapProperty = DependencyProperty.Register("Map", typeof(MapImage), typeof(MapButton), new PropertyMetadata(GetDefaultMap()));
         public static DependencyProperty SizeProperty = DependencyProperty.Register("Size", typeof(ButtonSize), typeof(MapButton), new PropertyMetadata(ButtonSize.Small));
-        public static DependencyProperty IsNameVisibleProperty = DependencyProperty.Register("IsNameVisible", typeof(bool), typeof(MapButton), new PropertyMetadata(false));
+        public static DependencyProperty IsNameVisibleProperty = DependencyProperty.Register("IsNameVisible", typeof(bool), typeof(MapButton), new PropertyMetadata(true));
 
         public MapImage Map
         {

@@ -33,7 +33,7 @@ namespace MapRotationTracker.Enums
         Redshire = 34,
         Steppes = 35,
         Fishermans_Bay = 36,
-        Mauntain_Pass = 37,
+        Mountain_Pass = 37,
         Mannerheim_Line = 38,
         Live_Oaks = 44,
         Highway = 45,

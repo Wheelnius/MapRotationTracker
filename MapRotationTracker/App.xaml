@@ -14,6 +14,8 @@
                 <ResourceDictionary Source="Style/MapLargeThemes.xaml"/>
                 <ResourceDictionary Source="Style/MapMediumThemes.xaml"/>
                 <ResourceDictionary Source="Style/MapButtonLargeTheme.xaml"/>
+                <ResourceDictionary Source="Style/ToggleButtonTheme.xaml"/>
+                <ResourceDictionary Source="Style/DropShadowButtonTheme.xaml"/>
 
             </ResourceDictionary.MergedDictionaries>
 
@@ -28,7 +30,9 @@
             <DataTemplate DataType="{x:Type viewModel:MapInfoViewModel}">
                 <view:MapInfoView/>
             </DataTemplate>
-
+            <DataTemplate DataType="{x:Type viewModel:SettingsViewModel}">
+                <view:SettingsView/>
+            </DataTemplate>
         </ResourceDictionary>
         
         
