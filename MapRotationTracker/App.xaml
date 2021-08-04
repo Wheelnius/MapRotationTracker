@@ -1,0 +1,36 @@
+﻿<Application x:Class="MapRotationTracker.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MapRotationTracker"
+             xmlns:viewModel="clr-namespace:MapRotationTracker.MVVM.ViewModel"
+             xmlns:view="clr-namespace:MapRotationTracker.MVVM.View"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Style/RadioButtonTheme.xaml"/>
+                <ResourceDictionary Source="Style/SearchBoxTheme.xaml"/>
+                <ResourceDictionary Source="Style/MapButtonTheme.xaml"/>
+                <ResourceDictionary Source="Style/MapLargeThemes.xaml"/>
+                <ResourceDictionary Source="Style/MapMediumThemes.xaml"/>
+                <ResourceDictionary Source="Style/MapButtonLargeTheme.xaml"/>
+
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+                <view:HomeView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:MapListViewModel}">
+                <view:MapListView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:MapInfoViewModel}">
+                <view:MapInfoView/>
+            </DataTemplate>
+
+        </ResourceDictionary>
+        
+        
+    </Application.Resources>
+</Application>

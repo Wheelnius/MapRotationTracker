@@ -1,0 +1,137 @@
+﻿<UserControl x:Class="MapRotationTracker.MVVM.View.MapListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MapRotationTracker.MVVM.View"
+             xmlns:viewmodel="clr-namespace:MapRotationTracker.MVVM.ViewModel"
+             d:DataContext="{d:DesignInstance Type=viewmodel:MapListViewModel}"
+             xmlns:custom="clr-namespace:MapRotationTracker.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="705" d:DesignWidth="800">
+    <StackPanel>
+
+        <TextBlock Text="Maps"
+                   Foreground="White"
+                   FontSize="28"
+                   HorizontalAlignment="Left"
+                   Margin="0,0,0,10"/>
+        
+        <StackPanel Orientation="Horizontal">
+            
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type Image}">
+                    <Setter Property="Width" Value="190"/>
+                    <Setter Property="Height" Value="190"/>
+                </Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Width" Value="190"/>
+                    <Setter Property="Height" Value="190"/>
+                </Style>
+            </StackPanel.Resources>
+            
+            <Border Style="{StaticResource MapBorderLarge}">
+                <Grid>
+                    <custom:MapButton Map="{Binding MapImages[0]}" BorderThickness="0" BorderBrush="Transparent" Background="Transparent"></custom:MapButton>
+                </Grid>
+            </Border>
+
+            <Border Style="{StaticResource MapBorderLarge}">
+                <Grid>
+                    <custom:MapButton Map="{Binding MapImages[1]}" BorderThickness="0" BorderBrush="Transparent" Background="Transparent"></custom:MapButton>
+                </Grid>
+            </Border>
+
+            <Border Style="{StaticResource MapBorderLarge}">
+                <Grid>
+                    <custom:MapButton Map="{Binding MapImages[2]}" BorderThickness="0" BorderBrush="Transparent" Background="Transparent"></custom:MapButton>
+                </Grid>
+            </Border>
+
+            <Border Style="{StaticResource MapBorderLarge}">
+                <Grid>
+                    <custom:MapButton Map="{Binding MapImages[3]}" BorderThickness="0" BorderBrush="Transparent" Background="Transparent"></custom:MapButton>
+                </Grid>
+            </Border>
+        </StackPanel>
+
+        
+        
+        <StackPanel Orientation="Horizontal"
+                    Margin="0,20,0,0">
+            
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type Image}">
+                    <Setter Property="Width" Value="125"/>
+                    <Setter Property="Height" Value="125"/>
+                </Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Width" Value="125"/>
+                    <Setter Property="Height" Value="125"/>
+                </Style>
+            </StackPanel.Resources>
+            
+            <Border Style="{StaticResource MapBorderMedium}">
+                <Grid>
+                    <Image Source="{Binding MapImages[4].ImagePath}"/>
+                    <Rectangle Style="{StaticResource MapRectangleMedium}"/>
+                    <TextBlock Style="{StaticResource MapTextMedium}" Text="{Binding MapImages[4].MapName}"/>
+                    <Button x:Name="Map5Button" 
+                            Style="{StaticResource ResourceKey=MapButtonTheme}" 
+                            CommandParameter="{Binding MapImages[4]}"/>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource MapBorderMedium}">
+                <Grid>
+                    <Image Source="{Binding MapImages[5].ImagePath}"/>
+                    <Rectangle Style="{StaticResource MapRectangleMedium}"/>
+                    <TextBlock Style="{StaticResource MapTextMedium}" Text="{Binding MapImages[5].MapName}"/>
+                    <Button x:Name="Map6Button" 
+                            Style="{StaticResource ResourceKey=MapButtonTheme}" 
+                            CommandParameter="{Binding MapImages[5]}"/>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource MapBorderMedium}">
+                <Grid>
+                    <Image Source="{Binding MapImages[6].ImagePath}"/>
+                    <Rectangle Style="{StaticResource MapRectangleMedium}"/>
+                    <TextBlock Style="{StaticResource MapTextMedium}" Text="{Binding MapImages[6].MapName}"/>
+                    <Button x:Name="Map7Button" 
+                            Style="{StaticResource ResourceKey=MapButtonTheme}" 
+                            CommandParameter="{Binding MapImages[6]}"/>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource MapBorderMedium}">
+                <Grid>
+                    <Image Source="{Binding MapImages[7].ImagePath}"/>
+                    <Rectangle Style="{StaticResource MapRectangleMedium}"/>
+                    <TextBlock Style="{StaticResource MapTextMedium}" Text="{Binding MapImages[7].MapName}"/>
+                    <Button x:Name="Map8Button" 
+                            Style="{StaticResource ResourceKey=MapButtonTheme}" 
+                            CommandParameter="{Binding MapImages[7]}"/>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource MapBorderMedium}">
+                <Grid>
+                    <Image Source="{Binding MapImages[8].ImagePath}"/>
+                    <Rectangle Style="{StaticResource MapRectangleMedium}"/>
+                    <TextBlock Style="{StaticResource MapTextMedium}" Text="{Binding MapImages[8].MapName}"/>
+                    <Button x:Name="Map9Button" 
+                            Style="{StaticResource ResourceKey=MapButtonTheme}" 
+                            CommandParameter="{Binding MapImages[8]}"/>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource MapBorderMedium}">
+                <Grid>
+                    <Image Source="{Binding MapImages[9].ImagePath}"/>
+                    <Rectangle Style="{StaticResource MapRectangleMedium}"/>
+                    <TextBlock Style="{StaticResource MapTextMedium}" Text="{Binding MapImages[9].MapName}"/>
+                    <Button x:Name="Map10Button" 
+                            Style="{StaticResource ResourceKey=MapButtonTheme}" 
+                            CommandParameter="{Binding MapImages[9]}"/>
+                </Grid>
+            </Border>
+
+        </StackPanel>
+    </StackPanel>
+</UserControl>
