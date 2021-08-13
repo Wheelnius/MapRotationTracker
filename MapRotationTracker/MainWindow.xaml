@@ -18,7 +18,6 @@
     </Window.DataContext>
 
     <Border CornerRadius="15">
-        
         <Border.Background>
             <LinearGradientBrush StartPoint="0,0"
                                  EndPoint="1,2">
@@ -38,6 +37,10 @@
                 <RowDefinition Height="75"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
+
+            <Image Style="{StaticResource BackgroundImage}">
+                
+            </Image>
 
             <TextBlock Text="Map Tracker"
                        VerticalAlignment="Center"
