@@ -48,12 +48,26 @@ namespace MapRotationTracker.MVVM.ViewModel
             }
         }
 
+        private string[] _searchResults;
+
+        public string[] SearchResults
+        {
+            get { return _searchResults; }
+            set
+            {
+                _searchResults = value;
+                OnPropertyChanged();
+            }
+        }
+
         public MainViewModel()
         {
             HomeVM = new HomeViewModel();
             MapListVM = new MapListViewModel(this);
             MapInfoVM = new MapInfoViewModel();
             SettingsVM = new SettingsViewModel();
+
+            _searchResults = new string[] { "Map A", "Map B", "Map C", "Map D"};
 
             _mapImages = JsonConvert.DeserializeObject<MapImage[]>(File.ReadAllText(@"C:\Users\luxoi\source\repos\MapRotationTracker\MapRotationTracker\Images\images.json"));
             CurrentView = MapListVM;
@@ -76,6 +90,7 @@ namespace MapRotationTracker.MVVM.ViewModel
 
         private void FilterMaps(string filter)
         {
+            return;
             if (CurrentView is MapListViewModel)
             {
                 var vm = CurrentView as MapListViewModel;
