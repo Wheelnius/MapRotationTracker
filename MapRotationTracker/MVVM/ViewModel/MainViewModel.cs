@@ -15,6 +15,7 @@ namespace MapRotationTracker.MVVM.ViewModel
         public RelayCommand HomeViewCommand { get; set; }
         public RelayCommand MapListViewCommand { get; set; }
         public RelayCommand SettingsViewCommand { get; set; }
+        public RelayCommand SearchResultCommand { get; set; }
 
         public MapListViewModel MapListVM;
         public HomeViewModel HomeVM;
@@ -48,9 +49,9 @@ namespace MapRotationTracker.MVVM.ViewModel
             }
         }
 
-        private string[] _searchResults;
+        private MapImage[] _searchResults;
 
-        public string[] SearchResults
+        public MapImage[] SearchResults
         {
             get { return _searchResults; }
             set
@@ -67,9 +68,8 @@ namespace MapRotationTracker.MVVM.ViewModel
             MapInfoVM = new MapInfoViewModel();
             SettingsVM = new SettingsViewModel();
 
-            _searchResults = new string[] { "Map A", "Map B", "Map C", "Map D"};
-
             _mapImages = JsonConvert.DeserializeObject<MapImage[]>(File.ReadAllText(@"C:\Users\luxoi\source\repos\MapRotationTracker\MapRotationTracker\Images\images.json"));
+
             CurrentView = MapListVM;
 
             SettingsViewCommand = new RelayCommand(o =>
@@ -86,22 +86,36 @@ namespace MapRotationTracker.MVVM.ViewModel
             {
                 CurrentView = MapListVM;
             });
+
+            SearchResultCommand = new RelayCommand(o =>
+            {
+                SearchText = "";
+
+                switch (CurrentView)
+                {
+                    case MapListViewModel:
+                    case MapInfoViewModel:
+                        MapInfoVM.CurrentMapImage = (MapImage)o;
+                        CurrentView = MapInfoVM;
+                        break;
+                    case HomeViewModel:
+                        break;
+                    default: break;
+                }
+            });
         }
 
         private void FilterMaps(string filter)
         {
-            return;
-            if (CurrentView is MapListViewModel)
+            if (CurrentView is MapListViewModel or MapInfoViewModel)
             {
-                var vm = CurrentView as MapListViewModel;
-
                 if (string.IsNullOrEmpty(filter))
                 {
-                    vm.MapImages = _mapImages;
+                    SearchResults = Array.Empty<MapImage>();
                     return;
                 }
 
-                vm.MapImages = _mapImages.Where(m => m.MapName.ToLower().Contains(filter.ToLower())).ToArray();
+                SearchResults = _mapImages.Where(m => m.MapName.ToLower().Contains(filter.ToLower())).ToArray();
 
             }
         }

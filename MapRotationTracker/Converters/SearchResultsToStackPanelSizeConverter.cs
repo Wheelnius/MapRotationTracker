@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MapRotationTracker.MVVM.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,22 +13,23 @@ namespace MapRotationTracker.Converters
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
             if (value == null)
-                return 80;
+                return 40;
 
-            if (value is string[] results)
+            if (value is MapImage[] results)
             {
                 return results.Length switch
                 {
-                    1 => 70,
-                    2 => 100,
-                    3 => 130,
-                    4 => 160,
-                    5 => 190,
-                    _ => 80,
+                    0 => 40,
+                    1 => 75,
+                    2 => 105,
+                    3 => 135,
+                    4 => 165,
+                    5 => 195,
+                    _ => 195
                 };
             }
 
-            return 80;
+            return 40;
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)

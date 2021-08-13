@@ -5,8 +5,29 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:MapRotationTracker.MVVM.View"
              mc:Ignorable="d" 
-             d:DesignHeight="705" d:DesignWidth="800" Background="Black">
-    <StackPanel>
+             d:DesignHeight="705" d:DesignWidth="800" Background="Transparent">
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal" 
+                    Height="100" 
+                    Background="#1F211F">
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" 
+                    Height="300" 
+                    Margin="0,20,0,0">
+            <Border Width="300" Background="#1F211F">
+                <Image Source="{Binding CurrentMapImage.ImagePath}"></Image>
+            </Border>
+            <Border Width="480" 
+                    Margin="20,0,0,0"
+                    Background="#1F211F">
+            </Border>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" 
+                    Margin="0,20,0,0" 
+                    Background="#1F211F"
+                    Height="265">
+            
+        </StackPanel>
         <TextBlock Foreground="White" Text="{Binding CurrentMapImage.MapName}"></TextBlock>
     </StackPanel>
 </UserControl>
