@@ -42,27 +42,27 @@
                                         Visibility="Visible">
                                 
                                 <RadioButton Style="{StaticResource SearchRadioButtonTheme}" 
-                                             Content="{Binding SearchResults[0].MapName}" 
+                                             Content="{Binding SearchResults[0].Name}" 
                                              Visibility="{Binding SearchResults, Converter={StaticResource SearchResultsToItemVisibilityConverter}, ConverterParameter=1}"
                                              Command="{Binding SearchResultCommand}"
                                              CommandParameter="{Binding SearchResults[0]}"/>
                                 <RadioButton Style="{StaticResource SearchRadioButtonTheme}" 
-                                             Content="{Binding SearchResults[1].MapName}"
+                                             Content="{Binding SearchResults[1].Name}"
                                              Visibility="{Binding SearchResults, Converter={StaticResource SearchResultsToItemVisibilityConverter}, ConverterParameter=2}"
                                              Command="{Binding SearchResultCommand}"
                                              CommandParameter="{Binding SearchResults[1]}"/>
                                 <RadioButton Style="{StaticResource SearchRadioButtonTheme}" 
-                                             Content="{Binding SearchResults[2].MapName}"
+                                             Content="{Binding SearchResults[2].Name}"
                                              Visibility="{Binding SearchResults, Converter={StaticResource SearchResultsToItemVisibilityConverter}, ConverterParameter=3}"
                                              Command="{Binding SearchResultCommand}"
                                              CommandParameter="{Binding SearchResults[2]}"/>
                                 <RadioButton Style="{StaticResource SearchRadioButtonTheme}" 
-                                             Content="{Binding SearchResults[3].MapName}" 
+                                             Content="{Binding SearchResults[3].Name}" 
                                              Visibility="{Binding SearchResults, Converter={StaticResource SearchResultsToItemVisibilityConverter}, ConverterParameter=4}"
                                              Command="{Binding SearchResultCommand}"
                                              CommandParameter="{Binding SearchResults[3]}"/>
                                 <RadioButton Style="{StaticResource SearchRadioButtonTheme}" 
-                                             Content="{Binding SearchResults[4].MapName}"
+                                             Content="{Binding SearchResults[4].Name}"
                                              Visibility="{Binding SearchResults, Converter={StaticResource SearchResultsToItemVisibilityConverter}, ConverterParameter=5}"
                                              Command="{Binding SearchResultCommand}"
                                              CommandParameter="{Binding SearchResults[4]}"/>

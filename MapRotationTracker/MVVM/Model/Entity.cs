@@ -10,6 +10,7 @@ namespace MapRotationTracker.MVVM.Model
     {
         public string Name { get; set; }
         public string CodeName { get; set; }
-        public string IconPath { get; set; }
+        public string FileName { get; set; }
+        public string Path { get; set; }
     }
 }

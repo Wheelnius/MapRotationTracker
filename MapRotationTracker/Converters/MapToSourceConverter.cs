@@ -8,20 +8,20 @@ using System.Windows.Data;
 
 namespace MapRotationTracker.Converters
 {
-    public class MapImageToNameConverter : IValueConverter
+    public class MapToSourceConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
             if (value == null)
-                return "";
+                return null;
 
-            if (value is MapImage)
+            if (value is Map)
             {
-                MapImage map = value as MapImage;
-                return map.MapName;
+                Map map = value as Map;
+                return map.Path;
             }
 
-            return "";
+            return null;
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)

@@ -15,7 +15,7 @@
                     Height="300" 
                     Margin="0,20,0,0">
             <Border Width="300" Background="#1F211F">
-                <Image Source="{Binding CurrentMapImage.ImagePath}"></Image>
+                <Image Source="{Binding CurrentMap.Path}"></Image>
             </Border>
             <Border Width="480" 
                     Margin="20,0,0,0"
@@ -26,8 +26,18 @@
                     Margin="0,20,0,0" 
                     Background="#1F211F"
                     Height="245">
-            
+            <ScrollViewer Width="760" Margin="20">
+                <ItemsControl ItemsSource="{Binding Tanks}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border>
+                                
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
         </StackPanel>
-        <TextBlock Foreground="White" Text="{Binding CurrentMapImage.MapName}"></TextBlock>
+        <TextBlock Foreground="White" Text="{Binding CurrentMap.Name}"></TextBlock>
     </StackPanel>
 </UserControl>

@@ -13,14 +13,14 @@ namespace MapRotationTracker.MVVM.ViewModel
     {
         public RelayCommand MapInfoCommand { get; set; }
 
-        private MapImage[] _mapImages;
+        private Map[] _maps;
 
-        public MapImage[] MapImages
+        public Map[] Maps
         {
-            get { return _mapImages; }
+            get { return _maps; }
             set
             {
-                _mapImages = value;
+                _maps = value;
                 OnPropertyChanged();
             }
         }
@@ -29,19 +29,19 @@ namespace MapRotationTracker.MVVM.ViewModel
         {
             MapInfoCommand = new RelayCommand(o =>
             {
-                mainView.MapInfoVM.CurrentMapImage = (MapImage)o;
+                mainView.MapInfoVM.CurrentMap = (Map)o;
                 mainView.CurrentView = mainView.MapInfoVM;          
             });
 
             var maps = JsonConvert.DeserializeObject<Map[]>(Encoding.UTF8.GetString(Properties.Resources.Maps));
-            var tanks = JsonConvert.DeserializeObject<Tank[]>(Encoding.UTF8.GetString(Properties.Resources.Tanks));
 
-            this.MapImages = maps.Select(m => new MapImage()
+            this.Maps = maps.Select(m => new Map()
             {
-
-                ImagePath = @"/MapRotationTracker;component/Resources/" + m.IconPath,
-                Map = m,
-                MapName = m.Name
+                CodeName = m.CodeName,
+                FileName = m.FileName,
+                Id = m.Id,
+                Name = m.Name,
+                Path = @"/MapRotationTracker;component/Resources/" + m.FileName
             }).ToArray();
         }
     }

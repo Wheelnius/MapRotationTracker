@@ -10,37 +10,37 @@
                 <ControlTemplate TargetType="local:MapButton">
 
                     <ControlTemplate.Resources>
-                        <converters:MapImageToSourceConverter x:Key="MapImageToSourceConverter"/>
-                        <converters:MapImageToNameConverter x:Key="MapImageToNameConverter"/>
+                        <converters:MapToSourceConverter x:Key="MapToSourceConverter"/>
+                        <converters:MapToNameConverter x:Key="MapToNameConverter"/>
                         <converters:ButtonSizeToRectWidthConverter x:Key="ButtonSizeToRectWidthConverter"/>
-                        <converters:MapImageToButtonVisibilityConverter x:Key="MapImageToButtonVisibilityConverter"/>
+                        <converters:MapToButtonVisibilityConverter x:Key="MapToButtonVisibilityConverter"/>
                         <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
                     </ControlTemplate.Resources>
 
                     <Border>
                         <Grid>
-                            <Image x:Name="MapIcon" Stretch="Fill" Source="{TemplateBinding Map, Converter={StaticResource MapImageToSourceConverter}}" Opacity="0.9"/>
+                            <Image x:Name="MapIcon" Stretch="Fill" Source="{TemplateBinding Map, Converter={StaticResource MapToSourceConverter}}" Opacity="0.9"/>
                             
                             <Rectangle x:Name="TextRectangle"
                                 Stroke="#2F2F2F"
                                 Width="{TemplateBinding Size, Converter={StaticResource ButtonSizeToRectWidthConverter}}"
-                                Visibility="{TemplateBinding Map, Converter={StaticResource MapImageToButtonVisibilityConverter}}"
+                                Visibility="{TemplateBinding Map, Converter={StaticResource MapToButtonVisibilityConverter}}"
                                 Height="20" 
                                 Margin="0,20,0,0"
                                 VerticalAlignment="Top"
                                 Fill="LightGray"
                                 Opacity="0.4"/>
                             
-                            <TextBlock x:Name="MapNameLabel" Text="{TemplateBinding Map, Converter={StaticResource MapImageToNameConverter}}"                                     
+                            <TextBlock x:Name="MapNameLabel" Text="{TemplateBinding Map, Converter={StaticResource MapToNameConverter}}"                                     
                                 FontSize="15"
-                                Visibility="{TemplateBinding Map, Converter={StaticResource MapImageToButtonVisibilityConverter}}"
+                                Visibility="{TemplateBinding Map, Converter={StaticResource MapToButtonVisibilityConverter}}"
                                 Foreground="Black"
                                 Margin="0,20,0,0"
                                 VerticalAlignment="Top"
                                 HorizontalAlignment="Center"/>
                             
                             <Button x:Name="MainButton" 
-                                Visibility="{TemplateBinding Map, Converter={StaticResource MapImageToButtonVisibilityConverter}}"
+                                Visibility="{TemplateBinding Map, Converter={StaticResource MapToButtonVisibilityConverter}}"
                                 BorderThickness="{TemplateBinding BorderThickness}"
                                 Background="{TemplateBinding Background}"  
                                 Command="{Binding MapInfoCommand}" 

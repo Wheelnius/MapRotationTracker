@@ -23,7 +23,7 @@ namespace MapRotationTracker.MVVM.ViewModel
         public SettingsViewModel SettingsVM;
 
 
-        private MapImage[] _mapImages;
+        private Map[] _maps;
         private object _currentView;
 
         public object CurrentView
@@ -49,9 +49,9 @@ namespace MapRotationTracker.MVVM.ViewModel
             }
         }
 
-        private MapImage[] _searchResults;
+        private Map[] _searchResults;
 
-        public MapImage[] SearchResults
+        public Map[] SearchResults
         {
             get { return _searchResults; }
             set
@@ -69,11 +69,13 @@ namespace MapRotationTracker.MVVM.ViewModel
             SettingsVM = new SettingsViewModel();
 
             var maps = JsonConvert.DeserializeObject<Map[]>(Encoding.UTF8.GetString(Properties.Resources.Maps));
-            _mapImages = maps.Select(m => new MapImage()
+            _maps = maps.Select(m => new Map()
             {
-                ImagePath = @"/MapRotationTracker;component/Resources/" + m.IconPath,
-                Map = m,
-                MapName = m.Name
+                CodeName = m.CodeName,
+                FileName = m.FileName,
+                Id = m.Id,
+                Name = m.Name,
+                Path = @"/MapRotationTracker;component/Resources/" + m.FileName
             }).ToArray();
 
             CurrentView = MapListVM;
@@ -101,7 +103,7 @@ namespace MapRotationTracker.MVVM.ViewModel
                 {
                     case MapListViewModel:
                     case MapInfoViewModel:
-                        MapInfoVM.CurrentMapImage = (MapImage)o;
+                        MapInfoVM.CurrentMap = (Map)o;
                         CurrentView = MapInfoVM;
                         break;
                     case HomeViewModel:
@@ -117,12 +119,11 @@ namespace MapRotationTracker.MVVM.ViewModel
             {
                 if (string.IsNullOrEmpty(filter))
                 {
-                    SearchResults = Array.Empty<MapImage>();
+                    SearchResults = Array.Empty<Map>();
                     return;
                 }
 
-                SearchResults = _mapImages.Where(m => m.MapName.ToLower().Contains(filter.ToLower())).ToArray();
-
+                SearchResults = _maps.Where(m => m.Name.ToLower().Contains(filter.ToLower())).ToArray();
             }
         }
     }

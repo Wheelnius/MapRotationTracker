@@ -9,16 +9,16 @@ namespace MapRotationTracker.Managers
 {
     public static class MapPoolManager
     {
-        public static MapImage[] _mapImages;
+        public static Map[] _maps;
 
-        public static MapImage[] MapImages
+        public static Map[] Maps
         {
             get {
-                if (_mapImages == null)
+                if (_maps == null)
                 {
 
                 }
-                return _mapImages;
+                return _maps;
             }
         }
 

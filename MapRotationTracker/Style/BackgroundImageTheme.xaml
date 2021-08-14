@@ -1,7 +1,7 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Style x:Key="BackgroundImage" TargetType="{x:Type Image}">
-        <Setter Property="Source" Value="{Binding CurrentMapImage.ImagePath}"/>
+        <Setter Property="Source" Value="{Binding CurrentMap.Path}"/>
         <Setter Property="Stretch" Value="UniformToFill"/>
         <Setter Property="Opacity" Value="0.2"/>
         <Setter Property="VerticalAlignment" Value="Center"/>

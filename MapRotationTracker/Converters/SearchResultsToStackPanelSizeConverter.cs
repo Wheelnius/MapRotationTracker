@@ -15,7 +15,7 @@ namespace MapRotationTracker.Converters
             if (value == null)
                 return 40;
 
-            if (value is MapImage[] results)
+            if (value is Map[] results)
             {
                 return results.Length switch
                 {

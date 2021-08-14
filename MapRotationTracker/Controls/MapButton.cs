@@ -20,13 +20,13 @@ namespace MapRotationTracker.Controls
             Large
         }
 
-        public static DependencyProperty MapProperty = DependencyProperty.Register("Map", typeof(MapImage), typeof(MapButton), new PropertyMetadata(GetDefaultMap()));
+        public static DependencyProperty MapProperty = DependencyProperty.Register("Map", typeof(Map), typeof(MapButton), new PropertyMetadata(GetDefaultMap()));
         public static DependencyProperty SizeProperty = DependencyProperty.Register("Size", typeof(ButtonSize), typeof(MapButton), new PropertyMetadata(ButtonSize.Small));
         public static DependencyProperty IsNameVisibleProperty = DependencyProperty.Register("IsNameVisible", typeof(bool), typeof(MapButton), new PropertyMetadata(true));
 
-        public MapImage Map
+        public Map Map
         {
-            get => (MapImage)GetValue(MapProperty);
+            get => (Map)GetValue(MapProperty);
             set => SetValue(MapProperty, value);
         }
 
@@ -52,12 +52,12 @@ namespace MapRotationTracker.Controls
             base.OnApplyTemplate();
         }
 
-        public static MapImage GetDefaultMap()
+        public static Map GetDefaultMap()
         {
-            return new MapImage()
+            return new Map()
             {
-                ImagePath = @"/MapRotationTracker;component/Resources/default_map.png",
-                MapName = "None"
+                Path = @"/MapRotationTracker;component/Resources/default_map.png",
+                Name = "None"
             };
         }
 

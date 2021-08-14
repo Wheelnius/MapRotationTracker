@@ -1,5 +1,6 @@
 ﻿using MapRotationTracker.Core;
 using MapRotationTracker.MVVM.Model;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,19 +11,30 @@ namespace MapRotationTracker.MVVM.ViewModel
 {
     class MapInfoViewModel : ObservableObject
     {
-        private MapImage _currentMapImage;
+        private Map _currentMap;
 
-        public MapImage CurrentMapImage
+        public Map CurrentMap
         {
-            get { return _currentMapImage; }
-            set { _currentMapImage = value;
+            get { return _currentMap; }
+            set { _currentMap = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private Tank[] _tanks;
+
+        public Tank[] Tanks
+        {
+            get { return _tanks; }
+            set { _tanks = value;
                 OnPropertyChanged();
             }
         }
 
         public MapInfoViewModel()
         {
-
+            var tanks = JsonConvert.DeserializeObject<Tank[]>(Encoding.UTF8.GetString(Properties.Resources.Tanks));
+            Tanks = tanks;
         }
     }
 }

@@ -4,6068 +4,6068 @@
         "CodeName": "Type59",
         "Id": "Ch01",
         "Name": "Type59",
-        "IconPath": "china-Ch01_Type59.png"
+        "FileName": "china-Ch01_Type59.png"
     },
     {
         "Nation": "china",
         "CodeName": "Type59_Gold",
         "Id": "Ch01",
         "Name": "Type59 Gold",
-        "IconPath": "china-Ch01_Type59_Gold.png"
+        "FileName": "china-Ch01_Type59_Gold.png"
     },
     {
         "Nation": "china",
         "CodeName": "Type62",
         "Id": "Ch02",
         "Name": "Type62",
-        "IconPath": "china-Ch02_Type62.png"
+        "FileName": "china-Ch02_Type62.png"
     },
     {
         "Nation": "china",
         "CodeName": "WZ-111",
         "Id": "Ch03",
         "Name": "WZ-111",
-        "IconPath": "china-Ch03_WZ-111.png"
+        "FileName": "china-Ch03_WZ-111.png"
     },
     {
         "Nation": "china",
         "CodeName": "WZ_111_A",
         "Id": "Ch03",
         "Name": "WZ 111 A",
-        "IconPath": "china-Ch03_WZ_111_A.png"
+        "FileName": "china-Ch03_WZ_111_A.png"
     },
     {
         "Nation": "china",
         "CodeName": "T34_1",
         "Id": "Ch04",
         "Name": "T34 1",
-        "IconPath": "china-Ch04_T34_1.png"
+        "FileName": "china-Ch04_T34_1.png"
     },
     {
         "Nation": "china",
         "CodeName": "T34_2",
         "Id": "Ch05",
         "Name": "T34 2",
-        "IconPath": "china-Ch05_T34_2.png"
+        "FileName": "china-Ch05_T34_2.png"
     },
     {
         "Nation": "china",
         "CodeName": "Renault_NC31",
         "Id": "Ch06",
         "Name": "Renault NC31",
-        "IconPath": "china-Ch06_Renault_NC31.png"
+        "FileName": "china-Ch06_Renault_NC31.png"
     },
     {
         "Nation": "china",
         "CodeName": "Renault_NC31_bot",
         "Id": "Ch06",
         "Name": "Renault NC31 bot",
-        "IconPath": "china-Ch06_Renault_NC31_bot.png"
+        "FileName": "china-Ch06_Renault_NC31_bot.png"
     },
     {
         "Nation": "china",
         "CodeName": "Vickers_MkE_Type_BT26",
         "Id": "Ch07",
         "Name": "Vickers MkE Type BT26",
-        "IconPath": "china-Ch07_Vickers_MkE_Type_BT26.png"
+        "FileName": "china-Ch07_Vickers_MkE_Type_BT26.png"
     },
     {
         "Nation": "china",
         "CodeName": "Type97_Chi_Ha",
         "Id": "Ch08",
         "Name": "Type97 Chi Ha",
-        "IconPath": "china-Ch08_Type97_Chi_Ha.png"
+        "FileName": "china-Ch08_Type97_Chi_Ha.png"
     },
     {
         "Nation": "china",
         "CodeName": "Type97_Chi_Ha_bootcamp",
         "Id": "Ch08",
         "Name": "Type97 Chi Ha bootcamp",
-        "IconPath": "china-Ch08_Type97_Chi_Ha_bootcamp.png"
+        "FileName": "china-Ch08_Type97_Chi_Ha_bootcamp.png"
     },
     {
         "Nation": "china",
         "CodeName": "M5",
         "Id": "Ch09",
         "Name": "M5",
-        "IconPath": "china-Ch09_M5.png"
+        "FileName": "china-Ch09_M5.png"
     },
     {
         "Nation": "china",
         "CodeName": "IS2",
         "Id": "Ch10",
         "Name": "IS2",
-        "IconPath": "china-Ch10_IS2.png"
+        "FileName": "china-Ch10_IS2.png"
     },
     {
         "Nation": "china",
         "CodeName": "110",
         "Id": "Ch11",
         "Name": "110",
-        "IconPath": "china-Ch11_110.png"
+        "FileName": "china-Ch11_110.png"
     },
     {
         "Nation": "china",
         "CodeName": "110_IGR",
         "Id": "Ch11",
         "Name": "110 IGR",
-        "IconPath": "china-Ch11_110_IGR.png"
+        "FileName": "china-Ch11_110_IGR.png"
     },
     {
         "Nation": "china",
         "CodeName": "111_1_2_3",
         "Id": "Ch12",
         "Name": "111 1 2 3",
-        "IconPath": "china-Ch12_111_1_2_3.png"
+        "FileName": "china-Ch12_111_1_2_3.png"
     },
     {
         "Nation": "china",
         "CodeName": "111_1_2_3_FL",
         "Id": "Ch12",
         "Name": "111 1 2 3 FL",
-        "IconPath": "china-Ch12_111_1_2_3_FL.png"
+        "FileName": "china-Ch12_111_1_2_3_FL.png"
     },
     {
         "Nation": "china",
         "CodeName": "T34_3",
         "Id": "Ch14",
         "Name": "T34 3",
-        "IconPath": "china-Ch14_T34_3.png"
+        "FileName": "china-Ch14_T34_3.png"
     },
     {
         "Nation": "china",
         "CodeName": "59_16",
         "Id": "Ch15",
         "Name": "59 16",
-        "IconPath": "china-Ch15_59_16.png"
+        "FileName": "china-Ch15_59_16.png"
     },
     {
         "Nation": "china",
         "CodeName": "WZ_131",
         "Id": "Ch16",
         "Name": "WZ 131",
-        "IconPath": "china-Ch16_WZ_131.png"
+        "FileName": "china-Ch16_WZ_131.png"
     },
     {
         "Nation": "china",
         "CodeName": "WZ131_1_WZ132",
         "Id": "Ch17",
         "Name": "WZ131 1 WZ132",
-        "IconPath": "china-Ch17_WZ131_1_WZ132.png"
+        "FileName": "china-Ch17_WZ131_1_WZ132.png"
     },
     {
         "Nation": "china",
         "CodeName": "WZ131_1_WZ132_IGR",
         "Id": "Ch17",
         "Name": "WZ131 1 WZ132 IGR",
-        "IconPath": "china-Ch17_WZ131_1_WZ132_IGR.png"
+        "FileName": "china-Ch17_WZ131_1_WZ132_IGR.png"
     },
     {
         "Nation": "china",
         "CodeName": "WZ-120",
         "Id": "Ch18",
         "Name": "WZ-120",
-        "IconPath": "china-Ch18_WZ-120.png"
+        "FileName": "china-Ch18_WZ-120.png"
     },
     {
         "Nation": "china",
         "CodeName": "121",
         "Id": "Ch19",
         "Name": "121",
-        "IconPath": "china-Ch19_121.png"
+        "FileName": "china-Ch19_121.png"
     },
     {
         "Nation": "china",
         "CodeName": "121_IGR",
         "Id": "Ch19",
         "Name": "121 IGR",
-        "IconPath": "china-Ch19_121_IGR.png"
+        "FileName": "china-Ch19_121_IGR.png"
     },
     {
         "Nation": "china",
         "CodeName": "Type58",
         "Id": "Ch20",
         "Name": "Type58",
-        "IconPath": "china-Ch20_Type58.png"
+        "FileName": "china-Ch20_Type58.png"
     },
     {
         "Nation": "china",
         "CodeName": "Type58_bootcamp",
         "Id": "Ch20",
         "Name": "Type58 bootcamp",
-        "IconPath": "china-Ch20_Type58_bootcamp.png"
+        "FileName": "china-Ch20_Type58_bootcamp.png"
     },
     {
         "Nation": "china",
         "CodeName": "T34",
         "Id": "Ch21",
         "Name": "T34",
-        "IconPath": "china-Ch21_T34.png"
+        "FileName": "china-Ch21_T34.png"
     },
     {
         "Nation": "china",
         "CodeName": "113",
         "Id": "Ch22",
         "Name": "113",
-        "IconPath": "china-Ch22_113.png"
+        "FileName": "china-Ch22_113.png"
     },
     {
         "Nation": "china",
         "CodeName": "112",
         "Id": "Ch23",
         "Name": "112",
-        "IconPath": "china-Ch23_112.png"
+        "FileName": "china-Ch23_112.png"
     },
     {
         "Nation": "china",
         "CodeName": "112_FL",
         "Id": "Ch23",
         "Name": "112 FL",
-        "IconPath": "china-Ch23_112_FL.png"
+        "FileName": "china-Ch23_112_FL.png"
     },
     {
         "Nation": "china",
         "CodeName": "Type64",
         "Id": "Ch24",
         "Name": "Type64",
-        "IconPath": "china-Ch24_Type64.png"
+        "FileName": "china-Ch24_Type64.png"
     },
     {
         "Nation": "china",
         "CodeName": "121_mod_1971B",
         "Id": "Ch25",
         "Name": "121 mod 1971B",
-        "IconPath": "china-Ch25_121_mod_1971B.png"
+        "FileName": "china-Ch25_121_mod_1971B.png"
     },
     {
         "Nation": "china",
         "CodeName": "59_Patton",
         "Id": "Ch26",
         "Name": "59 Patton",
-        "IconPath": "china-Ch26_59_Patton.png"
+        "FileName": "china-Ch26_59_Patton.png"
     },
     {
         "Nation": "china",
         "CodeName": "WZ_132A",
         "Id": "Ch28",
         "Name": "WZ 132A",
-        "IconPath": "china-Ch28_WZ_132A.png"
+        "FileName": "china-Ch28_WZ_132A.png"
     },
     {
         "Nation": "china",
         "CodeName": "Type_62C_prot",
         "Id": "Ch29",
         "Name": "Type 62C prot",
-        "IconPath": "china-Ch29_Type_62C_prot.png"
+        "FileName": "china-Ch29_Type_62C_prot.png"
     },
     {
         "Nation": "china",
         "CodeName": "T-26G_FT",
         "Id": "Ch30",
         "Name": "T-26G FT",
-        "IconPath": "china-Ch30_T-26G_FT.png"
+        "FileName": "china-Ch30_T-26G_FT.png"
     },
     {
         "Nation": "china",
         "CodeName": "M3G_FT",
         "Id": "Ch31",
         "Name": "M3G FT",
-        "IconPath": "china-Ch31_M3G_FT.png"
+        "FileName": "china-Ch31_M3G_FT.png"
     },
     {
         "Nation": "china",
         "CodeName": "SU-76G_FT",
         "Id": "Ch32",
         "Name": "SU-76G FT",
-        "IconPath": "china-Ch32_SU-76G_FT.png"
+        "FileName": "china-Ch32_SU-76G_FT.png"
     },
     {
         "Nation": "china",
         "CodeName": "60G_FT",
         "Id": "Ch33",
         "Name": "60G FT",
-        "IconPath": "china-Ch33_60G_FT.png"
+        "FileName": "china-Ch33_60G_FT.png"
     },
     {
         "Nation": "china",
         "CodeName": "WZ131G_FT",
         "Id": "Ch34",
         "Name": "WZ131G FT",
-        "IconPath": "china-Ch34_WZ131G_FT.png"
+        "FileName": "china-Ch34_WZ131G_FT.png"
     },
     {
         "Nation": "china",
         "CodeName": "T-34-2G_FT",
         "Id": "Ch35",
         "Name": "T-34-2G FT",
-        "IconPath": "china-Ch35_T-34-2G_FT.png"
+        "FileName": "china-Ch35_T-34-2G_FT.png"
     },
     {
         "Nation": "china",
         "CodeName": "WZ111_1G_FT",
         "Id": "Ch36",
         "Name": "WZ111 1G FT",
-        "IconPath": "china-Ch36_WZ111_1G_FT.png"
+        "FileName": "china-Ch36_WZ111_1G_FT.png"
     },
     {
         "Nation": "china",
         "CodeName": "WZ111G_FT",
         "Id": "Ch37",
         "Name": "WZ111G FT",
-        "IconPath": "china-Ch37_WZ111G_FT.png"
+        "FileName": "china-Ch37_WZ111G_FT.png"
     },
     {
         "Nation": "china",
         "CodeName": "WZ113G_FT",
         "Id": "Ch38",
         "Name": "WZ113G FT",
-        "IconPath": "china-Ch38_WZ113G_FT.png"
+        "FileName": "china-Ch38_WZ113G_FT.png"
     },
     {
         "Nation": "china",
         "CodeName": "WZ120_1G_FT",
         "Id": "Ch39",
         "Name": "WZ120 1G FT",
-        "IconPath": "china-Ch39_WZ120_1G_FT.png"
+        "FileName": "china-Ch39_WZ120_1G_FT.png"
     },
     {
         "Nation": "china",
         "CodeName": "WZ120_1G_FT_FL",
         "Id": "Ch39",
         "Name": "WZ120 1G FT FL",
-        "IconPath": "china-Ch39_WZ120_1G_FT_FL.png"
+        "FileName": "china-Ch39_WZ120_1G_FT_FL.png"
     },
     {
         "Nation": "china",
         "CodeName": "WZ120G_FT",
         "Id": "Ch40",
         "Name": "WZ120G FT",
-        "IconPath": "china-Ch40_WZ120G_FT.png"
+        "FileName": "china-Ch40_WZ120G_FT.png"
     },
     {
         "Nation": "china",
         "CodeName": "WZ_111_5A",
         "Id": "Ch41",
         "Name": "WZ 111 5A",
-        "IconPath": "china-Ch41_WZ_111_5A.png"
+        "FileName": "china-Ch41_WZ_111_5A.png"
     },
     {
         "Nation": "china",
         "CodeName": "WZ_111_5A_bob",
         "Id": "Ch41",
         "Name": "WZ 111 5A bob",
-        "IconPath": "china-Ch41_WZ_111_5A_bob.png"
+        "FileName": "china-Ch41_WZ_111_5A_bob.png"
     },
     {
         "Nation": "china",
         "CodeName": "WZ_111_QL",
         "Id": "Ch41",
         "Name": "WZ 111 QL",
-        "IconPath": "china-Ch41_WZ_111_QL.png"
+        "FileName": "china-Ch41_WZ_111_QL.png"
     },
     {
         "Nation": "china",
         "CodeName": "WalkerBulldog_M41D",
         "Id": "Ch42",
         "Name": "WalkerBulldog M41D",
-        "IconPath": "china-Ch42_WalkerBulldog_M41D.png"
+        "FileName": "china-Ch42_WalkerBulldog_M41D.png"
     },
     {
         "Nation": "china",
         "CodeName": "WZ_122_2",
         "Id": "Ch43",
         "Name": "WZ 122 2",
-        "IconPath": "china-Ch43_WZ_122_2.png"
+        "FileName": "china-Ch43_WZ_122_2.png"
     },
     {
         "Nation": "china",
         "CodeName": "114_SP2",
         "Id": "Ch44",
         "Name": "114 SP2",
-        "IconPath": "china-Ch44_114_SP2.png"
+        "FileName": "china-Ch44_114_SP2.png"
     },
     {
         "Nation": "china",
         "CodeName": "113_140",
         "Id": "Ch46",
         "Name": "113 140",
-        "IconPath": "china-Ch46_113_140.png"
+        "FileName": "china-Ch46_113_140.png"
     },
     {
         "Nation": "coming",
         "CodeName": "soon-01",
         "Id": "",
         "Name": "soon-01",
-        "IconPath": "coming-soon-01.png"
+        "FileName": "coming-soon-01.png"
     },
     {
         "Nation": "czech",
         "CodeName": "Skoda_T40",
         "Id": "Cz01",
         "Name": "Skoda T40",
-        "IconPath": "czech-Cz01_Skoda_T40.png"
+        "FileName": "czech-Cz01_Skoda_T40.png"
     },
     {
         "Nation": "czech",
         "CodeName": "TVP_T50",
         "Id": "Cz02",
         "Name": "TVP T50",
-        "IconPath": "czech-Cz02_TVP_T50.png"
+        "FileName": "czech-Cz02_TVP_T50.png"
     },
     {
         "Nation": "czech",
         "CodeName": "LT_vz35",
         "Id": "Cz03",
         "Name": "LT vz35",
-        "IconPath": "czech-Cz03_LT_vz35.png"
+        "FileName": "czech-Cz03_LT_vz35.png"
     },
     {
         "Nation": "czech",
         "CodeName": "T50_51",
         "Id": "Cz04",
         "Name": "T50 51",
-        "IconPath": "czech-Cz04_T50_51.png"
+        "FileName": "czech-Cz04_T50_51.png"
     },
     {
         "Nation": "czech",
         "CodeName": "T34_100",
         "Id": "Cz05",
         "Name": "T34 100",
-        "IconPath": "czech-Cz05_T34_100.png"
+        "FileName": "czech-Cz05_T34_100.png"
     },
     {
         "Nation": "czech",
         "CodeName": "Kolohousenka",
         "Id": "Cz06",
         "Name": "Kolohousenka",
-        "IconPath": "czech-Cz06_Kolohousenka.png"
+        "FileName": "czech-Cz06_Kolohousenka.png"
     },
     {
         "Nation": "czech",
         "CodeName": "TVP_46",
         "Id": "Cz07",
         "Name": "TVP 46",
-        "IconPath": "czech-Cz07_TVP_46.png"
+        "FileName": "czech-Cz07_TVP_46.png"
     },
     {
         "Nation": "czech",
         "CodeName": "T_25",
         "Id": "Cz08",
         "Name": "T 25",
-        "IconPath": "czech-Cz08_T_25.png"
+        "FileName": "czech-Cz08_T_25.png"
     },
     {
         "Nation": "czech",
         "CodeName": "T_24",
         "Id": "Cz09",
         "Name": "T 24",
-        "IconPath": "czech-Cz09_T_24.png"
+        "FileName": "czech-Cz09_T_24.png"
     },
     {
         "Nation": "czech",
         "CodeName": "LT_vz38",
         "Id": "Cz10",
         "Name": "LT vz38",
-        "IconPath": "czech-Cz10_LT_vz38.png"
+        "FileName": "czech-Cz10_LT_vz38.png"
     },
     {
         "Nation": "czech",
         "CodeName": "V_8_H",
         "Id": "Cz11",
         "Name": "V 8 H",
-        "IconPath": "czech-Cz11_V_8_H.png"
+        "FileName": "czech-Cz11_V_8_H.png"
     },
     {
         "Nation": "czech",
         "CodeName": "T_27",
         "Id": "Cz13",
         "Name": "T 27",
-        "IconPath": "czech-Cz13_T_27.png"
+        "FileName": "czech-Cz13_T_27.png"
     },
     {
         "Nation": "czech",
         "CodeName": "Skoda_T-56",
         "Id": "Cz14",
         "Name": "Skoda T-56",
-        "IconPath": "czech-Cz14_Skoda_T-56.png"
+        "FileName": "czech-Cz14_Skoda_T-56.png"
     },
     {
         "Nation": "czech",
         "CodeName": "Skoda_T-45_Prem",
         "Id": "Cz15",
         "Name": "Skoda T-45 Prem",
-        "IconPath": "czech-Cz15_Skoda_T-45_Prem.png"
+        "FileName": "czech-Cz15_Skoda_T-45_Prem.png"
     },
     {
         "Nation": "czech",
         "CodeName": "TNH_T_vz51",
         "Id": "Cz16",
         "Name": "TNH T vz51",
-        "IconPath": "czech-Cz16_TNH_T_vz51.png"
+        "FileName": "czech-Cz16_TNH_T_vz51.png"
     },
     {
         "Nation": "czech",
         "CodeName": "Vz_55",
         "Id": "Cz17",
         "Name": "Vz 55",
-        "IconPath": "czech-Cz17_Vz_55.png"
+        "FileName": "czech-Cz17_Vz_55.png"
     },
     {
         "Nation": "czech",
         "CodeName": "TNH_105_1000",
         "Id": "Cz18",
         "Name": "TNH 105 1000",
-        "IconPath": "czech-Cz18_TNH_105_1000.png"
+        "FileName": "czech-Cz18_TNH_105_1000.png"
     },
     {
         "Nation": "czech",
         "CodeName": "Vz_44_1",
         "Id": "Cz19",
         "Name": "Vz 44 1",
-        "IconPath": "czech-Cz19_Vz_44_1.png"
+        "FileName": "czech-Cz19_Vz_44_1.png"
     },
     {
         "Nation": "france",
         "CodeName": "RenaultFT",
         "Id": "F01",
         "Name": "RenaultFT",
-        "IconPath": "france-F01_RenaultFT.png"
+        "FileName": "france-F01_RenaultFT.png"
     },
     {
         "Nation": "france",
         "CodeName": "RenaultFT_bot",
         "Id": "F01",
         "Name": "RenaultFT bot",
-        "IconPath": "france-F01_RenaultFT_bot.png"
+        "FileName": "france-F01_RenaultFT_bot.png"
     },
     {
         "Nation": "france",
         "CodeName": "D1",
         "Id": "F02",
         "Name": "D1",
-        "IconPath": "france-F02_D1.png"
+        "FileName": "france-F02_D1.png"
     },
     {
         "Nation": "france",
         "CodeName": "D2",
         "Id": "F03",
         "Name": "D2",
-        "IconPath": "france-F03_D2.png"
+        "FileName": "france-F03_D2.png"
     },
     {
         "Nation": "france",
         "CodeName": "B1",
         "Id": "F04",
         "Name": "B1",
-        "IconPath": "france-F04_B1.png"
+        "FileName": "france-F04_B1.png"
     },
     {
         "Nation": "france",
         "CodeName": "B1_bootcamp",
         "Id": "F04",
         "Name": "B1 bootcamp",
-        "IconPath": "france-F04_B1_bootcamp.png"
+        "FileName": "france-F04_B1_bootcamp.png"
     },
     {
         "Nation": "france",
         "CodeName": "BDR_G1B",
         "Id": "F05",
         "Name": "BDR G1B",
-        "IconPath": "france-F05_BDR_G1B.png"
+        "FileName": "france-F05_BDR_G1B.png"
     },
     {
         "Nation": "france",
         "CodeName": "ARL_44",
         "Id": "F06",
         "Name": "ARL 44",
-        "IconPath": "france-F06_ARL_44.png"
+        "FileName": "france-F06_ARL_44.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_M4_1945",
         "Id": "F07",
         "Name": "AMX M4 1945",
-        "IconPath": "france-F07_AMX_M4_1945.png"
+        "FileName": "france-F07_AMX_M4_1945.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_50_100",
         "Id": "F08",
         "Name": "AMX 50 100",
-        "IconPath": "france-F08_AMX_50_100.png"
+        "FileName": "france-F08_AMX_50_100.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_50_100_IGR",
         "Id": "F08",
         "Name": "AMX 50 100 IGR",
-        "IconPath": "france-F08_AMX_50_100_IGR.png"
+        "FileName": "france-F08_AMX_50_100_IGR.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_50_120",
         "Id": "F09",
         "Name": "AMX 50 120",
-        "IconPath": "france-F09_AMX_50_120.png"
+        "FileName": "france-F09_AMX_50_120.png"
     },
     {
         "Nation": "france",
         "CodeName": "Panhard_EBR_90",
         "Id": "F100",
         "Name": "Panhard EBR 90",
-        "IconPath": "france-F100_Panhard_EBR_90.png"
+        "FileName": "france-F100_Panhard_EBR_90.png"
     },
     {
         "Nation": "france",
         "CodeName": "Panhard_EBR_75_Mle1954",
         "Id": "F106",
         "Name": "Panhard EBR 75 Mle1954",
-        "IconPath": "france-F106_Panhard_EBR_75_Mle1954.png"
+        "FileName": "france-F106_Panhard_EBR_75_Mle1954.png"
     },
     {
         "Nation": "france",
         "CodeName": "Hotchkiss_EBR",
         "Id": "F107",
         "Name": "Hotchkiss EBR",
-        "IconPath": "france-F107_Hotchkiss_EBR.png"
+        "FileName": "france-F107_Hotchkiss_EBR.png"
     },
     {
         "Nation": "france",
         "CodeName": "Panhard_EBR_105",
         "Id": "F108",
         "Name": "Panhard EBR 105",
-        "IconPath": "france-F108_Panhard_EBR_105.png"
+        "FileName": "france-F108_Panhard_EBR_105.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMD_Panhard_178B",
         "Id": "F109",
         "Name": "AMD Panhard 178B",
-        "IconPath": "france-F109_AMD_Panhard_178B.png"
+        "FileName": "france-F109_AMD_Panhard_178B.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_50B",
         "Id": "F10",
         "Name": "AMX 50B",
-        "IconPath": "france-F10_AMX_50B.png"
+        "FileName": "france-F10_AMX_50B.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_50B_fallout",
         "Id": "F10",
         "Name": "AMX 50B fallout",
-        "IconPath": "france-F10_AMX_50B_fallout.png"
+        "FileName": "france-F10_AMX_50B_fallout.png"
     },
     {
         "Nation": "france",
         "CodeName": "Lynx_6x6",
         "Id": "F110",
         "Name": "Lynx 6x6",
-        "IconPath": "france-F110_Lynx_6x6.png"
+        "FileName": "france-F110_Lynx_6x6.png"
     },
     {
         "Nation": "france",
         "CodeName": "AM39_Gendron_Somua",
         "Id": "F111",
         "Name": "AM39 Gendron Somua",
-        "IconPath": "france-F111_AM39_Gendron_Somua.png"
+        "FileName": "france-F111_AM39_Gendron_Somua.png"
     },
     {
         "Nation": "france",
         "CodeName": "M10_RBFM",
         "Id": "F112",
         "Name": "M10 RBFM",
-        "IconPath": "france-F112_M10_RBFM.png"
+        "FileName": "france-F112_M10_RBFM.png"
     },
     {
         "Nation": "france",
         "CodeName": "Bretagne_Panther",
         "Id": "F113",
         "Name": "Bretagne Panther",
-        "IconPath": "france-F113_Bretagne_Panther.png"
+        "FileName": "france-F113_Bretagne_Panther.png"
     },
     {
         "Nation": "france",
         "CodeName": "Projet_4_1",
         "Id": "F114",
         "Name": "Projet 4 1",
-        "IconPath": "france-F114_Projet_4_1.png"
+        "FileName": "france-F114_Projet_4_1.png"
     },
     {
         "Nation": "france",
         "CodeName": "Lorraine_50t",
         "Id": "F115",
         "Name": "Lorraine 50t",
-        "IconPath": "france-F115_Lorraine_50t.png"
+        "FileName": "france-F115_Lorraine_50t.png"
     },
     {
         "Nation": "france",
         "CodeName": "Bat_Chatillon_Bourrasque",
         "Id": "F116",
         "Name": "Bat Chatillon Bourrasque",
-        "IconPath": "france-F116_Bat_Chatillon_Bourrasque.png"
+        "FileName": "france-F116_Bat_Chatillon_Bourrasque.png"
     },
     {
         "Nation": "france",
         "CodeName": "Alt_Proto_AMX_30",
         "Id": "F117",
         "Name": "Alt Proto AMX 30",
-        "IconPath": "france-F117_Alt_Proto_AMX_30.png"
+        "FileName": "france-F117_Alt_Proto_AMX_30.png"
     },
     {
         "Nation": "france",
         "CodeName": "Renault_G1R",
         "Id": "F11",
         "Name": "Renault G1R",
-        "IconPath": "france-F11_Renault_G1R.png"
+        "FileName": "france-F11_Renault_G1R.png"
     },
     {
         "Nation": "france",
         "CodeName": "Hotchkiss_H35",
         "Id": "F12",
         "Name": "Hotchkiss H35",
-        "IconPath": "france-F12_Hotchkiss_H35.png"
+        "FileName": "france-F12_Hotchkiss_H35.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX38",
         "Id": "F13",
         "Name": "AMX38",
-        "IconPath": "france-F13_AMX38.png"
+        "FileName": "france-F13_AMX38.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX40",
         "Id": "F14",
         "Name": "AMX40",
-        "IconPath": "france-F14_AMX40.png"
+        "FileName": "france-F14_AMX40.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_12t",
         "Id": "F15",
         "Name": "AMX 12t",
-        "IconPath": "france-F15_AMX_12t.png"
+        "FileName": "france-F15_AMX_12t.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_13_75",
         "Id": "F16",
         "Name": "AMX 13 75",
-        "IconPath": "france-F16_AMX_13_75.png"
+        "FileName": "france-F16_AMX_13_75.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_13_90",
         "Id": "F17",
         "Name": "AMX 13 90",
-        "IconPath": "france-F17_AMX_13_90.png"
+        "FileName": "france-F17_AMX_13_90.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_13_90_IGR",
         "Id": "F17",
         "Name": "AMX 13 90 IGR",
-        "IconPath": "france-F17_AMX_13_90_IGR.png"
+        "FileName": "france-F17_AMX_13_90_IGR.png"
     },
     {
         "Nation": "france",
         "CodeName": "Bat_Chatillon25t",
         "Id": "F18",
         "Name": "Bat Chatillon25t",
-        "IconPath": "france-F18_Bat_Chatillon25t.png"
+        "FileName": "france-F18_Bat_Chatillon25t.png"
     },
     {
         "Nation": "france",
         "CodeName": "Bat_Chatillon25t_IGR",
         "Id": "F18",
         "Name": "Bat Chatillon25t IGR",
-        "IconPath": "france-F18_Bat_Chatillon25t_IGR.png"
+        "FileName": "france-F18_Bat_Chatillon25t_IGR.png"
     },
     {
         "Nation": "france",
         "CodeName": "Lorraine40t",
         "Id": "F19",
         "Name": "Lorraine40t",
-        "IconPath": "france-F19_Lorraine40t.png"
+        "FileName": "france-F19_Lorraine40t.png"
     },
     {
         "Nation": "france",
         "CodeName": "RenaultBS",
         "Id": "F20",
         "Name": "RenaultBS",
-        "IconPath": "france-F20_RenaultBS.png"
+        "FileName": "france-F20_RenaultBS.png"
     },
     {
         "Nation": "france",
         "CodeName": "Lorraine39_L_AM",
         "Id": "F21",
         "Name": "Lorraine39 L AM",
-        "IconPath": "france-F21_Lorraine39_L_AM.png"
+        "FileName": "france-F21_Lorraine39_L_AM.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_105AM",
         "Id": "F22",
         "Name": "AMX 105AM",
-        "IconPath": "france-F22_AMX_105AM.png"
+        "FileName": "france-F22_AMX_105AM.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_13F3AM",
         "Id": "F23",
         "Name": "AMX 13F3AM",
-        "IconPath": "france-F23_AMX_13F3AM.png"
+        "FileName": "france-F23_AMX_13F3AM.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_13F3AM_MapsTraining_Dummy_SPG_2",
         "Id": "F23",
         "Name": "AMX 13F3AM MapsTraining Dummy SPG 2",
-        "IconPath": "france-F23_AMX_13F3AM_MapsTraining_Dummy_SPG_2.png"
+        "FileName": "france-F23_AMX_13F3AM_MapsTraining_Dummy_SPG_2.png"
     },
     {
         "Nation": "france",
         "CodeName": "Lorraine155_50",
         "Id": "F24",
         "Name": "Lorraine155 50",
-        "IconPath": "france-F24_Lorraine155_50.png"
+        "FileName": "france-F24_Lorraine155_50.png"
     },
     {
         "Nation": "france",
         "CodeName": "Lorraine155_51",
         "Id": "F25",
         "Name": "Lorraine155 51",
-        "IconPath": "france-F25_Lorraine155_51.png"
+        "FileName": "france-F25_Lorraine155_51.png"
     },
     {
         "Nation": "france",
         "CodeName": "FCM_36Pak40",
         "Id": "F27",
         "Name": "FCM 36Pak40",
-        "IconPath": "france-F27_FCM_36Pak40.png"
+        "FileName": "france-F27_FCM_36Pak40.png"
     },
     {
         "Nation": "france",
         "CodeName": "105_leFH18B2",
         "Id": "F28",
         "Name": "105 leFH18B2",
-        "IconPath": "france-F28_105_leFH18B2.png"
+        "FileName": "france-F28_105_leFH18B2.png"
     },
     {
         "Nation": "france",
         "CodeName": "105_leFH18B2_IGR",
         "Id": "F28",
         "Name": "105 leFH18B2 IGR",
-        "IconPath": "france-F28_105_leFH18B2_IGR.png"
+        "FileName": "france-F28_105_leFH18B2_IGR.png"
     },
     {
         "Nation": "france",
         "CodeName": "RenaultFT_AC",
         "Id": "F30",
         "Name": "RenaultFT AC",
-        "IconPath": "france-F30_RenaultFT_AC.png"
+        "FileName": "france-F30_RenaultFT_AC.png"
     },
     {
         "Nation": "france",
         "CodeName": "Somua_Sau_40",
         "Id": "F32",
         "Name": "Somua Sau 40",
-        "IconPath": "france-F32_Somua_Sau_40.png"
+        "FileName": "france-F32_Somua_Sau_40.png"
     },
     {
         "Nation": "france",
         "CodeName": "S_35CA",
         "Id": "F33",
         "Name": "S 35CA",
-        "IconPath": "france-F33_S_35CA.png"
+        "FileName": "france-F33_S_35CA.png"
     },
     {
         "Nation": "france",
         "CodeName": "S_35CA_IGR",
         "Id": "F33",
         "Name": "S 35CA IGR",
-        "IconPath": "france-F33_S_35CA_IGR.png"
+        "FileName": "france-F33_S_35CA_IGR.png"
     },
     {
         "Nation": "france",
         "CodeName": "ARL_V39",
         "Id": "F34",
         "Name": "ARL V39",
-        "IconPath": "france-F34_ARL_V39.png"
+        "FileName": "france-F34_ARL_V39.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_AC_Mle1946",
         "Id": "F35",
         "Name": "AMX AC Mle1946",
-        "IconPath": "france-F35_AMX_AC_Mle1946.png"
+        "FileName": "france-F35_AMX_AC_Mle1946.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_AC_Mle1948",
         "Id": "F36",
         "Name": "AMX AC Mle1948",
-        "IconPath": "france-F36_AMX_AC_Mle1948.png"
+        "FileName": "france-F36_AMX_AC_Mle1948.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_AC_Mle1948_IGR",
         "Id": "F36",
         "Name": "AMX AC Mle1948 IGR",
-        "IconPath": "france-F36_AMX_AC_Mle1948_IGR.png"
+        "FileName": "france-F36_AMX_AC_Mle1948_IGR.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX50_Foch",
         "Id": "F37",
         "Name": "AMX50 Foch",
-        "IconPath": "france-F37_AMX50_Foch.png"
+        "FileName": "france-F37_AMX50_Foch.png"
     },
     {
         "Nation": "france",
         "CodeName": "Bat_Chatillon155_58",
         "Id": "F38",
         "Name": "Bat Chatillon155 58",
-        "IconPath": "france-F38_Bat_Chatillon155_58.png"
+        "FileName": "france-F38_Bat_Chatillon155_58.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMR_35",
         "Id": "F42",
         "Name": "AMR 35",
-        "IconPath": "france-F42_AMR_35.png"
+        "FileName": "france-F42_AMR_35.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMC_35_SH",
         "Id": "F43",
         "Name": "AMC 35 SH",
-        "IconPath": "france-F43_AMC_35_SH.png"
+        "FileName": "france-F43_AMC_35_SH.png"
     },
     {
         "Nation": "france",
         "CodeName": "Somua_S35",
         "Id": "F44",
         "Name": "Somua S35",
-        "IconPath": "france-F44_Somua_S35.png"
+        "FileName": "france-F44_Somua_S35.png"
     },
     {
         "Nation": "france",
         "CodeName": "RenaultR35",
         "Id": "F49",
         "Name": "RenaultR35",
-        "IconPath": "france-F49_RenaultR35.png"
+        "FileName": "france-F49_RenaultR35.png"
     },
     {
         "Nation": "france",
         "CodeName": "FCM36_20t",
         "Id": "F50",
         "Name": "FCM36 20t",
-        "IconPath": "france-F50_FCM36_20t.png"
+        "FileName": "france-F50_FCM36_20t.png"
     },
     {
         "Nation": "france",
         "CodeName": "RenaultUE57",
         "Id": "F52",
         "Name": "RenaultUE57",
-        "IconPath": "france-F52_RenaultUE57.png"
+        "FileName": "france-F52_RenaultUE57.png"
     },
     {
         "Nation": "france",
         "CodeName": "ELC_AMX",
         "Id": "F62",
         "Name": "ELC AMX",
-        "IconPath": "france-F62_ELC_AMX.png"
+        "FileName": "france-F62_ELC_AMX.png"
     },
     {
         "Nation": "france",
         "CodeName": "ELC_AMX_IGR",
         "Id": "F62",
         "Name": "ELC AMX IGR",
-        "IconPath": "france-F62_ELC_AMX_IGR.png"
+        "FileName": "france-F62_ELC_AMX_IGR.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_50Fosh_155",
         "Id": "F64",
         "Name": "AMX 50Fosh 155",
-        "IconPath": "france-F64_AMX_50Fosh_155.png"
+        "FileName": "france-F64_AMX_50Fosh_155.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_50Fosh_B",
         "Id": "F64",
         "Name": "AMX 50Fosh B",
-        "IconPath": "france-F64_AMX_50Fosh_B.png"
+        "FileName": "france-F64_AMX_50Fosh_B.png"
     },
     {
         "Nation": "france",
         "CodeName": "FCM_50t",
         "Id": "F65",
         "Name": "FCM 50t",
-        "IconPath": "france-F65_FCM_50t.png"
+        "FileName": "france-F65_FCM_50t.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_Ob_Am105",
         "Id": "F66",
         "Name": "AMX Ob Am105",
-        "IconPath": "france-F66_AMX_Ob_Am105.png"
+        "FileName": "france-F66_AMX_Ob_Am105.png"
     },
     {
         "Nation": "france",
         "CodeName": "Bat_Chatillon155_55",
         "Id": "F67",
         "Name": "Bat Chatillon155 55",
-        "IconPath": "france-F67_Bat_Chatillon155_55.png"
+        "FileName": "france-F67_Bat_Chatillon155_55.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_Chasseur_de_char_46",
         "Id": "F68",
         "Name": "AMX Chasseur de char 46",
-        "IconPath": "france-F68_AMX_Chasseur_de_char_46.png"
+        "FileName": "france-F68_AMX_Chasseur_de_char_46.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX13_57_100",
         "Id": "F69",
         "Name": "AMX13 57 100",
-        "IconPath": "france-F69_AMX13_57_100.png"
+        "FileName": "france-F69_AMX13_57_100.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX13_57_100_GrandFinal",
         "Id": "F69",
         "Name": "AMX13 57 100 GrandFinal",
-        "IconPath": "france-F69_AMX13_57_100_GrandFinal.png"
+        "FileName": "france-F69_AMX13_57_100_GrandFinal.png"
     },
     {
         "Nation": "france",
         "CodeName": "SARL42",
         "Id": "F70",
         "Name": "SARL42",
-        "IconPath": "france-F70_SARL42.png"
+        "FileName": "france-F70_SARL42.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_30_prototype",
         "Id": "F71",
         "Name": "AMX 30 prototype",
-        "IconPath": "france-F71_AMX_30_prototype.png"
+        "FileName": "france-F71_AMX_30_prototype.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_30",
         "Id": "F72",
         "Name": "AMX 30",
-        "IconPath": "france-F72_AMX_30.png"
+        "FileName": "france-F72_AMX_30.png"
     },
     {
         "Nation": "france",
         "CodeName": "M4A1_Revalorise",
         "Id": "F73",
         "Name": "M4A1 Revalorise",
-        "IconPath": "france-F73_M4A1_Revalorise.png"
+        "FileName": "france-F73_M4A1_Revalorise.png"
     },
     {
         "Nation": "france",
         "CodeName": "M4A1_Revalorise_FL",
         "Id": "F73",
         "Name": "M4A1 Revalorise FL",
-        "IconPath": "france-F73_M4A1_Revalorise_FL.png"
+        "FileName": "france-F73_M4A1_Revalorise_FL.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_M4_1949",
         "Id": "F74",
         "Name": "AMX M4 1949",
-        "IconPath": "france-F74_AMX_M4_1949.png"
+        "FileName": "france-F74_AMX_M4_1949.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_M4_1949_FL",
         "Id": "F74",
         "Name": "AMX M4 1949 FL",
-        "IconPath": "france-F74_AMX_M4_1949_FL.png"
+        "FileName": "france-F74_AMX_M4_1949_FL.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_M4_1949_Liberte",
         "Id": "F74",
         "Name": "AMX M4 1949 Liberte",
-        "IconPath": "france-F74_AMX_M4_1949_Liberte.png"
+        "FileName": "france-F74_AMX_M4_1949_Liberte.png"
     },
     {
         "Nation": "france",
         "CodeName": "Char_de_25t",
         "Id": "F75",
         "Name": "Char de 25t",
-        "IconPath": "france-F75_Char_de_25t.png"
+        "FileName": "france-F75_Char_de_25t.png"
     },
     {
         "Nation": "france",
         "CodeName": "Char_de_65t",
         "Id": "F81",
         "Name": "Char de 65t",
-        "IconPath": "france-F81_Char_de_65t.png"
+        "FileName": "france-F81_Char_de_65t.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_M4_Mle1949_Ter",
         "Id": "F82",
         "Name": "AMX M4 Mle1949 Ter",
-        "IconPath": "france-F82_AMX_M4_Mle1949_Ter.png"
+        "FileName": "france-F82_AMX_M4_Mle1949_Ter.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_M4_Mle1949_Bis",
         "Id": "F83",
         "Name": "AMX M4 Mle1949 Bis",
-        "IconPath": "france-F83_AMX_M4_Mle1949_Bis.png"
+        "FileName": "france-F83_AMX_M4_Mle1949_Bis.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_M4_Mle1949_Bis_FL",
         "Id": "F83",
         "Name": "AMX M4 Mle1949 Bis FL",
-        "IconPath": "france-F83_AMX_M4_Mle1949_Bis_FL.png"
+        "FileName": "france-F83_AMX_M4_Mle1949_Bis_FL.png"
     },
     {
         "Nation": "france",
         "CodeName": "Somua_SM",
         "Id": "F84",
         "Name": "Somua SM",
-        "IconPath": "france-F84_Somua_SM.png"
+        "FileName": "france-F84_Somua_SM.png"
     },
     {
         "Nation": "france",
         "CodeName": "M4A1_FL10",
         "Id": "F85",
         "Name": "M4A1 FL10",
-        "IconPath": "france-F85_M4A1_FL10.png"
+        "FileName": "france-F85_M4A1_FL10.png"
     },
     {
         "Nation": "france",
         "CodeName": "Batignolles-Chatillon_12t",
         "Id": "F87",
         "Name": "Batignolles-Chatillon 12t",
-        "IconPath": "france-F87_Batignolles-Chatillon_12t.png"
+        "FileName": "france-F87_Batignolles-Chatillon_12t.png"
     },
     {
         "Nation": "france",
         "CodeName": "AMX_13_105",
         "Id": "F88",
         "Name": "AMX 13 105",
-        "IconPath": "france-F88_AMX_13_105.png"
+        "FileName": "france-F88_AMX_13_105.png"
     },
     {
         "Nation": "france",
         "CodeName": "Canon_dassaut_de_105",
         "Id": "F89",
         "Name": "Canon dassaut de 105",
-        "IconPath": "france-F89_Canon_dassaut_de_105.png"
+        "FileName": "france-F89_Canon_dassaut_de_105.png"
     },
     {
         "Nation": "france",
         "CodeName": "ELC_EVEN_90",
         "Id": "F97",
         "Name": "ELC EVEN 90",
-        "IconPath": "france-F97_ELC_EVEN_90.png"
+        "FileName": "france-F97_ELC_EVEN_90.png"
     },
     {
         "Nation": "france",
         "CodeName": "ELC_EVEN_90_FL",
         "Id": "F97",
         "Name": "ELC EVEN 90 FL",
-        "IconPath": "france-F97_ELC_EVEN_90_FL.png"
+        "FileName": "france-F97_ELC_EVEN_90_FL.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Hummel",
         "Id": "G02",
         "Name": "Hummel",
-        "IconPath": "germany-G02_Hummel.png"
+        "FileName": "germany-G02_Hummel.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzV_Panther",
         "Id": "G03",
         "Name": "PzV Panther",
-        "IconPath": "germany-G03_PzV_Panther.png"
+        "FileName": "germany-G03_PzV_Panther.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzV_Panther_bootcamp",
         "Id": "G03",
         "Name": "PzV Panther bootcamp",
-        "IconPath": "germany-G03_PzV_Panther_bootcamp.png"
+        "FileName": "germany-G03_PzV_Panther_bootcamp.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzV_Panther_IGR",
         "Id": "G03",
         "Name": "PzV Panther IGR",
-        "IconPath": "germany-G03_PzV_Panther_IGR.png"
+        "FileName": "germany-G03_PzV_Panther_IGR.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzVI_Tiger_I",
         "Id": "G04",
         "Name": "PzVI Tiger I",
-        "IconPath": "germany-G04_PzVI_Tiger_I.png"
+        "FileName": "germany-G04_PzVI_Tiger_I.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzVI_Tiger_IA",
         "Id": "G04",
         "Name": "PzVI Tiger IA",
-        "IconPath": "germany-G04_PzVI_Tiger_IA.png"
+        "FileName": "germany-G04_PzVI_Tiger_IA.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzVI_Tiger_I_IGR",
         "Id": "G04",
         "Name": "PzVI Tiger I IGR",
-        "IconPath": "germany-G04_PzVI_Tiger_I_IGR.png"
+        "FileName": "germany-G04_PzVI_Tiger_I_IGR.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzVI_Tiger_I_MapsTraining_Player_HT_2",
         "Id": "G04",
         "Name": "PzVI Tiger I MapsTraining Player HT 2",
-        "IconPath": "germany-G04_PzVI_Tiger_I_MapsTraining_Player_HT_2.png"
+        "FileName": "germany-G04_PzVI_Tiger_I_MapsTraining_Player_HT_2.png"
     },
     {
         "Nation": "germany",
         "CodeName": "StuG_40_AusfG",
         "Id": "G05",
         "Name": "StuG 40 AusfG",
-        "IconPath": "germany-G05_StuG_40_AusfG.png"
+        "FileName": "germany-G05_StuG_40_AusfG.png"
     },
     {
         "Nation": "germany",
         "CodeName": "StuG_40_AusfG_IGR",
         "Id": "G05",
         "Name": "StuG 40 AusfG IGR",
-        "IconPath": "germany-G05_StuG_40_AusfG_IGR.png"
+        "FileName": "germany-G05_StuG_40_AusfG_IGR.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzII",
         "Id": "G06",
         "Name": "PzII",
-        "IconPath": "germany-G06_PzII.png"
+        "FileName": "germany-G06_PzII.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzII_bot",
         "Id": "G06",
         "Name": "PzII bot",
-        "IconPath": "germany-G06_PzII_bot.png"
+        "FileName": "germany-G06_PzII_bot.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Pz35t",
         "Id": "G07",
         "Name": "Pz35t",
-        "IconPath": "germany-G07_Pz35t.png"
+        "FileName": "germany-G07_Pz35t.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Pz38t",
         "Id": "G08",
         "Name": "Pz38t",
-        "IconPath": "germany-G08_Pz38t.png"
+        "FileName": "germany-G08_Pz38t.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Pz38t_bootcamp",
         "Id": "G08",
         "Name": "Pz38t bootcamp",
-        "IconPath": "germany-G08_Pz38t_bootcamp.png"
+        "FileName": "germany-G08_Pz38t_bootcamp.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Hetzer",
         "Id": "G09",
         "Name": "Hetzer",
-        "IconPath": "germany-G09_Hetzer.png"
+        "FileName": "germany-G09_Hetzer.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Hetzer_MapsTraining_Dummy_ATSPG_1",
         "Id": "G09",
         "Name": "Hetzer MapsTraining Dummy ATSPG 1",
-        "IconPath": "germany-G09_Hetzer_MapsTraining_Dummy_ATSPG_1.png"
+        "FileName": "germany-G09_Hetzer_MapsTraining_Dummy_ATSPG_1.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Gtraktor_Krupp",
         "Id": "G100",
         "Name": "Gtraktor Krupp",
-        "IconPath": "germany-G100_Gtraktor_Krupp.png"
+        "FileName": "germany-G100_Gtraktor_Krupp.png"
     },
     {
         "Nation": "germany",
         "CodeName": "StuG_III",
         "Id": "G101",
         "Name": "StuG III",
-        "IconPath": "germany-G101_StuG_III.png"
+        "FileName": "germany-G101_StuG_III.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Pz_III",
         "Id": "G102",
         "Name": "Pz III",
-        "IconPath": "germany-G102_Pz_III.png"
+        "FileName": "germany-G102_Pz_III.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Pz_III_bootcamp",
         "Id": "G102",
         "Name": "Pz III bootcamp",
-        "IconPath": "germany-G102_Pz_III_bootcamp.png"
+        "FileName": "germany-G102_Pz_III_bootcamp.png"
     },
     {
         "Nation": "germany",
         "CodeName": "RU_251",
         "Id": "G103",
         "Name": "RU 251",
-        "IconPath": "germany-G103_RU_251.png"
+        "FileName": "germany-G103_RU_251.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Stug_IV",
         "Id": "G104",
         "Name": "Stug IV",
-        "IconPath": "germany-G104_Stug_IV.png"
+        "FileName": "germany-G104_Stug_IV.png"
     },
     {
         "Nation": "germany",
         "CodeName": "T-55_NVA_DDR",
         "Id": "G105",
         "Name": "T-55 NVA DDR",
-        "IconPath": "germany-G105_T-55_NVA_DDR.png"
+        "FileName": "germany-G105_T-55_NVA_DDR.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzKpfwPanther_AusfF",
         "Id": "G106",
         "Name": "PzKpfwPanther AusfF",
-        "IconPath": "germany-G106_PzKpfwPanther_AusfF.png"
+        "FileName": "germany-G106_PzKpfwPanther_AusfF.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzKpfwIII_AusfK",
         "Id": "G107",
         "Name": "PzKpfwIII AusfK",
-        "IconPath": "germany-G107_PzKpfwIII_AusfK.png"
+        "FileName": "germany-G107_PzKpfwIII_AusfK.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzKpfwII_AusfD",
         "Id": "G108",
         "Name": "PzKpfwII AusfD",
-        "IconPath": "germany-G108_PzKpfwII_AusfD.png"
+        "FileName": "germany-G108_PzKpfwII_AusfD.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Steyr_WT",
         "Id": "G109",
         "Name": "Steyr WT",
-        "IconPath": "germany-G109_Steyr_WT.png"
+        "FileName": "germany-G109_Steyr_WT.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzIII_AusfJ",
         "Id": "G10",
         "Name": "PzIII AusfJ",
-        "IconPath": "germany-G10_PzIII_AusfJ.png"
+        "FileName": "germany-G10_PzIII_AusfJ.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Typ_205",
         "Id": "G110",
         "Name": "Typ 205",
-        "IconPath": "germany-G110_Typ_205.png"
+        "FileName": "germany-G110_Typ_205.png"
     },
     {
         "Nation": "germany",
         "CodeName": "KanonenJagdPanzer",
         "Id": "G112",
         "Name": "KanonenJagdPanzer",
-        "IconPath": "germany-G112_KanonenJagdPanzer.png"
+        "FileName": "germany-G112_KanonenJagdPanzer.png"
     },
     {
         "Nation": "germany",
         "CodeName": "KanonenJagdPanzer_105",
         "Id": "G112",
         "Name": "KanonenJagdPanzer 105",
-        "IconPath": "germany-G112_KanonenJagdPanzer_105.png"
+        "FileName": "germany-G112_KanonenJagdPanzer_105.png"
     },
     {
         "Nation": "germany",
         "CodeName": "SP_I_C",
         "Id": "G113",
         "Name": "SP I C",
-        "IconPath": "germany-G113_SP_I_C.png"
+        "FileName": "germany-G113_SP_I_C.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Rheinmetall_Skorpian",
         "Id": "G114",
         "Name": "Rheinmetall Skorpian",
-        "IconPath": "germany-G114_Rheinmetall_Skorpian.png"
+        "FileName": "germany-G114_Rheinmetall_Skorpian.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Skorpian",
         "Id": "G114",
         "Name": "Skorpian",
-        "IconPath": "germany-G114_Skorpian.png"
+        "FileName": "germany-G114_Skorpian.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Typ_205B",
         "Id": "G115",
         "Name": "Typ 205B",
-        "IconPath": "germany-G115_Typ_205B.png"
+        "FileName": "germany-G115_Typ_205B.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Typ_205_4_Jun",
         "Id": "G115",
         "Name": "Typ 205 4 Jun",
-        "IconPath": "germany-G115_Typ_205_4_Jun.png"
+        "FileName": "germany-G115_Typ_205_4_Jun.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Turan_III_prot",
         "Id": "G116",
         "Name": "Turan III prot",
-        "IconPath": "germany-G116_Turan_III_prot.png"
+        "FileName": "germany-G116_Turan_III_prot.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Toldi_III",
         "Id": "G117",
         "Name": "Toldi III",
-        "IconPath": "germany-G117_Toldi_III.png"
+        "FileName": "germany-G117_Toldi_III.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Toldi_III_bootcamp",
         "Id": "G117",
         "Name": "Toldi III bootcamp",
-        "IconPath": "germany-G117_Toldi_III_bootcamp.png"
+        "FileName": "germany-G117_Toldi_III_bootcamp.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK4503",
         "Id": "G118",
         "Name": "VK4503",
-        "IconPath": "germany-G118_VK4503.png"
+        "FileName": "germany-G118_VK4503.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Panzer58",
         "Id": "G119",
         "Name": "Panzer58",
-        "IconPath": "germany-G119_Panzer58.png"
+        "FileName": "germany-G119_Panzer58.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Panzer58_BF",
         "Id": "G119",
         "Name": "Panzer58 BF",
-        "IconPath": "germany-G119_Panzer58_BF.png"
+        "FileName": "germany-G119_Panzer58_BF.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Panzer58_FL",
         "Id": "G119",
         "Name": "Panzer58 FL",
-        "IconPath": "germany-G119_Panzer58_FL.png"
+        "FileName": "germany-G119_Panzer58_FL.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Pz58_Mutz",
         "Id": "G119",
         "Name": "Pz58 Mutz",
-        "IconPath": "germany-G119_Pz58_Mutz.png"
+        "FileName": "germany-G119_Pz58_Mutz.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Bison_I",
         "Id": "G11",
         "Name": "Bison I",
-        "IconPath": "germany-G11_Bison_I.png"
+        "FileName": "germany-G11_Bison_I.png"
     },
     {
         "Nation": "germany",
         "CodeName": "M41_90",
         "Id": "G120",
         "Name": "M41 90",
-        "IconPath": "germany-G120_M41_90.png"
+        "FileName": "germany-G120_M41_90.png"
     },
     {
         "Nation": "germany",
         "CodeName": "M41_90_GrandFinal",
         "Id": "G120",
         "Name": "M41 90 GrandFinal",
-        "IconPath": "germany-G120_M41_90_GrandFinal.png"
+        "FileName": "germany-G120_M41_90_GrandFinal.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Grille_15_L63",
         "Id": "G121",
         "Name": "Grille 15 L63",
-        "IconPath": "germany-G121_Grille_15_L63.png"
+        "FileName": "germany-G121_Grille_15_L63.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK6501H",
         "Id": "G122",
         "Name": "VK6501H",
-        "IconPath": "germany-G122_VK6501H.png"
+        "FileName": "germany-G122_VK6501H.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Spz_57_Rh",
         "Id": "G125",
         "Name": "Spz 57 Rh",
-        "IconPath": "germany-G125_Spz_57_Rh.png"
+        "FileName": "germany-G125_Spz_57_Rh.png"
     },
     {
         "Nation": "germany",
         "CodeName": "HWK_12",
         "Id": "G126",
         "Name": "HWK 12",
-        "IconPath": "germany-G126_HWK_12.png"
+        "FileName": "germany-G126_HWK_12.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Ltraktor",
         "Id": "G12",
         "Name": "Ltraktor",
-        "IconPath": "germany-G12_Ltraktor.png"
+        "FileName": "germany-G12_Ltraktor.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Ltraktor_bot",
         "Id": "G12",
         "Name": "Ltraktor bot",
-        "IconPath": "germany-G12_Ltraktor_bot.png"
+        "FileName": "germany-G12_Ltraktor_bot.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzKpfw_VII",
         "Id": "G134",
         "Name": "PzKpfw VII",
-        "IconPath": "germany-G134_PzKpfw_VII.png"
+        "FileName": "germany-G134_PzKpfw_VII.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Tiger_131",
         "Id": "G136",
         "Name": "Tiger 131",
-        "IconPath": "germany-G136_Tiger_131.png"
+        "FileName": "germany-G136_Tiger_131.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzVI_Tiger_217",
         "Id": "G137",
         "Name": "PzVI Tiger 217",
-        "IconPath": "germany-G137_PzVI_Tiger_217.png"
+        "FileName": "germany-G137_PzVI_Tiger_217.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK168_02",
         "Id": "G138",
         "Name": "VK168 02",
-        "IconPath": "germany-G138_VK168_02.png"
+        "FileName": "germany-G138_VK168_02.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK168_02_Mauerbrecher",
         "Id": "G138",
         "Name": "VK168 02 Mauerbrecher",
-        "IconPath": "germany-G138_VK168_02_Mauerbrecher.png"
+        "FileName": "germany-G138_VK168_02_Mauerbrecher.png"
     },
     {
         "Nation": "germany",
         "CodeName": "MKA",
         "Id": "G139",
         "Name": "MKA",
-        "IconPath": "germany-G139_MKA.png"
+        "FileName": "germany-G139_MKA.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK3001H",
         "Id": "G13",
         "Name": "VK3001H",
-        "IconPath": "germany-G13_VK3001H.png"
+        "FileName": "germany-G13_VK3001H.png"
     },
     {
         "Nation": "germany",
         "CodeName": "HWK_30",
         "Id": "G140",
         "Name": "HWK 30",
-        "IconPath": "germany-G140_HWK_30.png"
+        "FileName": "germany-G140_HWK_30.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK7501K",
         "Id": "G141",
         "Name": "VK7501K",
-        "IconPath": "germany-G141_VK7501K.png"
+        "FileName": "germany-G141_VK7501K.png"
     },
     {
         "Nation": "germany",
         "CodeName": "M48RPz",
         "Id": "G142",
         "Name": "M48RPz",
-        "IconPath": "germany-G142_M48RPz.png"
+        "FileName": "germany-G142_M48RPz.png"
     },
     {
         "Nation": "germany",
         "CodeName": "E75_TS",
         "Id": "G143",
         "Name": "E75 TS",
-        "IconPath": "germany-G143_E75_TS.png"
+        "FileName": "germany-G143_E75_TS.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Kpz_50t",
         "Id": "G144",
         "Name": "Kpz 50t",
-        "IconPath": "germany-G144_Kpz_50t.png"
+        "FileName": "germany-G144_Kpz_50t.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Kunze_Panzer",
         "Id": "G147",
         "Name": "Kunze Panzer",
-        "IconPath": "germany-G147_Kunze_Panzer.png"
+        "FileName": "germany-G147_Kunze_Panzer.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Pz_Sfl_IC",
         "Id": "G151",
         "Name": "Pz Sfl IC",
-        "IconPath": "germany-G151_Pz_Sfl_IC.png"
+        "FileName": "germany-G151_Pz_Sfl_IC.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Kpz_07_RH",
         "Id": "G154",
         "Name": "Kpz 07 RH",
-        "IconPath": "germany-G154_Kpz_07_RH.png"
+        "FileName": "germany-G154_Kpz_07_RH.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK2801_105_SPXXI",
         "Id": "G158",
         "Name": "VK2801 105 SPXXI",
-        "IconPath": "germany-G158_VK2801_105_SPXXI.png"
+        "FileName": "germany-G158_VK2801_105_SPXXI.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK3601H",
         "Id": "G15",
         "Name": "VK3601H",
-        "IconPath": "germany-G15_VK3601H.png"
+        "FileName": "germany-G15_VK3601H.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzVIB_Tiger_II",
         "Id": "G16",
         "Name": "PzVIB Tiger II",
-        "IconPath": "germany-G16_PzVIB_Tiger_II.png"
+        "FileName": "germany-G16_PzVIB_Tiger_II.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzVIB_Tiger_II_F",
         "Id": "G16",
         "Name": "PzVIB Tiger II F",
-        "IconPath": "germany-G16_PzVIB_Tiger_II_F.png"
+        "FileName": "germany-G16_PzVIB_Tiger_II_F.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzVIB_Tiger_II_IGR",
         "Id": "G16",
         "Name": "PzVIB Tiger II IGR",
-        "IconPath": "germany-G16_PzVIB_Tiger_II_IGR.png"
+        "FileName": "germany-G16_PzVIB_Tiger_II_IGR.png"
     },
     {
         "Nation": "germany",
         "CodeName": "JagdPzIV",
         "Id": "G17",
         "Name": "JagdPzIV",
-        "IconPath": "germany-G17_JagdPzIV.png"
+        "FileName": "germany-G17_JagdPzIV.png"
     },
     {
         "Nation": "germany",
         "CodeName": "JagdPanther",
         "Id": "G18",
         "Name": "JagdPanther",
-        "IconPath": "germany-G18_JagdPanther.png"
+        "FileName": "germany-G18_JagdPanther.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Wespe",
         "Id": "G19",
         "Name": "Wespe",
-        "IconPath": "germany-G19_Wespe.png"
+        "FileName": "germany-G19_Wespe.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Marder_II",
         "Id": "G20",
         "Name": "Marder II",
-        "IconPath": "germany-G20_Marder_II.png"
+        "FileName": "germany-G20_Marder_II.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PanzerJager_I",
         "Id": "G21",
         "Name": "PanzerJager I",
-        "IconPath": "germany-G21_PanzerJager_I.png"
+        "FileName": "germany-G21_PanzerJager_I.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PanzerJager_I_bootcamp",
         "Id": "G21",
         "Name": "PanzerJager I bootcamp",
-        "IconPath": "germany-G21_PanzerJager_I_bootcamp.png"
+        "FileName": "germany-G21_PanzerJager_I_bootcamp.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Sturmpanzer_II",
         "Id": "G22",
         "Name": "Sturmpanzer II",
-        "IconPath": "germany-G22_Sturmpanzer_II.png"
+        "FileName": "germany-G22_Sturmpanzer_II.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Grille",
         "Id": "G23",
         "Name": "Grille",
-        "IconPath": "germany-G23_Grille.png"
+        "FileName": "germany-G23_Grille.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK3002DB",
         "Id": "G24",
         "Name": "VK3002DB",
-        "IconPath": "germany-G24_VK3002DB.png"
+        "FileName": "germany-G24_VK3002DB.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK3002DB_SH",
         "Id": "G24",
         "Name": "VK3002DB SH",
-        "IconPath": "germany-G24_VK3002DB_SH.png"
+        "FileName": "germany-G24_VK3002DB_SH.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzII_Luchs",
         "Id": "G25",
         "Name": "PzII Luchs",
-        "IconPath": "germany-G25_PzII_Luchs.png"
+        "FileName": "germany-G25_PzII_Luchs.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK1602",
         "Id": "G26",
         "Name": "VK1602",
-        "IconPath": "germany-G26_VK1602.png"
+        "FileName": "germany-G26_VK1602.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK3001P",
         "Id": "G27",
         "Name": "VK3001P",
-        "IconPath": "germany-G27_VK3001P.png"
+        "FileName": "germany-G27_VK3001P.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzIII_IV",
         "Id": "G28",
         "Name": "PzIII IV",
-        "IconPath": "germany-G28_PzIII_IV.png"
+        "FileName": "germany-G28_PzIII_IV.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzV_PzIV",
         "Id": "G32",
         "Name": "PzV PzIV",
-        "IconPath": "germany-G32_PzV_PzIV.png"
+        "FileName": "germany-G32_PzV_PzIV.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzV_PzIV_ausf_Alfa",
         "Id": "G32",
         "Name": "PzV PzIV ausf Alfa",
-        "IconPath": "germany-G32_PzV_PzIV_ausf_Alfa.png"
+        "FileName": "germany-G32_PzV_PzIV_ausf_Alfa.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzV_PzIV_ausf_Alfa_CN",
         "Id": "G32",
         "Name": "PzV PzIV ausf Alfa CN",
-        "IconPath": "germany-G32_PzV_PzIV_ausf_Alfa_CN.png"
+        "FileName": "germany-G32_PzV_PzIV_ausf_Alfa_CN.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzV_PzIV_CN",
         "Id": "G32",
         "Name": "PzV PzIV CN",
-        "IconPath": "germany-G32_PzV_PzIV_CN.png"
+        "FileName": "germany-G32_PzV_PzIV_CN.png"
     },
     {
         "Nation": "germany",
         "CodeName": "H39_captured",
         "Id": "G33",
         "Name": "H39 captured",
-        "IconPath": "germany-G33_H39_captured.png"
+        "FileName": "germany-G33_H39_captured.png"
     },
     {
         "Nation": "germany",
         "CodeName": "S35_captured",
         "Id": "G34",
         "Name": "S35 captured",
-        "IconPath": "germany-G34_S35_captured.png"
+        "FileName": "germany-G34_S35_captured.png"
     },
     {
         "Nation": "germany",
         "CodeName": "B-1bis_captured",
         "Id": "G35",
         "Name": "B-1bis captured",
-        "IconPath": "germany-G35_B-1bis_captured.png"
+        "FileName": "germany-G35_B-1bis_captured.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzII_J",
         "Id": "G36",
         "Name": "PzII J",
-        "IconPath": "germany-G36_PzII_J.png"
+        "FileName": "germany-G36_PzII_J.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Ferdinand",
         "Id": "G37",
         "Name": "Ferdinand",
-        "IconPath": "germany-G37_Ferdinand.png"
+        "FileName": "germany-G37_Ferdinand.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Ferdinand_FL",
         "Id": "G37",
         "Name": "Ferdinand FL",
-        "IconPath": "germany-G37_Ferdinand_FL.png"
+        "FileName": "germany-G37_Ferdinand_FL.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Ferdinand_IGR",
         "Id": "G37",
         "Name": "Ferdinand IGR",
-        "IconPath": "germany-G37_Ferdinand_IGR.png"
+        "FileName": "germany-G37_Ferdinand_IGR.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Marder_III",
         "Id": "G39",
         "Name": "Marder III",
-        "IconPath": "germany-G39_Marder_III.png"
+        "FileName": "germany-G39_Marder_III.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Nashorn",
         "Id": "G40",
         "Name": "Nashorn",
-        "IconPath": "germany-G40_Nashorn.png"
+        "FileName": "germany-G40_Nashorn.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Nashorn_MapsTraining_Dummy_ATSPG_2",
         "Id": "G40",
         "Name": "Nashorn MapsTraining Dummy ATSPG 2",
-        "IconPath": "germany-G40_Nashorn_MapsTraining_Dummy_ATSPG_2.png"
+        "FileName": "germany-G40_Nashorn_MapsTraining_Dummy_ATSPG_2.png"
     },
     {
         "Nation": "germany",
         "CodeName": "DickerMax",
         "Id": "G41",
         "Name": "DickerMax",
-        "IconPath": "germany-G41_DickerMax.png"
+        "FileName": "germany-G41_DickerMax.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Maus",
         "Id": "G42",
         "Name": "Maus",
-        "IconPath": "germany-G42_Maus.png"
+        "FileName": "germany-G42_Maus.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Maus_IGR",
         "Id": "G42",
         "Name": "Maus IGR",
-        "IconPath": "germany-G42_Maus_IGR.png"
+        "FileName": "germany-G42_Maus_IGR.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Sturer_Emil",
         "Id": "G43",
         "Name": "Sturer Emil",
-        "IconPath": "germany-G43_Sturer_Emil.png"
+        "FileName": "germany-G43_Sturer_Emil.png"
     },
     {
         "Nation": "germany",
         "CodeName": "JagdTiger",
         "Id": "G44",
         "Name": "JagdTiger",
-        "IconPath": "germany-G44_JagdTiger.png"
+        "FileName": "germany-G44_JagdTiger.png"
     },
     {
         "Nation": "germany",
         "CodeName": "JagdTigerH",
         "Id": "G44",
         "Name": "JagdTigerH",
-        "IconPath": "germany-G44_JagdTigerH.png"
+        "FileName": "germany-G44_JagdTigerH.png"
     },
     {
         "Nation": "germany",
         "CodeName": "JagdTiger_FL",
         "Id": "G44",
         "Name": "JagdTiger FL",
-        "IconPath": "germany-G44_JagdTiger_FL.png"
+        "FileName": "germany-G44_JagdTiger_FL.png"
     },
     {
         "Nation": "germany",
         "CodeName": "G_Tiger",
         "Id": "G45",
         "Name": "G Tiger",
-        "IconPath": "germany-G45_G_Tiger.png"
+        "FileName": "germany-G45_G_Tiger.png"
     },
     {
         "Nation": "germany",
         "CodeName": "T-25",
         "Id": "G46",
         "Name": "T-25",
-        "IconPath": "germany-G46_T-25.png"
+        "FileName": "germany-G46_T-25.png"
     },
     {
         "Nation": "germany",
         "CodeName": "E-25",
         "Id": "G48",
         "Name": "E-25",
-        "IconPath": "germany-G48_E-25.png"
+        "FileName": "germany-G48_E-25.png"
     },
     {
         "Nation": "germany",
         "CodeName": "E-25_IGR",
         "Id": "G48",
         "Name": "E-25 IGR",
-        "IconPath": "germany-G48_E-25_IGR.png"
+        "FileName": "germany-G48_E-25_IGR.png"
     },
     {
         "Nation": "germany",
         "CodeName": "G_Panther",
         "Id": "G49",
         "Name": "G Panther",
-        "IconPath": "germany-G49_G_Panther.png"
+        "FileName": "germany-G49_G_Panther.png"
     },
     {
         "Nation": "germany",
         "CodeName": "T-15",
         "Id": "G50",
         "Name": "T-15",
-        "IconPath": "germany-G50_T-15.png"
+        "FileName": "germany-G50_T-15.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Lowe",
         "Id": "G51",
         "Name": "Lowe",
-        "IconPath": "germany-G51_Lowe.png"
+        "FileName": "germany-G51_Lowe.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Lowe_FL",
         "Id": "G51",
         "Name": "Lowe FL",
-        "IconPath": "germany-G51_Lowe_FL.png"
+        "FileName": "germany-G51_Lowe_FL.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Pz38_NA",
         "Id": "G52",
         "Name": "Pz38 NA",
-        "IconPath": "germany-G52_Pz38_NA.png"
+        "FileName": "germany-G52_Pz38_NA.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzI",
         "Id": "G53",
         "Name": "PzI",
-        "IconPath": "germany-G53_PzI.png"
+        "FileName": "germany-G53_PzI.png"
     },
     {
         "Nation": "germany",
         "CodeName": "E-50",
         "Id": "G54",
         "Name": "E-50",
-        "IconPath": "germany-G54_E-50.png"
+        "FileName": "germany-G54_E-50.png"
     },
     {
         "Nation": "germany",
         "CodeName": "E-50_FL",
         "Id": "G54",
         "Name": "E-50 FL",
-        "IconPath": "germany-G54_E-50_FL.png"
+        "FileName": "germany-G54_E-50_FL.png"
     },
     {
         "Nation": "germany",
         "CodeName": "E-75",
         "Id": "G55",
         "Name": "E-75",
-        "IconPath": "germany-G55_E-75.png"
+        "FileName": "germany-G55_E-75.png"
     },
     {
         "Nation": "germany",
         "CodeName": "E-100",
         "Id": "G56",
         "Name": "E-100",
-        "IconPath": "germany-G56_E-100.png"
+        "FileName": "germany-G56_E-100.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzVI_Tiger_P",
         "Id": "G57",
         "Name": "PzVI Tiger P",
-        "IconPath": "germany-G57_PzVI_Tiger_P.png"
+        "FileName": "germany-G57_PzVI_Tiger_P.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK4502P",
         "Id": "G58",
         "Name": "VK4502P",
-        "IconPath": "germany-G58_VK4502P.png"
+        "FileName": "germany-G58_VK4502P.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK4502P7",
         "Id": "G58",
         "Name": "VK4502P7",
-        "IconPath": "germany-G58_VK4502P7.png"
+        "FileName": "germany-G58_VK4502P7.png"
     },
     {
         "Nation": "germany",
         "CodeName": "G_E",
         "Id": "G61",
         "Name": "G E",
-        "IconPath": "germany-G61_G_E.png"
+        "FileName": "germany-G61_G_E.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzI_ausf_C",
         "Id": "G63",
         "Name": "PzI ausf C",
-        "IconPath": "germany-G63_PzI_ausf_C.png"
+        "FileName": "germany-G63_PzI_ausf_C.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Panther_II",
         "Id": "G64",
         "Name": "Panther II",
-        "IconPath": "germany-G64_Panther_II.png"
+        "FileName": "germany-G64_Panther_II.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Panther_II_IGR",
         "Id": "G64",
         "Name": "Panther II IGR",
-        "IconPath": "germany-G64_Panther_II_IGR.png"
+        "FileName": "germany-G64_Panther_II_IGR.png"
     },
     {
         "Nation": "germany",
         "CodeName": "JagdTiger_SdKfz_185",
         "Id": "G65",
         "Name": "JagdTiger SdKfz 185",
-        "IconPath": "germany-G65_JagdTiger_SdKfz_185.png"
+        "FileName": "germany-G65_JagdTiger_SdKfz_185.png"
     },
     {
         "Nation": "germany",
         "CodeName": "JagdTiger_SdKfz_185_IGR",
         "Id": "G65",
         "Name": "JagdTiger SdKfz 185 IGR",
-        "IconPath": "germany-G65_JagdTiger_SdKfz_185_IGR.png"
+        "FileName": "germany-G65_JagdTiger_SdKfz_185_IGR.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK2801",
         "Id": "G66",
         "Name": "VK2801",
-        "IconPath": "germany-G66_VK2801.png"
+        "FileName": "germany-G66_VK2801.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK4502A",
         "Id": "G67",
         "Name": "VK4502A",
-        "IconPath": "germany-G67_VK4502A.png"
+        "FileName": "germany-G67_VK4502A.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzIV_Hydro",
         "Id": "G70",
         "Name": "PzIV Hydro",
-        "IconPath": "germany-G70_PzIV_Hydro.png"
+        "FileName": "germany-G70_PzIV_Hydro.png"
     },
     {
         "Nation": "germany",
         "CodeName": "JagdPantherII",
         "Id": "G71",
         "Name": "JagdPantherII",
-        "IconPath": "germany-G71_JagdPantherII.png"
+        "FileName": "germany-G71_JagdPantherII.png"
     },
     {
         "Nation": "germany",
         "CodeName": "JagdPz_E100",
         "Id": "G72",
         "Name": "JagdPz E100",
-        "IconPath": "germany-G72_JagdPz_E100.png"
+        "FileName": "germany-G72_JagdPz_E100.png"
     },
     {
         "Nation": "germany",
         "CodeName": "E50_Ausf_M",
         "Id": "G73",
         "Name": "E50 Ausf M",
-        "IconPath": "germany-G73_E50_Ausf_M.png"
+        "FileName": "germany-G73_E50_Ausf_M.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Pz_Sfl_IVc",
         "Id": "G76",
         "Name": "Pz Sfl IVc",
-        "IconPath": "germany-G76_Pz_Sfl_IVc.png"
+        "FileName": "germany-G76_Pz_Sfl_IVc.png"
     },
     {
         "Nation": "germany",
         "CodeName": "PzIV_Schmalturm",
         "Id": "G77",
         "Name": "PzIV Schmalturm",
-        "IconPath": "germany-G77_PzIV_Schmalturm.png"
+        "FileName": "germany-G77_PzIV_Schmalturm.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Panther_M10",
         "Id": "G78",
         "Name": "Panther M10",
-        "IconPath": "germany-G78_Panther_M10.png"
+        "FileName": "germany-G78_Panther_M10.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Pz_IV_AusfGH",
         "Id": "G79",
         "Name": "Pz IV AusfGH",
-        "IconPath": "germany-G79_Pz_IV_AusfGH.png"
+        "FileName": "germany-G79_Pz_IV_AusfGH.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Pz_IV_AusfD",
         "Id": "G80",
         "Name": "Pz IV AusfD",
-        "IconPath": "germany-G80_Pz_IV_AusfD.png"
+        "FileName": "germany-G80_Pz_IV_AusfD.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Pz_IV_AusfD_bootcamp",
         "Id": "G80",
         "Name": "Pz IV AusfD bootcamp",
-        "IconPath": "germany-G80_Pz_IV_AusfD_bootcamp.png"
+        "FileName": "germany-G80_Pz_IV_AusfD_bootcamp.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Pz_IV_AusfH",
         "Id": "G81",
         "Name": "Pz IV AusfH",
-        "IconPath": "germany-G81_Pz_IV_AusfH.png"
+        "FileName": "germany-G81_Pz_IV_AusfH.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Pz_IV_AusfH_GuP",
         "Id": "G81",
         "Name": "Pz IV AusfH GuP",
-        "IconPath": "germany-G81_Pz_IV_AusfH_GuP.png"
+        "FileName": "germany-G81_Pz_IV_AusfH_GuP.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Pz_II_AusfG",
         "Id": "G82",
         "Name": "Pz II AusfG",
-        "IconPath": "germany-G82_Pz_II_AusfG.png"
+        "FileName": "germany-G82_Pz_II_AusfG.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Pz_IV_AusfA",
         "Id": "G83",
         "Name": "Pz IV AusfA",
-        "IconPath": "germany-G83_Pz_IV_AusfA.png"
+        "FileName": "germany-G83_Pz_IV_AusfA.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Aufklarungspanzer_V",
         "Id": "G85",
         "Name": "Aufklarungspanzer V",
-        "IconPath": "germany-G85_Aufklarungspanzer_V.png"
+        "FileName": "germany-G85_Aufklarungspanzer_V.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Auf_Panther",
         "Id": "G85",
         "Name": "Auf Panther",
-        "IconPath": "germany-G85_Auf_Panther.png"
+        "FileName": "germany-G85_Auf_Panther.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK2001DB",
         "Id": "G86",
         "Name": "VK2001DB",
-        "IconPath": "germany-G86_VK2001DB.png"
+        "FileName": "germany-G86_VK2001DB.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK3002DB_V1",
         "Id": "G87",
         "Name": "VK3002DB V1",
-        "IconPath": "germany-G87_VK3002DB_V1.png"
+        "FileName": "germany-G87_VK3002DB_V1.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Indien_Panzer",
         "Id": "G88",
         "Name": "Indien Panzer",
-        "IconPath": "germany-G88_Indien_Panzer.png"
+        "FileName": "germany-G88_Indien_Panzer.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Leopard1",
         "Id": "G89",
         "Name": "Leopard1",
-        "IconPath": "germany-G89_Leopard1.png"
+        "FileName": "germany-G89_Leopard1.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Leopard1_bob",
         "Id": "G89",
         "Name": "Leopard1 bob",
-        "IconPath": "germany-G89_Leopard1_bob.png"
+        "FileName": "germany-G89_Leopard1_bob.png"
     },
     {
         "Nation": "germany",
         "CodeName": "DW_II",
         "Id": "G90",
         "Name": "DW II",
-        "IconPath": "germany-G90_DW_II.png"
+        "FileName": "germany-G90_DW_II.png"
     },
     {
         "Nation": "germany",
         "CodeName": "DW_II_MapsTraining_Dummy_HT_1",
         "Id": "G90",
         "Name": "DW II MapsTraining Dummy HT 1",
-        "IconPath": "germany-G90_DW_II_MapsTraining_Dummy_HT_1.png"
+        "FileName": "germany-G90_DW_II_MapsTraining_Dummy_HT_1.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Pro_Ag_A",
         "Id": "G91",
         "Name": "Pro Ag A",
-        "IconPath": "germany-G91_Pro_Ag_A.png"
+        "FileName": "germany-G91_Pro_Ag_A.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK7201",
         "Id": "G92",
         "Name": "VK7201",
-        "IconPath": "germany-G92_VK7201.png"
+        "FileName": "germany-G92_VK7201.png"
     },
     {
         "Nation": "germany",
         "CodeName": "GW_Mk_VIe",
         "Id": "G93",
         "Name": "GW Mk VIe",
-        "IconPath": "germany-G93_GW_Mk_VIe.png"
+        "FileName": "germany-G93_GW_Mk_VIe.png"
     },
     {
         "Nation": "germany",
         "CodeName": "GW_Tiger_P",
         "Id": "G94",
         "Name": "GW Tiger P",
-        "IconPath": "germany-G94_GW_Tiger_P.png"
+        "FileName": "germany-G94_GW_Tiger_P.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Pz_Sfl_IVb",
         "Id": "G95",
         "Name": "Pz Sfl IVb",
-        "IconPath": "germany-G95_Pz_Sfl_IVb.png"
+        "FileName": "germany-G95_Pz_Sfl_IVb.png"
     },
     {
         "Nation": "germany",
         "CodeName": "VK3002M",
         "Id": "G96",
         "Name": "VK3002M",
-        "IconPath": "germany-G96_VK3002M.png"
+        "FileName": "germany-G96_VK3002M.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Waffentrager_IV",
         "Id": "G97",
         "Name": "Waffentrager IV",
-        "IconPath": "germany-G97_Waffentrager_IV.png"
+        "FileName": "germany-G97_Waffentrager_IV.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Waffentrager_E100",
         "Id": "G98",
         "Name": "Waffentrager E100",
-        "IconPath": "germany-G98_Waffentrager_E100.png"
+        "FileName": "germany-G98_Waffentrager_E100.png"
     },
     {
         "Nation": "germany",
         "CodeName": "Waffentrager_E100_P",
         "Id": "G98",
         "Name": "Waffentrager E100 P",
-        "IconPath": "germany-G98_Waffentrager_E100_P.png"
+        "FileName": "germany-G98_Waffentrager_E100_P.png"
     },
     {
         "Nation": "germany",
         "CodeName": "RhB_Waffentrager",
         "Id": "G99",
         "Name": "RhB Waffentrager",
-        "IconPath": "germany-G99_RhB_Waffentrager.png"
+        "FileName": "germany-G99_RhB_Waffentrager.png"
     },
     {
         "Nation": "italy",
         "CodeName": "M15_42",
         "Id": "It03",
         "Name": "M15 42",
-        "IconPath": "italy-It03_M15_42.png"
+        "FileName": "italy-It03_M15_42.png"
     },
     {
         "Nation": "italy",
         "CodeName": "Fiat_3000",
         "Id": "It04",
         "Name": "Fiat 3000",
-        "IconPath": "italy-It04_Fiat_3000.png"
+        "FileName": "italy-It04_Fiat_3000.png"
     },
     {
         "Nation": "italy",
         "CodeName": "Carro_L6_40",
         "Id": "It05",
         "Name": "Carro L6 40",
-        "IconPath": "italy-It05_Carro_L6_40.png"
+        "FileName": "italy-It05_Carro_L6_40.png"
     },
     {
         "Nation": "italy",
         "CodeName": "M14_41",
         "Id": "It06",
         "Name": "M14 41",
-        "IconPath": "italy-It06_M14_41.png"
+        "FileName": "italy-It06_M14_41.png"
     },
     {
         "Nation": "italy",
         "CodeName": "P26_40",
         "Id": "It07",
         "Name": "P26 40",
-        "IconPath": "italy-It07_P26_40.png"
+        "FileName": "italy-It07_P26_40.png"
     },
     {
         "Nation": "italy",
         "CodeName": "Progetto_M40_mod_65",
         "Id": "It08",
         "Name": "Progetto M40 mod 65",
-        "IconPath": "italy-It08_Progetto_M40_mod_65.png"
+        "FileName": "italy-It08_Progetto_M40_mod_65.png"
     },
     {
         "Nation": "italy",
         "CodeName": "Progetto_M40_mod_65_bob",
         "Id": "It08",
         "Name": "Progetto M40 mod 65 bob",
-        "IconPath": "italy-It08_Progetto_M40_mod_65_bob.png"
+        "FileName": "italy-It08_Progetto_M40_mod_65_bob.png"
     },
     {
         "Nation": "italy",
         "CodeName": "P43_ter",
         "Id": "It09",
         "Name": "P43 ter",
-        "IconPath": "italy-It09_P43_ter.png"
+        "FileName": "italy-It09_P43_ter.png"
     },
     {
         "Nation": "italy",
         "CodeName": "P43_bis",
         "Id": "It10",
         "Name": "P43 bis",
-        "IconPath": "italy-It10_P43_bis.png"
+        "FileName": "italy-It10_P43_bis.png"
     },
     {
         "Nation": "italy",
         "CodeName": "P43",
         "Id": "It11",
         "Name": "P43",
-        "IconPath": "italy-It11_P43.png"
+        "FileName": "italy-It11_P43.png"
     },
     {
         "Nation": "italy",
         "CodeName": "Prototipo_Standard_B",
         "Id": "It12",
         "Name": "Prototipo Standard B",
-        "IconPath": "italy-It12_Prototipo_Standard_B.png"
+        "FileName": "italy-It12_Prototipo_Standard_B.png"
     },
     {
         "Nation": "italy",
         "CodeName": "Progetto_M35_mod_46",
         "Id": "It13",
         "Name": "Progetto M35 mod 46",
-        "IconPath": "italy-It13_Progetto_M35_mod_46.png"
+        "FileName": "italy-It13_Progetto_M35_mod_46.png"
     },
     {
         "Nation": "italy",
         "CodeName": "P44_Pantera",
         "Id": "It14",
         "Name": "P44 Pantera",
-        "IconPath": "italy-It14_P44_Pantera.png"
+        "FileName": "italy-It14_P44_Pantera.png"
     },
     {
         "Nation": "italy",
         "CodeName": "Rinoceronte",
         "Id": "It15",
         "Name": "Rinoceronte",
-        "IconPath": "italy-It15_Rinoceronte.png"
+        "FileName": "italy-It15_Rinoceronte.png"
     },
     {
         "Nation": "italy",
         "CodeName": "Carro_d_assalto_P88",
         "Id": "It16",
         "Name": "Carro d assalto P88",
-        "IconPath": "italy-It16_Carro_d_assalto_P88.png"
+        "FileName": "italy-It16_Carro_d_assalto_P88.png"
     },
     {
         "Nation": "italy",
         "CodeName": "Progetto_CC55_mod_54",
         "Id": "It17",
         "Name": "Progetto CC55 mod 54",
-        "IconPath": "italy-It17_Progetto_CC55_mod_54.png"
+        "FileName": "italy-It17_Progetto_CC55_mod_54.png"
     },
     {
         "Nation": "italy",
         "CodeName": "Progetto_C45_mod_71",
         "Id": "It18",
         "Name": "Progetto C45 mod 71",
-        "IconPath": "italy-It18_Progetto_C45_mod_71.png"
+        "FileName": "italy-It18_Progetto_C45_mod_71.png"
     },
     {
         "Nation": "italy",
         "CodeName": "Progetto_C50_mod_66",
         "Id": "It19",
         "Name": "Progetto C50 mod 66",
-        "IconPath": "italy-It19_Progetto_C50_mod_66.png"
+        "FileName": "italy-It19_Progetto_C50_mod_66.png"
     },
     {
         "Nation": "italy",
         "CodeName": "Carro_Combattimento_45t",
         "Id": "It20",
         "Name": "Carro Combattimento 45t",
-        "IconPath": "italy-It20_Carro_Combattimento_45t.png"
+        "FileName": "italy-It20_Carro_Combattimento_45t.png"
     },
     {
         "Nation": "japan",
         "CodeName": "NC27",
         "Id": "J01",
         "Name": "NC27",
-        "IconPath": "japan-J01_NC27.png"
+        "FileName": "japan-J01_NC27.png"
     },
     {
         "Nation": "japan",
         "CodeName": "NC27_bot",
         "Id": "J01",
         "Name": "NC27 bot",
-        "IconPath": "japan-J01_NC27_bot.png"
+        "FileName": "japan-J01_NC27_bot.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Te_Ke",
         "Id": "J02",
         "Name": "Te Ke",
-        "IconPath": "japan-J02_Te_Ke.png"
+        "FileName": "japan-J02_Te_Ke.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Ha_Go",
         "Id": "J03",
         "Name": "Ha Go",
-        "IconPath": "japan-J03_Ha_Go.png"
+        "FileName": "japan-J03_Ha_Go.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Ke_Ni",
         "Id": "J04",
         "Name": "Ke Ni",
-        "IconPath": "japan-J04_Ke_Ni.png"
+        "FileName": "japan-J04_Ke_Ni.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Ke_Ni_bootcamp",
         "Id": "J04",
         "Name": "Ke Ni bootcamp",
-        "IconPath": "japan-J04_Ke_Ni_bootcamp.png"
+        "FileName": "japan-J04_Ke_Ni_bootcamp.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Ke_Ni_B",
         "Id": "J05",
         "Name": "Ke Ni B",
-        "IconPath": "japan-J05_Ke_Ni_B.png"
+        "FileName": "japan-J05_Ke_Ni_B.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Ke_Ho",
         "Id": "J06",
         "Name": "Ke Ho",
-        "IconPath": "japan-J06_Ke_Ho.png"
+        "FileName": "japan-J06_Ke_Ho.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Chi_Ha",
         "Id": "J07",
         "Name": "Chi Ha",
-        "IconPath": "japan-J07_Chi_Ha.png"
+        "FileName": "japan-J07_Chi_Ha.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Chi_Nu",
         "Id": "J08",
         "Name": "Chi Nu",
-        "IconPath": "japan-J08_Chi_Nu.png"
+        "FileName": "japan-J08_Chi_Nu.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Chi_He",
         "Id": "J09",
         "Name": "Chi He",
-        "IconPath": "japan-J09_Chi_He.png"
+        "FileName": "japan-J09_Chi_He.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Chi_To",
         "Id": "J10",
         "Name": "Chi To",
-        "IconPath": "japan-J10_Chi_To.png"
+        "FileName": "japan-J10_Chi_To.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Chi_Ri",
         "Id": "J11",
         "Name": "Chi Ri",
-        "IconPath": "japan-J11_Chi_Ri.png"
+        "FileName": "japan-J11_Chi_Ri.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Chi_Ri_IGR",
         "Id": "J11",
         "Name": "Chi Ri IGR",
-        "IconPath": "japan-J11_Chi_Ri_IGR.png"
+        "FileName": "japan-J11_Chi_Ri_IGR.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Chi_Nu_Kai",
         "Id": "J12",
         "Name": "Chi Nu Kai",
-        "IconPath": "japan-J12_Chi_Nu_Kai.png"
+        "FileName": "japan-J12_Chi_Nu_Kai.png"
     },
     {
         "Nation": "japan",
         "CodeName": "STA_1",
         "Id": "J13",
         "Name": "STA 1",
-        "IconPath": "japan-J13_STA_1.png"
+        "FileName": "japan-J13_STA_1.png"
     },
     {
         "Nation": "japan",
         "CodeName": "STA_1_IGR",
         "Id": "J13",
         "Name": "STA 1 IGR",
-        "IconPath": "japan-J13_STA_1_IGR.png"
+        "FileName": "japan-J13_STA_1_IGR.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Type_61",
         "Id": "J14",
         "Name": "Type 61",
-        "IconPath": "japan-J14_Type_61.png"
+        "FileName": "japan-J14_Type_61.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Chi_Ni",
         "Id": "J15",
         "Name": "Chi Ni",
-        "IconPath": "japan-J15_Chi_Ni.png"
+        "FileName": "japan-J15_Chi_Ni.png"
     },
     {
         "Nation": "japan",
         "CodeName": "ST_B1",
         "Id": "J16",
         "Name": "ST B1",
-        "IconPath": "japan-J16_ST_B1.png"
+        "FileName": "japan-J16_ST_B1.png"
     },
     {
         "Nation": "japan",
         "CodeName": "ST_B1_IGR",
         "Id": "J16",
         "Name": "ST B1 IGR",
-        "IconPath": "japan-J16_ST_B1_IGR.png"
+        "FileName": "japan-J16_ST_B1_IGR.png"
     },
     {
         "Nation": "japan",
         "CodeName": "STA_2_3",
         "Id": "J18",
         "Name": "STA 2 3",
-        "IconPath": "japan-J18_STA_2_3.png"
+        "FileName": "japan-J18_STA_2_3.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Tiger_I_Jpn",
         "Id": "J19",
         "Name": "Tiger I Jpn",
-        "IconPath": "japan-J19_Tiger_I_Jpn.png"
+        "FileName": "japan-J19_Tiger_I_Jpn.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Type_2605",
         "Id": "J20",
         "Name": "Type 2605",
-        "IconPath": "japan-J20_Type_2605.png"
+        "FileName": "japan-J20_Type_2605.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Type_91",
         "Id": "J21",
         "Name": "Type 91",
-        "IconPath": "japan-J21_Type_91.png"
+        "FileName": "japan-J21_Type_91.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Type_95",
         "Id": "J22",
         "Name": "Type 95",
-        "IconPath": "japan-J22_Type_95.png"
+        "FileName": "japan-J22_Type_95.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Type_95_bootcamp",
         "Id": "J22",
         "Name": "Type 95 bootcamp",
-        "IconPath": "japan-J22_Type_95_bootcamp.png"
+        "FileName": "japan-J22_Type_95_bootcamp.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Mi_To",
         "Id": "J23",
         "Name": "Mi To",
-        "IconPath": "japan-J23_Mi_To.png"
+        "FileName": "japan-J23_Mi_To.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Mi_To_130_tons",
         "Id": "J24",
         "Name": "Mi To 130 tons",
-        "IconPath": "japan-J24_Mi_To_130_tons.png"
+        "FileName": "japan-J24_Mi_To_130_tons.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Type_4",
         "Id": "J25",
         "Name": "Type 4",
-        "IconPath": "japan-J25_Type_4.png"
+        "FileName": "japan-J25_Type_4.png"
     },
     {
         "Nation": "japan",
         "CodeName": "Type_89",
         "Id": "J26",
         "Name": "Type 89",
-        "IconPath": "japan-J26_Type_89.png"
+        "FileName": "japan-J26_Type_89.png"
     },
     {
         "Nation": "japan",
         "CodeName": "O_I_120",
         "Id": "J27",
         "Name": "O I 120",
-        "IconPath": "japan-J27_O_I_120.png"
+        "FileName": "japan-J27_O_I_120.png"
     },
     {
         "Nation": "japan",
         "CodeName": "O_I_100",
         "Id": "J28",
         "Name": "O I 100",
-        "IconPath": "japan-J28_O_I_100.png"
+        "FileName": "japan-J28_O_I_100.png"
     },
     {
         "Nation": "",
         "CodeName": "noImage",
         "Id": "",
         "Name": "noImage",
-        "IconPath": "noImage.png"
+        "FileName": "noImage.png"
     },
     {
         "Nation": "poland",
         "CodeName": "TKS_20mm",
         "Id": "Pl01",
         "Name": "TKS 20mm",
-        "IconPath": "poland-Pl01_TKS_20mm.png"
+        "FileName": "poland-Pl01_TKS_20mm.png"
     },
     {
         "Nation": "poland",
         "CodeName": "PzV_Poland",
         "Id": "Pl03",
         "Name": "PzV Poland",
-        "IconPath": "poland-Pl03_PzV_Poland.png"
+        "FileName": "poland-Pl03_PzV_Poland.png"
     },
     {
         "Nation": "poland",
         "CodeName": "50TP_Tyszkiewicza",
         "Id": "Pl05",
         "Name": "50TP Tyszkiewicza",
-        "IconPath": "poland-Pl05_50TP_Tyszkiewicza.png"
+        "FileName": "poland-Pl05_50TP_Tyszkiewicza.png"
     },
     {
         "Nation": "poland",
         "CodeName": "10TP",
         "Id": "Pl06",
         "Name": "10TP",
-        "IconPath": "poland-Pl06_10TP.png"
+        "FileName": "poland-Pl06_10TP.png"
     },
     {
         "Nation": "poland",
         "CodeName": "14TP",
         "Id": "Pl07",
         "Name": "14TP",
-        "IconPath": "poland-Pl07_14TP.png"
+        "FileName": "poland-Pl07_14TP.png"
     },
     {
         "Nation": "poland",
         "CodeName": "50TP_prototyp",
         "Id": "Pl08",
         "Name": "50TP prototyp",
-        "IconPath": "poland-Pl08_50TP_prototyp.png"
+        "FileName": "poland-Pl08_50TP_prototyp.png"
     },
     {
         "Nation": "poland",
         "CodeName": "7TP",
         "Id": "Pl09",
         "Name": "7TP",
-        "IconPath": "poland-Pl09_7TP.png"
+        "FileName": "poland-Pl09_7TP.png"
     },
     {
         "Nation": "poland",
         "CodeName": "40TP_Habicha",
         "Id": "Pl10",
         "Name": "40TP Habicha",
-        "IconPath": "poland-Pl10_40TP_Habicha.png"
+        "FileName": "poland-Pl10_40TP_Habicha.png"
     },
     {
         "Nation": "poland",
         "CodeName": "45TP_Habicha",
         "Id": "Pl11",
         "Name": "45TP Habicha",
-        "IconPath": "poland-Pl11_45TP_Habicha.png"
+        "FileName": "poland-Pl11_45TP_Habicha.png"
     },
     {
         "Nation": "poland",
         "CodeName": "25TP_KSUST_II",
         "Id": "Pl12",
         "Name": "25TP KSUST II",
-        "IconPath": "poland-Pl12_25TP_KSUST_II.png"
+        "FileName": "poland-Pl12_25TP_KSUST_II.png"
     },
     {
         "Nation": "poland",
         "CodeName": "53TP_Markowskiego",
         "Id": "Pl13",
         "Name": "53TP Markowskiego",
-        "IconPath": "poland-Pl13_53TP_Markowskiego.png"
+        "FileName": "poland-Pl13_53TP_Markowskiego.png"
     },
     {
         "Nation": "poland",
         "CodeName": "4TP",
         "Id": "Pl14",
         "Name": "4TP",
-        "IconPath": "poland-Pl14_4TP.png"
+        "FileName": "poland-Pl14_4TP.png"
     },
     {
         "Nation": "poland",
         "CodeName": "60TP_Lewandowskiego",
         "Id": "Pl15",
         "Name": "60TP Lewandowskiego",
-        "IconPath": "poland-Pl15_60TP_Lewandowskiego.png"
+        "FileName": "poland-Pl15_60TP_Lewandowskiego.png"
     },
     {
         "Nation": "poland",
         "CodeName": "T34_85_Rudy",
         "Id": "Pl16",
         "Name": "T34 85 Rudy",
-        "IconPath": "poland-Pl16_T34_85_Rudy.png"
+        "FileName": "poland-Pl16_T34_85_Rudy.png"
     },
     {
         "Nation": "poland",
         "CodeName": "DS_PZlnz",
         "Id": "Pl17",
         "Name": "DS PZlnz",
-        "IconPath": "poland-Pl17_DS_PZlnz.png"
+        "FileName": "poland-Pl17_DS_PZlnz.png"
     },
     {
         "Nation": "poland",
         "CodeName": "BUGI",
         "Id": "Pl18",
         "Name": "BUGI",
-        "IconPath": "poland-Pl18_BUGI.png"
+        "FileName": "poland-Pl18_BUGI.png"
     },
     {
         "Nation": "poland",
         "CodeName": "CS_52_LIS",
         "Id": "Pl19",
         "Name": "CS 52 LIS",
-        "IconPath": "poland-Pl19_CS_52_LIS.png"
+        "FileName": "poland-Pl19_CS_52_LIS.png"
     },
     {
         "Nation": "poland",
         "CodeName": "CS_44",
         "Id": "Pl20",
         "Name": "CS 44",
-        "IconPath": "poland-Pl20_CS_44.png"
+        "FileName": "poland-Pl20_CS_44.png"
     },
     {
         "Nation": "poland",
         "CodeName": "CS_63",
         "Id": "Pl21",
         "Name": "CS 63",
-        "IconPath": "poland-Pl21_CS_63.png"
+        "FileName": "poland-Pl21_CS_63.png"
     },
     {
         "Nation": "poland",
         "CodeName": "CS_59",
         "Id": "Pl22",
         "Name": "CS 59",
-        "IconPath": "poland-Pl22_CS_59.png"
+        "FileName": "poland-Pl22_CS_59.png"
     },
     {
         "Nation": "poland",
         "CodeName": "CS_53",
         "Id": "Pl23",
         "Name": "CS 53",
-        "IconPath": "poland-Pl23_CS_53.png"
+        "FileName": "poland-Pl23_CS_53.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Strv_74_A2",
         "Id": "S01",
         "Name": "Strv 74 A2",
-        "IconPath": "sweden-S01_Strv_74_A2.png"
+        "FileName": "sweden-S01_Strv_74_A2.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Strv_M42",
         "Id": "S02",
         "Name": "Strv M42",
-        "IconPath": "sweden-S02_Strv_M42.png"
+        "FileName": "sweden-S02_Strv_M42.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Strv_M38",
         "Id": "S03",
         "Name": "Strv M38",
-        "IconPath": "sweden-S03_Strv_M38.png"
+        "FileName": "sweden-S03_Strv_M38.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Lago_I",
         "Id": "S04",
         "Name": "Lago I",
-        "IconPath": "sweden-S04_Lago_I.png"
+        "FileName": "sweden-S04_Lago_I.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Strv_M21_29",
         "Id": "S05",
         "Name": "Strv M21 29",
-        "IconPath": "sweden-S05_Strv_M21_29.png"
+        "FileName": "sweden-S05_Strv_M21_29.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Ikv_90_Typ_B_Bofors",
         "Id": "S06",
         "Name": "Ikv 90 Typ B Bofors",
-        "IconPath": "sweden-S06_Ikv_90_Typ_B_Bofors.png"
+        "FileName": "sweden-S06_Ikv_90_Typ_B_Bofors.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Strv_74",
         "Id": "S07",
         "Name": "Strv 74",
-        "IconPath": "sweden-S07_Strv_74.png"
+        "FileName": "sweden-S07_Strv_74.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Ikv_65_Alt_2",
         "Id": "S08",
         "Name": "Ikv 65 Alt 2",
-        "IconPath": "sweden-S08_Ikv_65_Alt_2.png"
+        "FileName": "sweden-S08_Ikv_65_Alt_2.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "L_120_TD",
         "Id": "S09",
         "Name": "L 120 TD",
-        "IconPath": "sweden-S09_L_120_TD.png"
+        "FileName": "sweden-S09_L_120_TD.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Strv_103_0_Series",
         "Id": "S10",
         "Name": "Strv 103 0 Series",
-        "IconPath": "sweden-S10_Strv_103_0_Series.png"
+        "FileName": "sweden-S10_Strv_103_0_Series.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Strv_103_0_Series_FL",
         "Id": "S10",
         "Name": "Strv 103 0 Series FL",
-        "IconPath": "sweden-S10_Strv_103_0_Series_FL.png"
+        "FileName": "sweden-S10_Strv_103_0_Series_FL.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Strv_103B",
         "Id": "S11",
         "Name": "Strv 103B",
-        "IconPath": "sweden-S11_Strv_103B.png"
+        "FileName": "sweden-S11_Strv_103B.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Strv_M40",
         "Id": "S12",
         "Name": "Strv M40",
-        "IconPath": "sweden-S12_Strv_M40.png"
+        "FileName": "sweden-S12_Strv_M40.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Leo",
         "Id": "S13",
         "Name": "Leo",
-        "IconPath": "sweden-S13_Leo.png"
+        "FileName": "sweden-S13_Leo.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Ikv_103",
         "Id": "S14",
         "Name": "Ikv 103",
-        "IconPath": "sweden-S14_Ikv_103.png"
+        "FileName": "sweden-S14_Ikv_103.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "L_60",
         "Id": "S15",
         "Name": "L 60",
-        "IconPath": "sweden-S15_L_60.png"
+        "FileName": "sweden-S15_L_60.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Kranvagn",
         "Id": "S16",
         "Name": "Kranvagn",
-        "IconPath": "sweden-S16_Kranvagn.png"
+        "FileName": "sweden-S16_Kranvagn.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Kranvagn_bob",
         "Id": "S16",
         "Name": "Kranvagn bob",
-        "IconPath": "sweden-S16_Kranvagn_bob.png"
+        "FileName": "sweden-S16_Kranvagn_bob.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "EMIL_1952_E2",
         "Id": "S17",
         "Name": "EMIL 1952 E2",
-        "IconPath": "sweden-S17_EMIL_1952_E2.png"
+        "FileName": "sweden-S17_EMIL_1952_E2.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "EMIL_1951_E1",
         "Id": "S18",
         "Name": "EMIL 1951 E1",
-        "IconPath": "sweden-S18_EMIL_1951_E1.png"
+        "FileName": "sweden-S18_EMIL_1951_E1.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Sav_M43",
         "Id": "S19",
         "Name": "Sav M43",
-        "IconPath": "sweden-S19_Sav_M43.png"
+        "FileName": "sweden-S19_Sav_M43.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Ikv_72",
         "Id": "S20",
         "Name": "Ikv 72",
-        "IconPath": "sweden-S20_Ikv_72.png"
+        "FileName": "sweden-S20_Ikv_72.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "UDES_03",
         "Id": "S21",
         "Name": "UDES 03",
-        "IconPath": "sweden-S21_UDES_03.png"
+        "FileName": "sweden-S21_UDES_03.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Strv_S1",
         "Id": "S22",
         "Name": "Strv S1",
-        "IconPath": "sweden-S22_Strv_S1.png"
+        "FileName": "sweden-S22_Strv_S1.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Strv_S1_FL",
         "Id": "S22",
         "Name": "Strv S1 FL",
-        "IconPath": "sweden-S22_Strv_S1_FL.png"
+        "FileName": "sweden-S22_Strv_S1_FL.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Strv_81",
         "Id": "S23",
         "Name": "Strv 81",
-        "IconPath": "sweden-S23_Strv_81.png"
+        "FileName": "sweden-S23_Strv_81.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Strv_81_sabaton",
         "Id": "S23",
         "Name": "Strv 81 sabaton",
-        "IconPath": "sweden-S23_Strv_81_sabaton.png"
+        "FileName": "sweden-S23_Strv_81_sabaton.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "EMIL_51",
         "Id": "S25",
         "Name": "EMIL 51",
-        "IconPath": "sweden-S25_EMIL_51.png"
+        "FileName": "sweden-S25_EMIL_51.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Lansen_C",
         "Id": "S26",
         "Name": "Lansen C",
-        "IconPath": "sweden-S26_Lansen_C.png"
+        "FileName": "sweden-S26_Lansen_C.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "UDES_16",
         "Id": "S27",
         "Name": "UDES 16",
-        "IconPath": "sweden-S27_UDES_16.png"
+        "FileName": "sweden-S27_UDES_16.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "UDES_15_16",
         "Id": "S28",
         "Name": "UDES 15 16",
-        "IconPath": "sweden-S28_UDES_15_16.png"
+        "FileName": "sweden-S28_UDES_15_16.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "UDES_14_5",
         "Id": "S29",
         "Name": "UDES 14 5",
-        "IconPath": "sweden-S29_UDES_14_5.png"
+        "FileName": "sweden-S29_UDES_14_5.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "UDES_03_Alt_3",
         "Id": "S30",
         "Name": "UDES 03 Alt 3",
-        "IconPath": "sweden-S30_UDES_03_Alt_3.png"
+        "FileName": "sweden-S30_UDES_03_Alt_3.png"
     },
     {
         "Nation": "sweden",
         "CodeName": "Strv_K",
         "Id": "S31",
         "Name": "Strv K",
-        "IconPath": "sweden-S31_Strv_K.png"
+        "FileName": "sweden-S31_Strv_K.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Medium_Mark_I",
         "Id": "GB01",
         "Name": "Medium Mark I",
-        "IconPath": "uk-GB01_Medium_Mark_I.png"
+        "FileName": "uk-GB01_Medium_Mark_I.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Medium_Mark_I_bot",
         "Id": "GB01",
         "Name": "Medium Mark I bot",
-        "IconPath": "uk-GB01_Medium_Mark_I_bot.png"
+        "FileName": "uk-GB01_Medium_Mark_I_bot.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Cruiser_Mk_I",
         "Id": "GB03",
         "Name": "Cruiser Mk I",
-        "IconPath": "uk-GB03_Cruiser_Mk_I.png"
+        "FileName": "uk-GB03_Cruiser_Mk_I.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Valentine",
         "Id": "GB04",
         "Name": "Valentine",
-        "IconPath": "uk-GB04_Valentine.png"
+        "FileName": "uk-GB04_Valentine.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Vickers_Medium_Mk_II",
         "Id": "GB05",
         "Name": "Vickers Medium Mk II",
-        "IconPath": "uk-GB05_Vickers_Medium_Mk_II.png"
+        "FileName": "uk-GB05_Vickers_Medium_Mk_II.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Vickers_Medium_Mk_II_bot",
         "Id": "GB05",
         "Name": "Vickers Medium Mk II bot",
-        "IconPath": "uk-GB05_Vickers_Medium_Mk_II_bot.png"
+        "FileName": "uk-GB05_Vickers_Medium_Mk_II_bot.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Vickers_Medium_Mk_III",
         "Id": "GB06",
         "Name": "Vickers Medium Mk III",
-        "IconPath": "uk-GB06_Vickers_Medium_Mk_III.png"
+        "FileName": "uk-GB06_Vickers_Medium_Mk_III.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Matilda",
         "Id": "GB07",
         "Name": "Matilda",
-        "IconPath": "uk-GB07_Matilda.png"
+        "FileName": "uk-GB07_Matilda.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Churchill_I",
         "Id": "GB08",
         "Name": "Churchill I",
-        "IconPath": "uk-GB08_Churchill_I.png"
+        "FileName": "uk-GB08_Churchill_I.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Churchill_I_IGR",
         "Id": "GB08",
         "Name": "Churchill I IGR",
-        "IconPath": "uk-GB08_Churchill_I_IGR.png"
+        "FileName": "uk-GB08_Churchill_I_IGR.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Churchill_VII",
         "Id": "GB09",
         "Name": "Churchill VII",
-        "IconPath": "uk-GB09_Churchill_VII.png"
+        "FileName": "uk-GB09_Churchill_VII.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Manticore",
         "Id": "GB100",
         "Name": "Manticore",
-        "IconPath": "uk-GB100_Manticore.png"
+        "FileName": "uk-GB100_Manticore.png"
     },
     {
         "Nation": "uk",
         "CodeName": "FV1066_Senlac",
         "Id": "GB101",
         "Name": "FV1066 Senlac",
-        "IconPath": "uk-GB101_FV1066_Senlac.png"
+        "FileName": "uk-GB101_FV1066_Senlac.png"
     },
     {
         "Nation": "uk",
         "CodeName": "LHMTV",
         "Id": "GB102",
         "Name": "LHMTV",
-        "IconPath": "uk-GB102_LHMTV.png"
+        "FileName": "uk-GB102_LHMTV.png"
     },
     {
         "Nation": "uk",
         "CodeName": "GSOR3301_AVR_FS",
         "Id": "GB103",
         "Name": "GSOR3301 AVR FS",
-        "IconPath": "uk-GB103_GSOR3301_AVR_FS.png"
+        "FileName": "uk-GB103_GSOR3301_AVR_FS.png"
     },
     {
         "Nation": "uk",
         "CodeName": "GSR_3301_Setter",
         "Id": "GB104",
         "Name": "GSR 3301 Setter",
-        "IconPath": "uk-GB104_GSR_3301_Setter.png"
+        "FileName": "uk-GB104_GSR_3301_Setter.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Black_Prince_2019",
         "Id": "GB105",
         "Name": "Black Prince 2019",
-        "IconPath": "uk-GB105_Black_Prince_2019.png"
+        "FileName": "uk-GB105_Black_Prince_2019.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Cobra",
         "Id": "GB106",
         "Name": "Cobra",
-        "IconPath": "uk-GB106_Cobra.png"
+        "FileName": "uk-GB106_Cobra.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Cavalier",
         "Id": "GB107",
         "Name": "Cavalier",
-        "IconPath": "uk-GB107_Cavalier.png"
+        "FileName": "uk-GB107_Cavalier.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Cavalier_SH",
         "Id": "GB107",
         "Name": "Cavalier SH",
-        "IconPath": "uk-GB107_Cavalier_SH.png"
+        "FileName": "uk-GB107_Cavalier_SH.png"
     },
     {
         "Nation": "uk",
         "CodeName": "A46",
         "Id": "GB108",
         "Name": "A46",
-        "IconPath": "uk-GB108_A46.png"
+        "FileName": "uk-GB108_A46.png"
     },
     {
         "Nation": "uk",
         "CodeName": "GSOR_1008",
         "Id": "GB109",
         "Name": "GSOR 1008",
-        "IconPath": "uk-GB109_GSOR_1008.png"
+        "FileName": "uk-GB109_GSOR_1008.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Black_Prince",
         "Id": "GB10",
         "Name": "Black Prince",
-        "IconPath": "uk-GB10_Black_Prince.png"
+        "FileName": "uk-GB10_Black_Prince.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Charlemagne",
         "Id": "GB111",
         "Name": "Charlemagne",
-        "IconPath": "uk-GB111_Charlemagne.png"
+        "FileName": "uk-GB111_Charlemagne.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Caernarvon",
         "Id": "GB11",
         "Name": "Caernarvon",
-        "IconPath": "uk-GB11_Caernarvon.png"
+        "FileName": "uk-GB11_Caernarvon.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Caernarvon_IGR",
         "Id": "GB11",
         "Name": "Caernarvon IGR",
-        "IconPath": "uk-GB11_Caernarvon_IGR.png"
+        "FileName": "uk-GB11_Caernarvon_IGR.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Conqueror",
         "Id": "GB12",
         "Name": "Conqueror",
-        "IconPath": "uk-GB12_Conqueror.png"
+        "FileName": "uk-GB12_Conqueror.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Conqueror_FL",
         "Id": "GB12",
         "Name": "Conqueror FL",
-        "IconPath": "uk-GB12_Conqueror_FL.png"
+        "FileName": "uk-GB12_Conqueror_FL.png"
     },
     {
         "Nation": "uk",
         "CodeName": "FV215b",
         "Id": "GB13",
         "Name": "FV215b",
-        "IconPath": "uk-GB13_FV215b.png"
+        "FileName": "uk-GB13_FV215b.png"
     },
     {
         "Nation": "uk",
         "CodeName": "FV215b_IGR",
         "Id": "GB13",
         "Name": "FV215b IGR",
-        "IconPath": "uk-GB13_FV215b_IGR.png"
+        "FileName": "uk-GB13_FV215b_IGR.png"
     },
     {
         "Nation": "uk",
         "CodeName": "M2",
         "Id": "GB14",
         "Name": "M2",
-        "IconPath": "uk-GB14_M2.png"
+        "FileName": "uk-GB14_M2.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Stuart_I",
         "Id": "GB15",
         "Name": "Stuart I",
-        "IconPath": "uk-GB15_Stuart_I.png"
+        "FileName": "uk-GB15_Stuart_I.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Grant_I",
         "Id": "GB17",
         "Name": "Grant I",
-        "IconPath": "uk-GB17_Grant_I.png"
+        "FileName": "uk-GB17_Grant_I.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Sherman_Firefly",
         "Id": "GB19",
         "Name": "Sherman Firefly",
-        "IconPath": "uk-GB19_Sherman_Firefly.png"
+        "FileName": "uk-GB19_Sherman_Firefly.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Sherman_Firefly_MapsTraining_Dummy_MT_2",
         "Id": "GB19",
         "Name": "Sherman Firefly MapsTraining Dummy MT 2",
-        "IconPath": "uk-GB19_Sherman_Firefly_MapsTraining_Dummy_MT_2.png"
+        "FileName": "uk-GB19_Sherman_Firefly_MapsTraining_Dummy_MT_2.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Crusader",
         "Id": "GB20",
         "Name": "Crusader",
-        "IconPath": "uk-GB20_Crusader.png"
+        "FileName": "uk-GB20_Crusader.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Cromwell",
         "Id": "GB21",
         "Name": "Cromwell",
-        "IconPath": "uk-GB21_Cromwell.png"
+        "FileName": "uk-GB21_Cromwell.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Cromwell_IGR",
         "Id": "GB21",
         "Name": "Cromwell IGR",
-        "IconPath": "uk-GB21_Cromwell_IGR.png"
+        "FileName": "uk-GB21_Cromwell_IGR.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Comet",
         "Id": "GB22",
         "Name": "Comet",
-        "IconPath": "uk-GB22_Comet.png"
+        "FileName": "uk-GB22_Comet.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Centurion",
         "Id": "GB23",
         "Name": "Centurion",
-        "IconPath": "uk-GB23_Centurion.png"
+        "FileName": "uk-GB23_Centurion.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Centurion_IGR",
         "Id": "GB23",
         "Name": "Centurion IGR",
-        "IconPath": "uk-GB23_Centurion_IGR.png"
+        "FileName": "uk-GB23_Centurion_IGR.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Centurion_Mk3",
         "Id": "GB24",
         "Name": "Centurion Mk3",
-        "IconPath": "uk-GB24_Centurion_Mk3.png"
+        "FileName": "uk-GB24_Centurion_Mk3.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Loyd_Gun_Carriage",
         "Id": "GB25",
         "Name": "Loyd Gun Carriage",
-        "IconPath": "uk-GB25_Loyd_Gun_Carriage.png"
+        "FileName": "uk-GB25_Loyd_Gun_Carriage.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Birch_Gun",
         "Id": "GB26",
         "Name": "Birch Gun",
-        "IconPath": "uk-GB26_Birch_Gun.png"
+        "FileName": "uk-GB26_Birch_Gun.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Sexton",
         "Id": "GB27",
         "Name": "Sexton",
-        "IconPath": "uk-GB27_Sexton.png"
+        "FileName": "uk-GB27_Sexton.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Bishop",
         "Id": "GB28",
         "Name": "Bishop",
-        "IconPath": "uk-GB28_Bishop.png"
+        "FileName": "uk-GB28_Bishop.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Crusader_5inch",
         "Id": "GB29",
         "Name": "Crusader 5inch",
-        "IconPath": "uk-GB29_Crusader_5inch.png"
+        "FileName": "uk-GB29_Crusader_5inch.png"
     },
     {
         "Nation": "uk",
         "CodeName": "FV3805",
         "Id": "GB30",
         "Name": "FV3805",
-        "IconPath": "uk-GB30_FV3805.png"
+        "FileName": "uk-GB30_FV3805.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Conqueror_Gun",
         "Id": "GB31",
         "Name": "Conqueror Gun",
-        "IconPath": "uk-GB31_Conqueror_Gun.png"
+        "FileName": "uk-GB31_Conqueror_Gun.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Tortoise",
         "Id": "GB32",
         "Name": "Tortoise",
-        "IconPath": "uk-GB32_Tortoise.png"
+        "FileName": "uk-GB32_Tortoise.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Sentinel_AC_I",
         "Id": "GB33",
         "Name": "Sentinel AC I",
-        "IconPath": "uk-GB33_Sentinel_AC_I.png"
+        "FileName": "uk-GB33_Sentinel_AC_I.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Sentinel_AC_IV",
         "Id": "GB35",
         "Name": "Sentinel AC IV",
-        "IconPath": "uk-GB35_Sentinel_AC_IV.png"
+        "FileName": "uk-GB35_Sentinel_AC_IV.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Valliant",
         "Id": "GB37",
         "Name": "Valliant",
-        "IconPath": "uk-GB37_Valliant.png"
+        "FileName": "uk-GB37_Valliant.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Universal_CarrierQF2",
         "Id": "GB39",
         "Name": "Universal CarrierQF2",
-        "IconPath": "uk-GB39_Universal_CarrierQF2.png"
+        "FileName": "uk-GB39_Universal_CarrierQF2.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Gun_Carrier_Churchill",
         "Id": "GB40",
         "Name": "Gun Carrier Churchill",
-        "IconPath": "uk-GB40_Gun_Carrier_Churchill.png"
+        "FileName": "uk-GB40_Gun_Carrier_Churchill.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Challenger",
         "Id": "GB41",
         "Name": "Challenger",
-        "IconPath": "uk-GB41_Challenger.png"
+        "FileName": "uk-GB41_Challenger.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Valentine_AT",
         "Id": "GB42",
         "Name": "Valentine AT",
-        "IconPath": "uk-GB42_Valentine_AT.png"
+        "FileName": "uk-GB42_Valentine_AT.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Archer",
         "Id": "GB44",
         "Name": "Archer",
-        "IconPath": "uk-GB44_Archer.png"
+        "FileName": "uk-GB44_Archer.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Achilles_IIC",
         "Id": "GB45",
         "Name": "Achilles IIC",
-        "IconPath": "uk-GB45_Achilles_IIC.png"
+        "FileName": "uk-GB45_Achilles_IIC.png"
     },
     {
         "Nation": "uk",
         "CodeName": "FV215b_183",
         "Id": "GB48",
         "Name": "FV215b 183",
-        "IconPath": "uk-GB48_FV215b_183.png"
+        "FileName": "uk-GB48_FV215b_183.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Sherman_III",
         "Id": "GB50",
         "Name": "Sherman III",
-        "IconPath": "uk-GB50_Sherman_III.png"
+        "FileName": "uk-GB50_Sherman_III.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Excelsior",
         "Id": "GB51",
         "Name": "Excelsior",
-        "IconPath": "uk-GB51_Excelsior.png"
+        "FileName": "uk-GB51_Excelsior.png"
     },
     {
         "Nation": "uk",
         "CodeName": "A45",
         "Id": "GB52",
         "Name": "A45",
-        "IconPath": "uk-GB52_A45.png"
+        "FileName": "uk-GB52_A45.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Alecto",
         "Id": "GB57",
         "Name": "Alecto",
-        "IconPath": "uk-GB57_Alecto.png"
+        "FileName": "uk-GB57_Alecto.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Cruiser_Mk_III",
         "Id": "GB58",
         "Name": "Cruiser Mk III",
-        "IconPath": "uk-GB58_Cruiser_Mk_III.png"
+        "FileName": "uk-GB58_Cruiser_Mk_III.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Cruiser_Mk_IV",
         "Id": "GB59",
         "Name": "Cruiser Mk IV",
-        "IconPath": "uk-GB59_Cruiser_Mk_IV.png"
+        "FileName": "uk-GB59_Cruiser_Mk_IV.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Covenanter",
         "Id": "GB60",
         "Name": "Covenanter",
-        "IconPath": "uk-GB60_Covenanter.png"
+        "FileName": "uk-GB60_Covenanter.png"
     },
     {
         "Nation": "uk",
         "CodeName": "TOG_II",
         "Id": "GB63",
         "Name": "TOG II",
-        "IconPath": "uk-GB63_TOG_II.png"
+        "FileName": "uk-GB63_TOG_II.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Matilda_Black_Prince",
         "Id": "GB68",
         "Name": "Matilda Black Prince",
-        "IconPath": "uk-GB68_Matilda_Black_Prince.png"
+        "FileName": "uk-GB68_Matilda_Black_Prince.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Cruiser_Mk_II",
         "Id": "GB69",
         "Name": "Cruiser Mk II",
-        "IconPath": "uk-GB69_Cruiser_Mk_II.png"
+        "FileName": "uk-GB69_Cruiser_Mk_II.png"
     },
     {
         "Nation": "uk",
         "CodeName": "FV4202_105",
         "Id": "GB70",
         "Name": "FV4202 105",
-        "IconPath": "uk-GB70_FV4202_105.png"
+        "FileName": "uk-GB70_FV4202_105.png"
     },
     {
         "Nation": "uk",
         "CodeName": "N_FV4202_105",
         "Id": "GB70",
         "Name": "N FV4202 105",
-        "IconPath": "uk-GB70_N_FV4202_105.png"
+        "FileName": "uk-GB70_N_FV4202_105.png"
     },
     {
         "Nation": "uk",
         "CodeName": "N_FV4202_105_FL",
         "Id": "GB70",
         "Name": "N FV4202 105 FL",
-        "IconPath": "uk-GB70_N_FV4202_105_FL.png"
+        "FileName": "uk-GB70_N_FV4202_105_FL.png"
     },
     {
         "Nation": "uk",
         "CodeName": "AT_15A",
         "Id": "GB71",
         "Name": "AT 15A",
-        "IconPath": "uk-GB71_AT_15A.png"
+        "FileName": "uk-GB71_AT_15A.png"
     },
     {
         "Nation": "uk",
         "CodeName": "AT15",
         "Id": "GB72",
         "Name": "AT15",
-        "IconPath": "uk-GB72_AT15.png"
+        "FileName": "uk-GB72_AT15.png"
     },
     {
         "Nation": "uk",
         "CodeName": "AT15_IGR",
         "Id": "GB72",
         "Name": "AT15 IGR",
-        "IconPath": "uk-GB72_AT15_IGR.png"
+        "FileName": "uk-GB72_AT15_IGR.png"
     },
     {
         "Nation": "uk",
         "CodeName": "AT2",
         "Id": "GB73",
         "Name": "AT2",
-        "IconPath": "uk-GB73_AT2.png"
+        "FileName": "uk-GB73_AT2.png"
     },
     {
         "Nation": "uk",
         "CodeName": "AT8",
         "Id": "GB74",
         "Name": "AT8",
-        "IconPath": "uk-GB74_AT8.png"
+        "FileName": "uk-GB74_AT8.png"
     },
     {
         "Nation": "uk",
         "CodeName": "AT7",
         "Id": "GB75",
         "Name": "AT7",
-        "IconPath": "uk-GB75_AT7.png"
+        "FileName": "uk-GB75_AT7.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Mk_VIC",
         "Id": "GB76",
         "Name": "Mk VIC",
-        "IconPath": "uk-GB76_Mk_VIC.png"
+        "FileName": "uk-GB76_Mk_VIC.png"
     },
     {
         "Nation": "uk",
         "CodeName": "FV304",
         "Id": "GB77",
         "Name": "FV304",
-        "IconPath": "uk-GB77_FV304.png"
+        "FileName": "uk-GB77_FV304.png"
     },
     {
         "Nation": "uk",
         "CodeName": "FV304_IGR",
         "Id": "GB77",
         "Name": "FV304 IGR",
-        "IconPath": "uk-GB77_FV304_IGR.png"
+        "FileName": "uk-GB77_FV304_IGR.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Sexton_I",
         "Id": "GB78",
         "Name": "Sexton I",
-        "IconPath": "uk-GB78_Sexton_I.png"
+        "FileName": "uk-GB78_Sexton_I.png"
     },
     {
         "Nation": "uk",
         "CodeName": "FV206",
         "Id": "GB79",
         "Name": "FV206",
-        "IconPath": "uk-GB79_FV206.png"
+        "FileName": "uk-GB79_FV206.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Charioteer",
         "Id": "GB80",
         "Name": "Charioteer",
-        "IconPath": "uk-GB80_Charioteer.png"
+        "FileName": "uk-GB80_Charioteer.png"
     },
     {
         "Nation": "uk",
         "CodeName": "FV4004",
         "Id": "GB81",
         "Name": "FV4004",
-        "IconPath": "uk-GB81_FV4004.png"
+        "FileName": "uk-GB81_FV4004.png"
     },
     {
         "Nation": "uk",
         "CodeName": "FV4005",
         "Id": "GB83",
         "Name": "FV4005",
-        "IconPath": "uk-GB83_FV4005.png"
+        "FileName": "uk-GB83_FV4005.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Chieftain_Mk6",
         "Id": "GB84",
         "Name": "Chieftain Mk6",
-        "IconPath": "uk-GB84_Chieftain_Mk6.png"
+        "FileName": "uk-GB84_Chieftain_Mk6.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Cromwell_Berlin",
         "Id": "GB85",
         "Name": "Cromwell Berlin",
-        "IconPath": "uk-GB85_Cromwell_Berlin.png"
+        "FileName": "uk-GB85_Cromwell_Berlin.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Centurion_Action_X",
         "Id": "GB86",
         "Name": "Centurion Action X",
-        "IconPath": "uk-GB86_Centurion_Action_X.png"
+        "FileName": "uk-GB86_Centurion_Action_X.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Chieftain_T95_turret",
         "Id": "GB87",
         "Name": "Chieftain T95 turret",
-        "IconPath": "uk-GB87_Chieftain_T95_turret.png"
+        "FileName": "uk-GB87_Chieftain_T95_turret.png"
     },
     {
         "Nation": "uk",
         "CodeName": "T95_Chieftain_turret",
         "Id": "GB88",
         "Name": "T95 Chieftain turret",
-        "IconPath": "uk-GB88_T95_Chieftain_turret.png"
+        "FileName": "uk-GB88_T95_Chieftain_turret.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Super_Conqueror",
         "Id": "GB91",
         "Name": "Super Conqueror",
-        "IconPath": "uk-GB91_Super_Conqueror.png"
+        "FileName": "uk-GB91_Super_Conqueror.png"
     },
     {
         "Nation": "uk",
         "CodeName": "FV217",
         "Id": "GB92",
         "Name": "FV217",
-        "IconPath": "uk-GB92_FV217.png"
+        "FileName": "uk-GB92_FV217.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Caernarvon_AX",
         "Id": "GB93",
         "Name": "Caernarvon AX",
-        "IconPath": "uk-GB93_Caernarvon_AX.png"
+        "FileName": "uk-GB93_Caernarvon_AX.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Centurion_Mk5-1_RAAC",
         "Id": "GB94",
         "Name": "Centurion Mk5-1 RAAC",
-        "IconPath": "uk-GB94_Centurion_Mk5-1_RAAC.png"
+        "FileName": "uk-GB94_Centurion_Mk5-1_RAAC.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Ekins_Firefly_M4A4",
         "Id": "GB95",
         "Name": "Ekins Firefly M4A4",
-        "IconPath": "uk-GB95_Ekins_Firefly_M4A4.png"
+        "FileName": "uk-GB95_Ekins_Firefly_M4A4.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Excalibur",
         "Id": "GB96",
         "Name": "Excalibur",
-        "IconPath": "uk-GB96_Excalibur.png"
+        "FileName": "uk-GB96_Excalibur.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Chimera",
         "Id": "GB97",
         "Name": "Chimera",
-        "IconPath": "uk-GB97_Chimera.png"
+        "FileName": "uk-GB97_Chimera.png"
     },
     {
         "Nation": "uk",
         "CodeName": "T95_FV4201_Chieftain",
         "Id": "GB98",
         "Name": "T95 FV4201 Chieftain",
-        "IconPath": "uk-GB98_T95_FV4201_Chieftain.png"
+        "FileName": "uk-GB98_T95_FV4201_Chieftain.png"
     },
     {
         "Nation": "uk",
         "CodeName": "Turtle_Mk1",
         "Id": "GB99",
         "Name": "Turtle Mk1",
-        "IconPath": "uk-GB99_Turtle_Mk1.png"
+        "FileName": "uk-GB99_Turtle_Mk1.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T1_Cunningham",
         "Id": "A01",
         "Name": "T1 Cunningham",
-        "IconPath": "usa-A01_T1_Cunningham.png"
+        "FileName": "usa-A01_T1_Cunningham.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T1_Cunningham_bot",
         "Id": "A01",
         "Name": "T1 Cunningham bot",
-        "IconPath": "usa-A01_T1_Cunningham_bot.png"
+        "FileName": "usa-A01_T1_Cunningham_bot.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M2_lt",
         "Id": "A02",
         "Name": "M2 lt",
-        "IconPath": "usa-A02_M2_lt.png"
+        "FileName": "usa-A02_M2_lt.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M3_Stuart",
         "Id": "A03",
         "Name": "M3 Stuart",
-        "IconPath": "usa-A03_M3_Stuart.png"
+        "FileName": "usa-A03_M3_Stuart.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M3_Stuart_bootcamp",
         "Id": "A03",
         "Name": "M3 Stuart bootcamp",
-        "IconPath": "usa-A03_M3_Stuart_bootcamp.png"
+        "FileName": "usa-A03_M3_Stuart_bootcamp.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M3_Grant",
         "Id": "A04",
         "Name": "M3 Grant",
-        "IconPath": "usa-A04_M3_Grant.png"
+        "FileName": "usa-A04_M3_Grant.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M4_Sherman",
         "Id": "A05",
         "Name": "M4 Sherman",
-        "IconPath": "usa-A05_M4_Sherman.png"
+        "FileName": "usa-A05_M4_Sherman.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M4_Sherman_IGR",
         "Id": "A05",
         "Name": "M4 Sherman IGR",
-        "IconPath": "usa-A05_M4_Sherman_IGR.png"
+        "FileName": "usa-A05_M4_Sherman_IGR.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M4A3E8_Sherman",
         "Id": "A06",
         "Name": "M4A3E8 Sherman",
-        "IconPath": "usa-A06_M4A3E8_Sherman.png"
+        "FileName": "usa-A06_M4A3E8_Sherman.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T20",
         "Id": "A07",
         "Name": "T20",
-        "IconPath": "usa-A07_T20.png"
+        "FileName": "usa-A07_T20.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T1_hvy",
         "Id": "A09",
         "Name": "T1 hvy",
-        "IconPath": "usa-A09_T1_hvy.png"
+        "FileName": "usa-A09_T1_hvy.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T49",
         "Id": "A100",
         "Name": "T49",
-        "IconPath": "usa-A100_T49.png"
+        "FileName": "usa-A100_T49.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M56",
         "Id": "A101",
         "Name": "M56",
-        "IconPath": "usa-A101_M56.png"
+        "FileName": "usa-A101_M56.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T28_concept",
         "Id": "A102",
         "Name": "T28 concept",
-        "IconPath": "usa-A102_T28_concept.png"
+        "FileName": "usa-A102_T28_concept.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T71E1",
         "Id": "A103",
         "Name": "T71E1",
-        "IconPath": "usa-A103_T71E1.png"
+        "FileName": "usa-A103_T71E1.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T71E1_IGR",
         "Id": "A103",
         "Name": "T71E1 IGR",
-        "IconPath": "usa-A103_T71E1_IGR.png"
+        "FileName": "usa-A103_T71E1_IGR.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M4A3E8A",
         "Id": "A104",
         "Name": "M4A3E8A",
-        "IconPath": "usa-A104_M4A3E8A.png"
+        "FileName": "usa-A104_M4A3E8A.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M48A2_120",
         "Id": "A106",
         "Name": "M48A2 120",
-        "IconPath": "usa-A106_M48A2_120.png"
+        "FileName": "usa-A106_M48A2_120.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T1_HMC",
         "Id": "A107",
         "Name": "T1 HMC",
-        "IconPath": "usa-A107_T1_HMC.png"
+        "FileName": "usa-A107_T1_HMC.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T18_HMC",
         "Id": "A108",
         "Name": "T18 HMC",
-        "IconPath": "usa-A108_T18_HMC.png"
+        "FileName": "usa-A108_T18_HMC.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T56_GMC",
         "Id": "A109",
         "Name": "T56 GMC",
-        "IconPath": "usa-A109_T56_GMC.png"
+        "FileName": "usa-A109_T56_GMC.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M6",
         "Id": "A10",
         "Name": "M6",
-        "IconPath": "usa-A10_M6.png"
+        "FileName": "usa-A10_M6.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T25_Pilot",
         "Id": "A111",
         "Name": "T25 Pilot",
-        "IconPath": "usa-A111_T25_Pilot.png"
+        "FileName": "usa-A111_T25_Pilot.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T71E2",
         "Id": "A112",
         "Name": "T71E2",
-        "IconPath": "usa-A112_T71E2.png"
+        "FileName": "usa-A112_T71E2.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T71E2R",
         "Id": "A112",
         "Name": "T71E2R",
-        "IconPath": "usa-A112_T71E2R.png"
+        "FileName": "usa-A112_T71E2R.png"
     },
     {
         "Nation": "usa",
         "CodeName": "Chrysler_K",
         "Id": "A115",
         "Name": "Chrysler K",
-        "IconPath": "usa-A115_Chrysler_K.png"
+        "FileName": "usa-A115_Chrysler_K.png"
     },
     {
         "Nation": "usa",
         "CodeName": "Chrysler_K_GF",
         "Id": "A115",
         "Name": "Chrysler K GF",
-        "IconPath": "usa-A115_Chrysler_K_GF.png"
+        "FileName": "usa-A115_Chrysler_K_GF.png"
     },
     {
         "Nation": "usa",
         "CodeName": "XM551",
         "Id": "A116",
         "Name": "XM551",
-        "IconPath": "usa-A116_XM551.png"
+        "FileName": "usa-A116_XM551.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T26E5",
         "Id": "A117",
         "Name": "T26E5",
-        "IconPath": "usa-A117_T26E5.png"
+        "FileName": "usa-A117_T26E5.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T26E5_FL",
         "Id": "A117",
         "Name": "T26E5 FL",
-        "IconPath": "usa-A117_T26E5_FL.png"
+        "FileName": "usa-A117_T26E5_FL.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T26E5_Patriot",
         "Id": "A117",
         "Name": "T26E5 Patriot",
-        "IconPath": "usa-A117_T26E5_Patriot.png"
+        "FileName": "usa-A117_T26E5_Patriot.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M4_Thunderbolt",
         "Id": "A118",
         "Name": "M4 Thunderbolt",
-        "IconPath": "usa-A118_M4_Thunderbolt.png"
+        "FileName": "usa-A118_M4_Thunderbolt.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T29",
         "Id": "A11",
         "Name": "T29",
-        "IconPath": "usa-A11_T29.png"
+        "FileName": "usa-A11_T29.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T29_IGR",
         "Id": "A11",
         "Name": "T29 IGR",
-        "IconPath": "usa-A11_T29_IGR.png"
+        "FileName": "usa-A11_T29_IGR.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M48A5",
         "Id": "A120",
         "Name": "M48A5",
-        "IconPath": "usa-A120_M48A5.png"
+        "FileName": "usa-A120_M48A5.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M48A5_IGR",
         "Id": "A120",
         "Name": "M48A5 IGR",
-        "IconPath": "usa-A120_M48A5_IGR.png"
+        "FileName": "usa-A120_M48A5_IGR.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M26_Cologne",
         "Id": "A121",
         "Name": "M26 Cologne",
-        "IconPath": "usa-A121_M26_Cologne.png"
+        "FileName": "usa-A121_M26_Cologne.png"
     },
     {
         "Nation": "usa",
         "CodeName": "TS-5",
         "Id": "A122",
         "Name": "TS-5",
-        "IconPath": "usa-A122_TS-5.png"
+        "FileName": "usa-A122_TS-5.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T78",
         "Id": "A123",
         "Name": "T78",
-        "IconPath": "usa-A123_T78.png"
+        "FileName": "usa-A123_T78.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T54E2",
         "Id": "A124",
         "Name": "T54E2",
-        "IconPath": "usa-A124_T54E2.png"
+        "FileName": "usa-A124_T54E2.png"
     },
     {
         "Nation": "usa",
         "CodeName": "AEP_1",
         "Id": "A125",
         "Name": "AEP 1",
-        "IconPath": "usa-A125_AEP_1.png"
+        "FileName": "usa-A125_AEP_1.png"
     },
     {
         "Nation": "usa",
         "CodeName": "PzVI_Tiger_II_capt",
         "Id": "A126",
         "Name": "PzVI Tiger II capt",
-        "IconPath": "usa-A126_PzVI_Tiger_II_capt.png"
+        "FileName": "usa-A126_PzVI_Tiger_II_capt.png"
     },
     {
         "Nation": "usa",
         "CodeName": "TL_1_LPC",
         "Id": "A127",
         "Name": "TL 1 LPC",
-        "IconPath": "usa-A127_TL_1_LPC.png"
+        "FileName": "usa-A127_TL_1_LPC.png"
     },
     {
         "Nation": "usa",
         "CodeName": "concept_1b",
         "Id": "A128",
         "Name": "concept 1b",
-        "IconPath": "usa-A128_concept_1b.png"
+        "FileName": "usa-A128_concept_1b.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T6_medium",
         "Id": "A129",
         "Name": "T6 medium",
-        "IconPath": "usa-A129_T6_medium.png"
+        "FileName": "usa-A129_T6_medium.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T6_medium_MapsTraining_Dummy_MT_1",
         "Id": "A129",
         "Name": "T6 medium MapsTraining Dummy MT 1",
-        "IconPath": "usa-A129_T6_medium_MapsTraining_Dummy_MT_1.png"
+        "FileName": "usa-A129_T6_medium_MapsTraining_Dummy_MT_1.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T32",
         "Id": "A12",
         "Name": "T32",
-        "IconPath": "usa-A12_T32.png"
+        "FileName": "usa-A12_T32.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T32_FL",
         "Id": "A12",
         "Name": "T32 FL",
-        "IconPath": "usa-A12_T32_FL.png"
+        "FileName": "usa-A12_T32_FL.png"
     },
     {
         "Nation": "usa",
         "CodeName": "Super_Hellcat",
         "Id": "A130",
         "Name": "Super Hellcat",
-        "IconPath": "usa-A130_Super_Hellcat.png"
+        "FileName": "usa-A130_Super_Hellcat.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T77",
         "Id": "A132",
         "Name": "T77",
-        "IconPath": "usa-A132_T77.png"
+        "FileName": "usa-A132_T77.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M24E2_SuperChaffee",
         "Id": "A134",
         "Name": "M24E2 SuperChaffee",
-        "IconPath": "usa-A134_M24E2_SuperChaffee.png"
+        "FileName": "usa-A134_M24E2_SuperChaffee.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T42",
         "Id": "A136",
         "Name": "T42",
-        "IconPath": "usa-A136_T42.png"
+        "FileName": "usa-A136_T42.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T34_hvy",
         "Id": "A13",
         "Name": "T34 hvy",
-        "IconPath": "usa-A13_T34_hvy.png"
+        "FileName": "usa-A13_T34_hvy.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T34_hvy_BF",
         "Id": "A13",
         "Name": "T34 hvy BF",
-        "IconPath": "usa-A13_T34_hvy_BF.png"
+        "FileName": "usa-A13_T34_hvy_BF.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T34_hvy_FL",
         "Id": "A13",
         "Name": "T34 hvy FL",
-        "IconPath": "usa-A13_T34_hvy_FL.png"
+        "FileName": "usa-A13_T34_hvy_FL.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T34_hvy_IGR",
         "Id": "A13",
         "Name": "T34 hvy IGR",
-        "IconPath": "usa-A13_T34_hvy_IGR.png"
+        "FileName": "usa-A13_T34_hvy_IGR.png"
     },
     {
         "Nation": "usa",
         "CodeName": "ASTRON_REX_105mm",
         "Id": "A140",
         "Name": "ASTRON REX 105mm",
-        "IconPath": "usa-A140_ASTRON_REX_105mm.png"
+        "FileName": "usa-A140_ASTRON_REX_105mm.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T30",
         "Id": "A14",
         "Name": "T30",
-        "IconPath": "usa-A14_T30.png"
+        "FileName": "usa-A14_T30.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T30_FL",
         "Id": "A14",
         "Name": "T30 FL",
-        "IconPath": "usa-A14_T30_FL.png"
+        "FileName": "usa-A14_T30_FL.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T57",
         "Id": "A15",
         "Name": "T57",
-        "IconPath": "usa-A15_T57.png"
+        "FileName": "usa-A15_T57.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M7_Priest",
         "Id": "A16",
         "Name": "M7 Priest",
-        "IconPath": "usa-A16_M7_Priest.png"
+        "FileName": "usa-A16_M7_Priest.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M37",
         "Id": "A17",
         "Name": "M37",
-        "IconPath": "usa-A17_M37.png"
+        "FileName": "usa-A17_M37.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M41",
         "Id": "A18",
         "Name": "M41",
-        "IconPath": "usa-A18_M41.png"
+        "FileName": "usa-A18_M41.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T2_lt",
         "Id": "A19",
         "Name": "T2 lt",
-        "IconPath": "usa-A19_T2_lt.png"
+        "FileName": "usa-A19_T2_lt.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T14",
         "Id": "A21",
         "Name": "T14",
-        "IconPath": "usa-A21_T14.png"
+        "FileName": "usa-A21_T14.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T14_MapsTraining_Player_HT_1",
         "Id": "A21",
         "Name": "T14 MapsTraining Player HT 1",
-        "IconPath": "usa-A21_T14_MapsTraining_Player_HT_1.png"
+        "FileName": "usa-A21_T14_MapsTraining_Player_HT_1.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M5_Stuart",
         "Id": "A22",
         "Name": "M5 Stuart",
-        "IconPath": "usa-A22_M5_Stuart.png"
+        "FileName": "usa-A22_M5_Stuart.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M5_Stuart_bootcamp",
         "Id": "A22",
         "Name": "M5 Stuart bootcamp",
-        "IconPath": "usa-A22_M5_Stuart_bootcamp.png"
+        "FileName": "usa-A22_M5_Stuart_bootcamp.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M7_med",
         "Id": "A23",
         "Name": "M7 med",
-        "IconPath": "usa-A23_M7_med.png"
+        "FileName": "usa-A23_M7_med.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T2_med",
         "Id": "A24",
         "Name": "T2 med",
-        "IconPath": "usa-A24_T2_med.png"
+        "FileName": "usa-A24_T2_med.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T2_med_bot",
         "Id": "A24",
         "Name": "T2 med bot",
-        "IconPath": "usa-A24_T2_med_bot.png"
+        "FileName": "usa-A24_T2_med_bot.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M2_med",
         "Id": "A25",
         "Name": "M2 med",
-        "IconPath": "usa-A25_M2_med.png"
+        "FileName": "usa-A25_M2_med.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M2_med_bootcamp",
         "Id": "A25",
         "Name": "M2 med bootcamp",
-        "IconPath": "usa-A25_M2_med_bootcamp.png"
+        "FileName": "usa-A25_M2_med_bootcamp.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T18",
         "Id": "A26",
         "Name": "T18",
-        "IconPath": "usa-A26_T18.png"
+        "FileName": "usa-A26_T18.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T82",
         "Id": "A27",
         "Name": "T82",
-        "IconPath": "usa-A27_T82.png"
+        "FileName": "usa-A27_T82.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T40",
         "Id": "A29",
         "Name": "T40",
-        "IconPath": "usa-A29_T40.png"
+        "FileName": "usa-A29_T40.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M10_Wolverine",
         "Id": "A30",
         "Name": "M10 Wolverine",
-        "IconPath": "usa-A30_M10_Wolverine.png"
+        "FileName": "usa-A30_M10_Wolverine.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M36_Slagger",
         "Id": "A31",
         "Name": "M36 Slagger",
-        "IconPath": "usa-A31_M36_Slagger.png"
+        "FileName": "usa-A31_M36_Slagger.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M12",
         "Id": "A32",
         "Name": "M12",
-        "IconPath": "usa-A32_M12.png"
+        "FileName": "usa-A32_M12.png"
     },
     {
         "Nation": "usa",
         "CodeName": "MTLS-1G14",
         "Id": "A33",
         "Name": "MTLS-1G14",
-        "IconPath": "usa-A33_MTLS-1G14.png"
+        "FileName": "usa-A33_MTLS-1G14.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M24_Chaffee",
         "Id": "A34",
         "Name": "M24 Chaffee",
-        "IconPath": "usa-A34_M24_Chaffee.png"
+        "FileName": "usa-A34_M24_Chaffee.png"
     },
     {
         "Nation": "usa",
         "CodeName": "Pershing",
         "Id": "A35",
         "Name": "Pershing",
-        "IconPath": "usa-A35_Pershing.png"
+        "FileName": "usa-A35_Pershing.png"
     },
     {
         "Nation": "usa",
         "CodeName": "Pershing_IGR",
         "Id": "A35",
         "Name": "Pershing IGR",
-        "IconPath": "usa-A35_Pershing_IGR.png"
+        "FileName": "usa-A35_Pershing_IGR.png"
     },
     {
         "Nation": "usa",
         "CodeName": "Sherman_Jumbo",
         "Id": "A36",
         "Name": "Sherman Jumbo",
-        "IconPath": "usa-A36_Sherman_Jumbo.png"
+        "FileName": "usa-A36_Sherman_Jumbo.png"
     },
     {
         "Nation": "usa",
         "CodeName": "Sherman_Jumbo_bootcamp",
         "Id": "A36",
         "Name": "Sherman Jumbo bootcamp",
-        "IconPath": "usa-A36_Sherman_Jumbo_bootcamp.png"
+        "FileName": "usa-A36_Sherman_Jumbo_bootcamp.png"
     },
     {
         "Nation": "usa",
         "CodeName": "Sherman_Jumbo_IGR",
         "Id": "A36",
         "Name": "Sherman Jumbo IGR",
-        "IconPath": "usa-A36_Sherman_Jumbo_IGR.png"
+        "FileName": "usa-A36_Sherman_Jumbo_IGR.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M40M43",
         "Id": "A37",
         "Name": "M40M43",
-        "IconPath": "usa-A37_M40M43.png"
+        "FileName": "usa-A37_M40M43.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T92",
         "Id": "A38",
         "Name": "T92",
-        "IconPath": "usa-A38_T92.png"
+        "FileName": "usa-A38_T92.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T28",
         "Id": "A39",
         "Name": "T28",
-        "IconPath": "usa-A39_T28.png"
+        "FileName": "usa-A39_T28.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T95",
         "Id": "A40",
         "Name": "T95",
-        "IconPath": "usa-A40_T95.png"
+        "FileName": "usa-A40_T95.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M18_Hellcat",
         "Id": "A41",
         "Name": "M18 Hellcat",
-        "IconPath": "usa-A41_M18_Hellcat.png"
+        "FileName": "usa-A41_M18_Hellcat.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M22_Locust",
         "Id": "A43",
         "Name": "M22 Locust",
-        "IconPath": "usa-A43_M22_Locust.png"
+        "FileName": "usa-A43_M22_Locust.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M4A2E4",
         "Id": "A44",
         "Name": "M4A2E4",
-        "IconPath": "usa-A44_M4A2E4.png"
+        "FileName": "usa-A44_M4A2E4.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M6A2E1",
         "Id": "A45",
         "Name": "M6A2E1",
-        "IconPath": "usa-A45_M6A2E1.png"
+        "FileName": "usa-A45_M6A2E1.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T3",
         "Id": "A46",
         "Name": "T3",
-        "IconPath": "usa-A46_T3.png"
+        "FileName": "usa-A46_T3.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M8A1",
         "Id": "A57",
         "Name": "M8A1",
-        "IconPath": "usa-A57_M8A1.png"
+        "FileName": "usa-A57_M8A1.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T67",
         "Id": "A58",
         "Name": "T67",
-        "IconPath": "usa-A58_T67.png"
+        "FileName": "usa-A58_T67.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T67_IGR",
         "Id": "A58",
         "Name": "T67 IGR",
-        "IconPath": "usa-A58_T67_IGR.png"
+        "FileName": "usa-A58_T67_IGR.png"
     },
     {
         "Nation": "usa",
         "CodeName": "Ram-II",
         "Id": "A62",
         "Name": "Ram-II",
-        "IconPath": "usa-A62_Ram-II.png"
+        "FileName": "usa-A62_Ram-II.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M46_Patton",
         "Id": "A63",
         "Name": "M46 Patton",
-        "IconPath": "usa-A63_M46_Patton.png"
+        "FileName": "usa-A63_M46_Patton.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M46_Patton_FL",
         "Id": "A63",
         "Name": "M46 Patton FL",
-        "IconPath": "usa-A63_M46_Patton_FL.png"
+        "FileName": "usa-A63_M46_Patton_FL.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M46_Patton_KR",
         "Id": "A63",
         "Name": "M46 Patton KR",
-        "IconPath": "usa-A63_M46_Patton_KR.png"
+        "FileName": "usa-A63_M46_Patton_KR.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T25_AT",
         "Id": "A64",
         "Name": "T25 AT",
-        "IconPath": "usa-A64_T25_AT.png"
+        "FileName": "usa-A64_T25_AT.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M103",
         "Id": "A66",
         "Name": "M103",
-        "IconPath": "usa-A66_M103.png"
+        "FileName": "usa-A66_M103.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T57_58",
         "Id": "A67",
         "Name": "T57 58",
-        "IconPath": "usa-A67_T57_58.png"
+        "FileName": "usa-A67_T57_58.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T28_Prototype",
         "Id": "A68",
         "Name": "T28 Prototype",
-        "IconPath": "usa-A68_T28_Prototype.png"
+        "FileName": "usa-A68_T28_Prototype.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T110E5",
         "Id": "A69",
         "Name": "T110E5",
-        "IconPath": "usa-A69_T110E5.png"
+        "FileName": "usa-A69_T110E5.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T110E5_bob",
         "Id": "A69",
         "Name": "T110E5 bob",
-        "IconPath": "usa-A69_T110E5_bob.png"
+        "FileName": "usa-A69_T110E5_bob.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T21",
         "Id": "A71",
         "Name": "T21",
-        "IconPath": "usa-A71_T21.png"
+        "FileName": "usa-A71_T21.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T21_MapsTraining_Dummy_LT_2",
         "Id": "A71",
         "Name": "T21 MapsTraining Dummy LT 2",
-        "IconPath": "usa-A71_T21_MapsTraining_Dummy_LT_2.png"
+        "FileName": "usa-A71_T21_MapsTraining_Dummy_LT_2.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T25_2",
         "Id": "A72",
         "Name": "T25 2",
-        "IconPath": "usa-A72_T25_2.png"
+        "FileName": "usa-A72_T25_2.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T25_2_SH",
         "Id": "A72",
         "Name": "T25 2 SH",
-        "IconPath": "usa-A72_T25_2_SH.png"
+        "FileName": "usa-A72_T25_2_SH.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T1_E6",
         "Id": "A74",
         "Name": "T1 E6",
-        "IconPath": "usa-A74_T1_E6.png"
+        "FileName": "usa-A74_T1_E6.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M4_Improved",
         "Id": "A78",
         "Name": "M4 Improved",
-        "IconPath": "usa-A78_M4_Improved.png"
+        "FileName": "usa-A78_M4_Improved.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T26_E4_SuperPershing",
         "Id": "A80",
         "Name": "T26 E4 SuperPershing",
-        "IconPath": "usa-A80_T26_E4_SuperPershing.png"
+        "FileName": "usa-A80_T26_E4_SuperPershing.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T26_E4_SuperPershing_FL",
         "Id": "A80",
         "Name": "T26 E4 SuperPershing FL",
-        "IconPath": "usa-A80_T26_E4_SuperPershing_FL.png"
+        "FileName": "usa-A80_T26_E4_SuperPershing_FL.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T95_E2",
         "Id": "A81",
         "Name": "T95 E2",
-        "IconPath": "usa-A81_T95_E2.png"
+        "FileName": "usa-A81_T95_E2.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T110E4",
         "Id": "A83",
         "Name": "T110E4",
-        "IconPath": "usa-A83_T110E4.png"
+        "FileName": "usa-A83_T110E4.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T110E3",
         "Id": "A85",
         "Name": "T110E3",
-        "IconPath": "usa-A85_T110E3.png"
+        "FileName": "usa-A85_T110E3.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T23E3",
         "Id": "A86",
         "Name": "T23E3",
-        "IconPath": "usa-A86_T23E3.png"
+        "FileName": "usa-A86_T23E3.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M44",
         "Id": "A87",
         "Name": "M44",
-        "IconPath": "usa-A87_M44.png"
+        "FileName": "usa-A87_M44.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M53_55",
         "Id": "A88",
         "Name": "M53 55",
-        "IconPath": "usa-A88_M53_55.png"
+        "FileName": "usa-A88_M53_55.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T54E1",
         "Id": "A89",
         "Name": "T54E1",
-        "IconPath": "usa-A89_T54E1.png"
+        "FileName": "usa-A89_T54E1.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T69",
         "Id": "A90",
         "Name": "T69",
-        "IconPath": "usa-A90_T69.png"
+        "FileName": "usa-A90_T69.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T69_IGR",
         "Id": "A90",
         "Name": "T69 IGR",
-        "IconPath": "usa-A90_T69_IGR.png"
+        "FileName": "usa-A90_T69_IGR.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M60",
         "Id": "A92",
         "Name": "M60",
-        "IconPath": "usa-A92_M60.png"
+        "FileName": "usa-A92_M60.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T7_Combat_Car",
         "Id": "A93",
         "Name": "T7 Combat Car",
-        "IconPath": "usa-A93_T7_Combat_Car.png"
+        "FileName": "usa-A93_T7_Combat_Car.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T37",
         "Id": "A94",
         "Name": "T37",
-        "IconPath": "usa-A94_T37.png"
+        "FileName": "usa-A94_T37.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T95_E6",
         "Id": "A95",
         "Name": "T95 E6",
-        "IconPath": "usa-A95_T95_E6.png"
+        "FileName": "usa-A95_T95_E6.png"
     },
     {
         "Nation": "usa",
         "CodeName": "M41_Bulldog",
         "Id": "A97",
         "Name": "M41 Bulldog",
-        "IconPath": "usa-A97_M41_Bulldog.png"
+        "FileName": "usa-A97_M41_Bulldog.png"
     },
     {
         "Nation": "usa",
         "CodeName": "T92_LT",
         "Id": "A99",
         "Name": "T92 LT",
-        "IconPath": "usa-A99_T92_LT.png"
+        "FileName": "usa-A99_T92_LT.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Observer",
         "Id": "",
         "Name": "Observer",
-        "IconPath": "ussr-Observer.png"
+        "FileName": "ussr-Observer.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "IS",
         "Id": "R01",
         "Name": "IS",
-        "IconPath": "ussr-R01_IS.png"
+        "FileName": "ussr-R01_IS.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU-85",
         "Id": "R02",
         "Name": "SU-85",
-        "IconPath": "ussr-R02_SU-85.png"
+        "FileName": "ussr-R02_SU-85.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "BT-7",
         "Id": "R03",
         "Name": "BT-7",
-        "IconPath": "ussr-R03_BT-7.png"
+        "FileName": "ussr-R03_BT-7.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "BT-7_bootcamp",
         "Id": "R03",
         "Name": "BT-7 bootcamp",
-        "IconPath": "ussr-R03_BT-7_bootcamp.png"
+        "FileName": "ussr-R03_BT-7_bootcamp.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-34",
         "Id": "R04",
         "Name": "T-34",
-        "IconPath": "ussr-R04_T-34.png"
+        "FileName": "ussr-R04_T-34.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-34_MapsTraining_Player_MT_1",
         "Id": "R04",
         "Name": "T-34 MapsTraining Player MT 1",
-        "IconPath": "ussr-R04_T-34_MapsTraining_Player_MT_1.png"
+        "FileName": "ussr-R04_T-34_MapsTraining_Player_MT_1.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV",
         "Id": "R05",
         "Name": "KV",
-        "IconPath": "ussr-R05_KV.png"
+        "FileName": "ussr-R05_KV.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-28",
         "Id": "R06",
         "Name": "T-28",
-        "IconPath": "ussr-R06_T-28.png"
+        "FileName": "ussr-R06_T-28.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-28_bootcamp",
         "Id": "R06",
         "Name": "T-28 bootcamp",
-        "IconPath": "ussr-R06_T-28_bootcamp.png"
+        "FileName": "ussr-R06_T-28_bootcamp.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-34-85",
         "Id": "R07",
         "Name": "T-34-85",
-        "IconPath": "ussr-R07_T-34-85.png"
+        "FileName": "ussr-R07_T-34-85.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-34-85_bootcamp",
         "Id": "R07",
         "Name": "T-34-85 bootcamp",
-        "IconPath": "ussr-R07_T-34-85_bootcamp.png"
+        "FileName": "ussr-R07_T-34-85_bootcamp.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "BT-2",
         "Id": "R08",
         "Name": "BT-2",
-        "IconPath": "ussr-R08_BT-2.png"
+        "FileName": "ussr-R08_BT-2.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "BT-2_bootcamp",
         "Id": "R08",
         "Name": "BT-2 bootcamp",
-        "IconPath": "ussr-R08_BT-2_bootcamp.png"
+        "FileName": "ussr-R08_BT-2_bootcamp.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-26",
         "Id": "R09",
         "Name": "T-26",
-        "IconPath": "ussr-R09_T-26.png"
+        "FileName": "ussr-R09_T-26.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-26_bot",
         "Id": "R09",
         "Name": "T-26 bot",
-        "IconPath": "ussr-R09_T-26_bot.png"
+        "FileName": "ussr-R09_T-26_bot.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU122A",
         "Id": "R100",
         "Name": "SU122A",
-        "IconPath": "ussr-R100_SU122A.png"
+        "FileName": "ussr-R100_SU122A.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "MT25",
         "Id": "R101",
         "Name": "MT25",
-        "IconPath": "ussr-R101_MT25.png"
+        "FileName": "ussr-R101_MT25.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_430_II",
         "Id": "R104",
         "Name": "Object 430 II",
-        "IconPath": "ussr-R104_Object_430_II.png"
+        "FileName": "ussr-R104_Object_430_II.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "BT_7A",
         "Id": "R105",
         "Name": "BT 7A",
-        "IconPath": "ussr-R105_BT_7A.png"
+        "FileName": "ussr-R105_BT_7A.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV85",
         "Id": "R106",
         "Name": "KV85",
-        "IconPath": "ussr-R106_KV85.png"
+        "FileName": "ussr-R106_KV85.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV85_IGR",
         "Id": "R106",
         "Name": "KV85 IGR",
-        "IconPath": "ussr-R106_KV85_IGR.png"
+        "FileName": "ussr-R106_KV85_IGR.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "LTB",
         "Id": "R107",
         "Name": "LTB",
-        "IconPath": "ussr-R107_LTB.png"
+        "FileName": "ussr-R107_LTB.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T34_85M",
         "Id": "R108",
         "Name": "T34 85M",
-        "IconPath": "ussr-R108_T34_85M.png"
+        "FileName": "ussr-R108_T34_85M.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T54S",
         "Id": "R109",
         "Name": "T54S",
-        "IconPath": "ussr-R109_T54S.png"
+        "FileName": "ussr-R109_T54S.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "AT-1",
         "Id": "R10",
         "Name": "AT-1",
-        "IconPath": "ussr-R10_AT-1.png"
+        "FileName": "ussr-R10_AT-1.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_260",
         "Id": "R110",
         "Name": "Object 260",
-        "IconPath": "ussr-R110_Object_260.png"
+        "FileName": "ussr-R110_Object_260.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "ISU130",
         "Id": "R111",
         "Name": "ISU130",
-        "IconPath": "ussr-R111_ISU130.png"
+        "FileName": "ussr-R111_ISU130.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T54_45",
         "Id": "R112",
         "Name": "T54 45",
-        "IconPath": "ussr-R112_T54_45.png"
+        "FileName": "ussr-R112_T54_45.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T54_45_FL",
         "Id": "R112",
         "Name": "T54 45 FL",
-        "IconPath": "ussr-R112_T54_45_FL.png"
+        "FileName": "ussr-R112_T54_45_FL.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_730",
         "Id": "R113",
         "Name": "Object 730",
-        "IconPath": "ussr-R113_Object_730.png"
+        "FileName": "ussr-R113_Object_730.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_244",
         "Id": "R114",
         "Name": "Object 244",
-        "IconPath": "ussr-R114_Object_244.png"
+        "FileName": "ussr-R114_Object_244.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "IS-3_auto",
         "Id": "R115",
         "Name": "IS-3 auto",
-        "IconPath": "ussr-R115_IS-3_auto.png"
+        "FileName": "ussr-R115_IS-3_auto.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "IS-3_auto_test",
         "Id": "R115",
         "Name": "IS-3 auto test",
-        "IconPath": "ussr-R115_IS-3_auto_test.png"
+        "FileName": "ussr-R115_IS-3_auto_test.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "ISU122C_Berlin",
         "Id": "R116",
         "Name": "ISU122C Berlin",
-        "IconPath": "ussr-R116_ISU122C_Berlin.png"
+        "FileName": "ussr-R116_ISU122C_Berlin.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T34_85_Rudy",
         "Id": "R117",
         "Name": "T34 85 Rudy",
-        "IconPath": "ussr-R117_T34_85_Rudy.png"
+        "FileName": "ussr-R117_T34_85_Rudy.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T28_F30",
         "Id": "R118",
         "Name": "T28 F30",
-        "IconPath": "ussr-R118_T28_F30.png"
+        "FileName": "ussr-R118_T28_F30.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_777",
         "Id": "R119",
         "Name": "Object 777",
-        "IconPath": "ussr-R119_Object_777.png"
+        "FileName": "ussr-R119_Object_777.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_777C",
         "Id": "R119",
         "Name": "Object 777C",
-        "IconPath": "ussr-R119_Object_777C.png"
+        "FileName": "ussr-R119_Object_777C.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "MS-1",
         "Id": "R11",
         "Name": "MS-1",
-        "IconPath": "ussr-R11_MS-1.png"
+        "FileName": "ussr-R11_MS-1.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "MS-1_bot",
         "Id": "R11",
         "Name": "MS-1 bot",
-        "IconPath": "ussr-R11_MS-1_bot.png"
+        "FileName": "ussr-R11_MS-1_bot.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T22SR_A22",
         "Id": "R120",
         "Name": "T22SR A22",
-        "IconPath": "ussr-R120_T22SR_A22.png"
+        "FileName": "ussr-R120_T22SR_A22.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV4_KTT",
         "Id": "R121",
         "Name": "KV4 KTT",
-        "IconPath": "ussr-R121_KV4_KTT.png"
+        "FileName": "ussr-R121_KV4_KTT.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T44_100",
         "Id": "R122",
         "Name": "T44 100",
-        "IconPath": "ussr-R122_T44_100.png"
+        "FileName": "ussr-R122_T44_100.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T44_100B",
         "Id": "R122",
         "Name": "T44 100B",
-        "IconPath": "ussr-R122_T44_100B.png"
+        "FileName": "ussr-R122_T44_100B.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Kirovets_1",
         "Id": "R123",
         "Name": "Kirovets 1",
-        "IconPath": "ussr-R123_Kirovets_1.png"
+        "FileName": "ussr-R123_Kirovets_1.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T_45",
         "Id": "R125",
         "Name": "T 45",
-        "IconPath": "ussr-R125_T_45.png"
+        "FileName": "ussr-R125_T_45.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_730_5",
         "Id": "R126",
         "Name": "Object 730 5",
-        "IconPath": "ussr-R126_Object_730_5.png"
+        "FileName": "ussr-R126_Object_730_5.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T44_100_K",
         "Id": "R127",
         "Name": "T44 100 K",
-        "IconPath": "ussr-R127_T44_100_K.png"
+        "FileName": "ussr-R127_T44_100_K.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T44_100_M",
         "Id": "R127",
         "Name": "T44 100 M",
-        "IconPath": "ussr-R127_T44_100_M.png"
+        "FileName": "ussr-R127_T44_100_M.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T44_100_P",
         "Id": "R127",
         "Name": "T44 100 P",
-        "IconPath": "ussr-R127_T44_100_P.png"
+        "FileName": "ussr-R127_T44_100_P.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T44_100_U",
         "Id": "R127",
         "Name": "T44 100 U",
-        "IconPath": "ussr-R127_T44_100_U.png"
+        "FileName": "ussr-R127_T44_100_U.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV4_Kreslavskiy",
         "Id": "R128",
         "Name": "KV4 Kreslavskiy",
-        "IconPath": "ussr-R128_KV4_Kreslavskiy.png"
+        "FileName": "ussr-R128_KV4_Kreslavskiy.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_257",
         "Id": "R129",
         "Name": "Object 257",
-        "IconPath": "ussr-R129_Object_257.png"
+        "FileName": "ussr-R129_Object_257.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "A-20",
         "Id": "R12",
         "Name": "A-20",
-        "IconPath": "ussr-R12_A-20.png"
+        "FileName": "ussr-R12_A-20.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Tank_Gavalov",
         "Id": "R131",
         "Name": "Tank Gavalov",
-        "IconPath": "ussr-R131_Tank_Gavalov.png"
+        "FileName": "ussr-R131_Tank_Gavalov.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "VNII_100LT",
         "Id": "R132",
         "Name": "VNII 100LT",
-        "IconPath": "ussr-R132_VNII_100LT.png"
+        "FileName": "ussr-R132_VNII_100LT.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV_122",
         "Id": "R133",
         "Name": "KV 122",
-        "IconPath": "ussr-R133_KV_122.png"
+        "FileName": "ussr-R133_KV_122.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_252K",
         "Id": "R134",
         "Name": "Object 252K",
-        "IconPath": "ussr-R134_Object_252K.png"
+        "FileName": "ussr-R134_Object_252K.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_252U",
         "Id": "R134",
         "Name": "Object 252U",
-        "IconPath": "ussr-R134_Object_252U.png"
+        "FileName": "ussr-R134_Object_252U.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T_103",
         "Id": "R135",
         "Name": "T 103",
-        "IconPath": "ussr-R135_T_103.png"
+        "FileName": "ussr-R135_T_103.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "IS_M",
         "Id": "R139",
         "Name": "IS M",
-        "IconPath": "ussr-R139_IS_M.png"
+        "FileName": "ussr-R139_IS_M.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV-1s",
         "Id": "R13",
         "Name": "KV-1s",
-        "IconPath": "ussr-R13_KV-1s.png"
+        "FileName": "ussr-R13_KV-1s.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "M4_Loza",
         "Id": "R140",
         "Name": "M4 Loza",
-        "IconPath": "ussr-R140_M4_Loza.png"
+        "FileName": "ussr-R140_M4_Loza.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T_29",
         "Id": "R143",
         "Name": "T 29",
-        "IconPath": "ussr-R143_T_29.png"
+        "FileName": "ussr-R143_T_29.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "K_91",
         "Id": "R144",
         "Name": "K 91",
-        "IconPath": "ussr-R144_K_91.png"
+        "FileName": "ussr-R144_K_91.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_705_A",
         "Id": "R145",
         "Name": "Object 705 A",
-        "IconPath": "ussr-R145_Object_705_A.png"
+        "FileName": "ussr-R145_Object_705_A.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "STG",
         "Id": "R146",
         "Name": "STG",
-        "IconPath": "ussr-R146_STG.png"
+        "FileName": "ussr-R146_STG.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "STG_Tday",
         "Id": "R146",
         "Name": "STG Tday",
-        "IconPath": "ussr-R146_STG_Tday.png"
+        "FileName": "ussr-R146_STG_Tday.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_430_U",
         "Id": "R148",
         "Name": "Object 430 U",
-        "IconPath": "ussr-R148_Object_430_U.png"
+        "FileName": "ussr-R148_Object_430_U.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_268_4",
         "Id": "R149",
         "Name": "Object 268 4",
-        "IconPath": "ussr-R149_Object_268_4.png"
+        "FileName": "ussr-R149_Object_268_4.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU-5",
         "Id": "R14",
         "Name": "SU-5",
-        "IconPath": "ussr-R14_SU-5.png"
+        "FileName": "ussr-R14_SU-5.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU-5_MapsTraining_Dummy_SPG_1",
         "Id": "R14",
         "Name": "SU-5 MapsTraining Dummy SPG 1",
-        "IconPath": "ussr-R14_SU-5_MapsTraining_Dummy_SPG_1.png"
+        "FileName": "ussr-R14_SU-5_MapsTraining_Dummy_SPG_1.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_257_2",
         "Id": "R151",
         "Name": "Object 257 2",
-        "IconPath": "ussr-R151_Object_257_2.png"
+        "FileName": "ussr-R151_Object_257_2.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV2_W",
         "Id": "R152",
         "Name": "KV2 W",
-        "IconPath": "ussr-R152_KV2_W.png"
+        "FileName": "ussr-R152_KV2_W.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_705",
         "Id": "R153",
         "Name": "Object 705",
-        "IconPath": "ussr-R153_Object_705.png"
+        "FileName": "ussr-R153_Object_705.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T_34E_1943",
         "Id": "R154",
         "Name": "T 34E 1943",
-        "IconPath": "ussr-R154_T_34E_1943.png"
+        "FileName": "ussr-R154_T_34E_1943.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_277",
         "Id": "R155",
         "Name": "Object 277",
-        "IconPath": "ussr-R155_Object_277.png"
+        "FileName": "ussr-R155_Object_277.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_277_bob",
         "Id": "R155",
         "Name": "Object 277 bob",
-        "IconPath": "ussr-R155_Object_277_bob.png"
+        "FileName": "ussr-R155_Object_277_bob.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "IS_2M",
         "Id": "R156",
         "Name": "IS 2M",
-        "IconPath": "ussr-R156_IS_2M.png"
+        "FileName": "ussr-R156_IS_2M.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_279R",
         "Id": "R157",
         "Name": "Object 279R",
-        "IconPath": "ussr-R157_Object_279R.png"
+        "FileName": "ussr-R157_Object_279R.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "LT_432",
         "Id": "R158",
         "Name": "LT 432",
-        "IconPath": "ussr-R158_LT_432.png"
+        "FileName": "ussr-R158_LT_432.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU_130PM",
         "Id": "R159",
         "Name": "SU 130PM",
-        "IconPath": "ussr-R159_SU_130PM.png"
+        "FileName": "ussr-R159_SU_130PM.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "S-51",
         "Id": "R15",
         "Name": "S-51",
-        "IconPath": "ussr-R15_S-51.png"
+        "FileName": "ussr-R15_S-51.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T_50_2",
         "Id": "R160",
         "Name": "T 50 2",
-        "IconPath": "ussr-R160_T_50_2.png"
+        "FileName": "ussr-R160_T_50_2.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T_116",
         "Id": "R161",
         "Name": "T 116",
-        "IconPath": "ussr-R161_T_116.png"
+        "FileName": "ussr-R161_T_116.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_703_II",
         "Id": "R165",
         "Name": "Object 703 II",
-        "IconPath": "ussr-R165_Object_703_II.png"
+        "FileName": "ussr-R165_Object_703_II.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_703_II_2",
         "Id": "R165",
         "Name": "Object 703 II 2",
-        "IconPath": "ussr-R165_Object_703_II_2.png"
+        "FileName": "ussr-R165_Object_703_II_2.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "ST_II",
         "Id": "R169",
         "Name": "ST II",
-        "IconPath": "ussr-R169_ST_II.png"
+        "FileName": "ussr-R169_ST_II.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU-18",
         "Id": "R16",
         "Name": "SU-18",
-        "IconPath": "ussr-R16_SU-18.png"
+        "FileName": "ussr-R16_SU-18.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "IS_2_II",
         "Id": "R170",
         "Name": "IS 2 II",
-        "IconPath": "ussr-R170_IS_2_II.png"
+        "FileName": "ussr-R170_IS_2_II.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "IS_3_II",
         "Id": "R171",
         "Name": "IS 3 II",
-        "IconPath": "ussr-R171_IS_3_II.png"
+        "FileName": "ussr-R171_IS_3_II.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_752",
         "Id": "R172",
         "Name": "Object 752",
-        "IconPath": "ussr-R172_Object_752.png"
+        "FileName": "ussr-R172_Object_752.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "K_91_2",
         "Id": "R173",
         "Name": "K 91 2",
-        "IconPath": "ussr-R173_K_91_2.png"
+        "FileName": "ussr-R173_K_91_2.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "BT-5",
         "Id": "R174",
         "Name": "BT-5",
-        "IconPath": "ussr-R174_BT-5.png"
+        "FileName": "ussr-R174_BT-5.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "IS_2_screen",
         "Id": "R175",
         "Name": "IS 2 screen",
-        "IconPath": "ussr-R175_IS_2_screen.png"
+        "FileName": "ussr-R175_IS_2_screen.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "ISU_152K_BL10",
         "Id": "R177",
         "Name": "ISU 152K BL10",
-        "IconPath": "ussr-R177_ISU_152K_BL10.png"
+        "FileName": "ussr-R177_ISU_152K_BL10.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_780",
         "Id": "R178",
         "Name": "Object 780",
-        "IconPath": "ussr-R178_Object_780.png"
+        "FileName": "ussr-R178_Object_780.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU-100",
         "Id": "R17",
         "Name": "SU-100",
-        "IconPath": "ussr-R17_SU-100.png"
+        "FileName": "ussr-R17_SU-100.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_274_A",
         "Id": "R180",
         "Name": "Object 274 A",
-        "IconPath": "ussr-R180_Object_274_A.png"
+        "FileName": "ussr-R180_Object_274_A.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "K_91_PT",
         "Id": "R183",
         "Name": "K 91 PT",
-        "IconPath": "ussr-R183_K_91_PT.png"
+        "FileName": "ussr-R183_K_91_PT.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T_34_L_11_1941",
         "Id": "R185",
         "Name": "T 34 L 11 1941",
-        "IconPath": "ussr-R185_T_34_L_11_1941.png"
+        "FileName": "ussr-R185_T_34_L_11_1941.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU-152",
         "Id": "R18",
         "Name": "SU-152",
-        "IconPath": "ussr-R18_SU-152.png"
+        "FileName": "ussr-R18_SU-152.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU-152_IGR",
         "Id": "R18",
         "Name": "SU-152 IGR",
-        "IconPath": "ussr-R18_SU-152_IGR.png"
+        "FileName": "ussr-R18_SU-152_IGR.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "IS-3",
         "Id": "R19",
         "Name": "IS-3",
-        "IconPath": "ussr-R19_IS-3.png"
+        "FileName": "ussr-R19_IS-3.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "IS-3_IGR",
         "Id": "R19",
         "Name": "IS-3 IGR",
-        "IconPath": "ussr-R19_IS-3_IGR.png"
+        "FileName": "ussr-R19_IS-3_IGR.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-44",
         "Id": "R20",
         "Name": "T-44",
-        "IconPath": "ussr-R20_T-44.png"
+        "FileName": "ussr-R20_T-44.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-44_FL",
         "Id": "R20",
         "Name": "T-44 FL",
-        "IconPath": "ussr-R20_T-44_FL.png"
+        "FileName": "ussr-R20_T-44_FL.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-44_IGR",
         "Id": "R20",
         "Name": "T-44 IGR",
-        "IconPath": "ussr-R20_T-44_IGR.png"
+        "FileName": "ussr-R20_T-44_IGR.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-46",
         "Id": "R22",
         "Name": "T-46",
-        "IconPath": "ussr-R22_T-46.png"
+        "FileName": "ussr-R22_T-46.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-46_bootcamp",
         "Id": "R22",
         "Name": "T-46 bootcamp",
-        "IconPath": "ussr-R22_T-46_bootcamp.png"
+        "FileName": "ussr-R22_T-46_bootcamp.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-43",
         "Id": "R23",
         "Name": "T-43",
-        "IconPath": "ussr-R23_T-43.png"
+        "FileName": "ussr-R23_T-43.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-43_MapsTraining_Player_MT_2",
         "Id": "R23",
         "Name": "T-43 MapsTraining Player MT 2",
-        "IconPath": "ussr-R23_T-43_MapsTraining_Player_MT_2.png"
+        "FileName": "ussr-R23_T-43_MapsTraining_Player_MT_2.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU-76",
         "Id": "R24",
         "Name": "SU-76",
-        "IconPath": "ussr-R24_SU-76.png"
+        "FileName": "ussr-R24_SU-76.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "GAZ-74b",
         "Id": "R25",
         "Name": "GAZ-74b",
-        "IconPath": "ussr-R25_GAZ-74b.png"
+        "FileName": "ussr-R25_GAZ-74b.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU-8",
         "Id": "R26",
         "Name": "SU-8",
-        "IconPath": "ussr-R26_SU-8.png"
+        "FileName": "ussr-R26_SU-8.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU-14",
         "Id": "R27",
         "Name": "SU-14",
-        "IconPath": "ussr-R27_SU-14.png"
+        "FileName": "ussr-R27_SU-14.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Valentine_LL",
         "Id": "R31",
         "Name": "Valentine LL",
-        "IconPath": "ussr-R31_Valentine_LL.png"
+        "FileName": "ussr-R31_Valentine_LL.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Valentine_LL_IGR",
         "Id": "R31",
         "Name": "Valentine LL IGR",
-        "IconPath": "ussr-R31_Valentine_LL_IGR.png"
+        "FileName": "ussr-R31_Valentine_LL_IGR.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Matilda_II_LL",
         "Id": "R32",
         "Name": "Matilda II LL",
-        "IconPath": "ussr-R32_Matilda_II_LL.png"
+        "FileName": "ussr-R32_Matilda_II_LL.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Churchill_LL",
         "Id": "R33",
         "Name": "Churchill LL",
-        "IconPath": "ussr-R33_Churchill_LL.png"
+        "FileName": "ussr-R33_Churchill_LL.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "BT-SV",
         "Id": "R34",
         "Name": "BT-SV",
-        "IconPath": "ussr-R34_BT-SV.png"
+        "FileName": "ussr-R34_BT-SV.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV-220",
         "Id": "R38",
         "Name": "KV-220",
-        "IconPath": "ussr-R38_KV-220.png"
+        "FileName": "ussr-R38_KV-220.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV-220_beta",
         "Id": "R38",
         "Name": "KV-220 beta",
-        "IconPath": "ussr-R38_KV-220_beta.png"
+        "FileName": "ussr-R38_KV-220_beta.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV-3",
         "Id": "R39",
         "Name": "KV-3",
-        "IconPath": "ussr-R39_KV-3.png"
+        "FileName": "ussr-R39_KV-3.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-54",
         "Id": "R40",
         "Name": "T-54",
-        "IconPath": "ussr-R40_T-54.png"
+        "FileName": "ussr-R40_T-54.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-54_FL",
         "Id": "R40",
         "Name": "T-54 FL",
-        "IconPath": "ussr-R40_T-54_FL.png"
+        "FileName": "ussr-R40_T-54_FL.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-50",
         "Id": "R41",
         "Name": "T-50",
-        "IconPath": "ussr-R41_T-50.png"
+        "FileName": "ussr-R41_T-50.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-60",
         "Id": "R42",
         "Name": "T-60",
-        "IconPath": "ussr-R42_T-60.png"
+        "FileName": "ussr-R42_T-60.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-70",
         "Id": "R43",
         "Name": "T-70",
-        "IconPath": "ussr-R43_T-70.png"
+        "FileName": "ussr-R43_T-70.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-70_bootcamp",
         "Id": "R43",
         "Name": "T-70 bootcamp",
-        "IconPath": "ussr-R43_T-70_bootcamp.png"
+        "FileName": "ussr-R43_T-70_bootcamp.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T80",
         "Id": "R44",
         "Name": "T80",
-        "IconPath": "ussr-R44_T80.png"
+        "FileName": "ussr-R44_T80.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T80_MapsTraining_Dummy_LT_1",
         "Id": "R44",
         "Name": "T80 MapsTraining Dummy LT 1",
-        "IconPath": "ussr-R44_T80_MapsTraining_Dummy_LT_1.png"
+        "FileName": "ussr-R44_T80_MapsTraining_Dummy_LT_1.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "IS-7",
         "Id": "R45",
         "Name": "IS-7",
-        "IconPath": "ussr-R45_IS-7.png"
+        "FileName": "ussr-R45_IS-7.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "IS-7_fallout",
         "Id": "R45",
         "Name": "IS-7 fallout",
-        "IconPath": "ussr-R45_IS-7_fallout.png"
+        "FileName": "ussr-R45_IS-7_fallout.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "IS-7_IGR",
         "Id": "R45",
         "Name": "IS-7 IGR",
-        "IconPath": "ussr-R45_IS-7_IGR.png"
+        "FileName": "ussr-R45_IS-7_IGR.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV-13",
         "Id": "R46",
         "Name": "KV-13",
-        "IconPath": "ussr-R46_KV-13.png"
+        "FileName": "ussr-R46_KV-13.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV-13_SH",
         "Id": "R46",
         "Name": "KV-13 SH",
-        "IconPath": "ussr-R46_KV-13_SH.png"
+        "FileName": "ussr-R46_KV-13_SH.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "ISU-152",
         "Id": "R47",
         "Name": "ISU-152",
-        "IconPath": "ussr-R47_ISU-152.png"
+        "FileName": "ussr-R47_ISU-152.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "ISU-152_IGR",
         "Id": "R47",
         "Name": "ISU-152 IGR",
-        "IconPath": "ussr-R47_ISU-152_IGR.png"
+        "FileName": "ussr-R47_ISU-152_IGR.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU100Y",
         "Id": "R49",
         "Name": "SU100Y",
-        "IconPath": "ussr-R49_SU100Y.png"
+        "FileName": "ussr-R49_SU100Y.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU76I",
         "Id": "R50",
         "Name": "SU76I",
-        "IconPath": "ussr-R50_SU76I.png"
+        "FileName": "ussr-R50_SU76I.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU76I_bootcamp",
         "Id": "R50",
         "Name": "SU76I bootcamp",
-        "IconPath": "ussr-R50_SU76I_bootcamp.png"
+        "FileName": "ussr-R50_SU76I_bootcamp.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_212",
         "Id": "R51",
         "Name": "Object 212",
-        "IconPath": "ussr-R51_Object_212.png"
+        "FileName": "ussr-R51_Object_212.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_261",
         "Id": "R52",
         "Name": "Object 261",
-        "IconPath": "ussr-R52_Object_261.png"
+        "FileName": "ussr-R52_Object_261.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_704",
         "Id": "R53",
         "Name": "Object 704",
-        "IconPath": "ussr-R53_Object_704.png"
+        "FileName": "ussr-R53_Object_704.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV-5",
         "Id": "R54",
         "Name": "KV-5",
-        "IconPath": "ussr-R54_KV-5.png"
+        "FileName": "ussr-R54_KV-5.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV-5_IGR",
         "Id": "R54",
         "Name": "KV-5 IGR",
-        "IconPath": "ussr-R54_KV-5_IGR.png"
+        "FileName": "ussr-R54_KV-5_IGR.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T-127",
         "Id": "R56",
         "Name": "T-127",
-        "IconPath": "ussr-R56_T-127.png"
+        "FileName": "ussr-R56_T-127.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "A43",
         "Id": "R57",
         "Name": "A43",
-        "IconPath": "ussr-R57_A43.png"
+        "FileName": "ussr-R57_A43.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU-101",
         "Id": "R58",
         "Name": "SU-101",
-        "IconPath": "ussr-R58_SU-101.png"
+        "FileName": "ussr-R58_SU-101.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "A44",
         "Id": "R59",
         "Name": "A44",
-        "IconPath": "ussr-R59_A44.png"
+        "FileName": "ussr-R59_A44.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object416",
         "Id": "R60",
         "Name": "Object416",
-        "IconPath": "ussr-R60_Object416.png"
+        "FileName": "ussr-R60_Object416.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object252",
         "Id": "R61",
         "Name": "Object252",
-        "IconPath": "ussr-R61_Object252.png"
+        "FileName": "ussr-R61_Object252.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object252_BF",
         "Id": "R61",
         "Name": "Object252 BF",
-        "IconPath": "ussr-R61_Object252_BF.png"
+        "FileName": "ussr-R61_Object252_BF.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object252_FL",
         "Id": "R61",
         "Name": "Object252 FL",
-        "IconPath": "ussr-R61_Object252_FL.png"
+        "FileName": "ussr-R61_Object252_FL.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "ST_I",
         "Id": "R63",
         "Name": "ST I",
-        "IconPath": "ussr-R63_ST_I.png"
+        "FileName": "ussr-R63_ST_I.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU-26",
         "Id": "R66",
         "Name": "SU-26",
-        "IconPath": "ussr-R66_SU-26.png"
+        "FileName": "ussr-R66_SU-26.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "M3_LL",
         "Id": "R67",
         "Name": "M3 LL",
-        "IconPath": "ussr-R67_M3_LL.png"
+        "FileName": "ussr-R67_M3_LL.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "A-32",
         "Id": "R68",
         "Name": "A-32",
-        "IconPath": "ussr-R68_A-32.png"
+        "FileName": "ussr-R68_A-32.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T_50_2",
         "Id": "R70",
         "Name": "T 50 2",
-        "IconPath": "ussr-R70_T_50_2.png"
+        "FileName": "ussr-R70_T_50_2.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "IS_2B",
         "Id": "R71",
         "Name": "IS 2B",
-        "IconPath": "ussr-R71_IS_2B.png"
+        "FileName": "ussr-R71_IS_2B.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T150",
         "Id": "R72",
         "Name": "T150",
-        "IconPath": "ussr-R72_T150.png"
+        "FileName": "ussr-R72_T150.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T150_MapsTraining_Dummy_HT_2",
         "Id": "R72",
         "Name": "T150 MapsTraining Dummy HT 2",
-        "IconPath": "ussr-R72_T150_MapsTraining_Dummy_HT_2.png"
+        "FileName": "ussr-R72_T150_MapsTraining_Dummy_HT_2.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV4",
         "Id": "R73",
         "Name": "KV4",
-        "IconPath": "ussr-R73_KV4.png"
+        "FileName": "ussr-R73_KV4.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU100M1",
         "Id": "R74",
         "Name": "SU100M1",
-        "IconPath": "ussr-R74_SU100M1.png"
+        "FileName": "ussr-R74_SU100M1.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU122_54",
         "Id": "R75",
         "Name": "SU122 54",
-        "IconPath": "ussr-R75_SU122_54.png"
+        "FileName": "ussr-R75_SU122_54.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV2",
         "Id": "R77",
         "Name": "KV2",
-        "IconPath": "ussr-R77_KV2.png"
+        "FileName": "ussr-R77_KV2.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV2_IGR",
         "Id": "R77",
         "Name": "KV2 IGR",
-        "IconPath": "ussr-R77_KV2_IGR.png"
+        "FileName": "ussr-R77_KV2_IGR.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU_85I",
         "Id": "R78",
         "Name": "SU 85I",
-        "IconPath": "ussr-R78_SU_85I.png"
+        "FileName": "ussr-R78_SU_85I.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "KV1",
         "Id": "R80",
         "Name": "KV1",
-        "IconPath": "ussr-R80_KV1.png"
+        "FileName": "ussr-R80_KV1.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "IS8",
         "Id": "R81",
         "Name": "IS8",
-        "IconPath": "ussr-R81_IS8.png"
+        "FileName": "ussr-R81_IS8.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Tetrarch_LL",
         "Id": "R84",
         "Name": "Tetrarch LL",
-        "IconPath": "ussr-R84_Tetrarch_LL.png"
+        "FileName": "ussr-R84_Tetrarch_LL.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "LTP",
         "Id": "R86",
         "Name": "LTP",
-        "IconPath": "ussr-R86_LTP.png"
+        "FileName": "ussr-R86_LTP.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "LTP_bootcamp",
         "Id": "R86",
         "Name": "LTP bootcamp",
-        "IconPath": "ussr-R86_LTP_bootcamp.png"
+        "FileName": "ussr-R86_LTP_bootcamp.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T62A",
         "Id": "R87",
         "Name": "T62A",
-        "IconPath": "ussr-R87_T62A.png"
+        "FileName": "ussr-R87_T62A.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T62A_fallout",
         "Id": "R87",
         "Name": "T62A fallout",
-        "IconPath": "ussr-R87_T62A_fallout.png"
+        "FileName": "ussr-R87_T62A_fallout.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object268",
         "Id": "R88",
         "Name": "Object268",
-        "IconPath": "ussr-R88_Object268.png"
+        "FileName": "ussr-R88_Object268.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU122_44",
         "Id": "R89",
         "Name": "SU122 44",
-        "IconPath": "ussr-R89_SU122_44.png"
+        "FileName": "ussr-R89_SU122_44.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "IS_4M",
         "Id": "R90",
         "Name": "IS 4M",
-        "IconPath": "ussr-R90_IS_4M.png"
+        "FileName": "ussr-R90_IS_4M.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "SU14_1",
         "Id": "R91",
         "Name": "SU14 1",
-        "IconPath": "ussr-R91_SU14_1.png"
+        "FileName": "ussr-R91_SU14_1.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object263",
         "Id": "R93",
         "Name": "Object263",
-        "IconPath": "ussr-R93_Object263.png"
+        "FileName": "ussr-R93_Object263.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object263B",
         "Id": "R93",
         "Name": "Object263B",
-        "IconPath": "ussr-R93_Object263B.png"
+        "FileName": "ussr-R93_Object263B.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_907",
         "Id": "R95",
         "Name": "Object 907",
-        "IconPath": "ussr-R95_Object_907.png"
+        "FileName": "ussr-R95_Object_907.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_907A",
         "Id": "R95",
         "Name": "Object 907A",
-        "IconPath": "ussr-R95_Object_907A.png"
+        "FileName": "ussr-R95_Object_907A.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_430",
         "Id": "R96",
         "Name": "Object 430",
-        "IconPath": "ussr-R96_Object_430.png"
+        "FileName": "ussr-R96_Object_430.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_430B",
         "Id": "R96",
         "Name": "Object 430B",
-        "IconPath": "ussr-R96_Object_430B.png"
+        "FileName": "ussr-R96_Object_430B.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "Object_140",
         "Id": "R97",
         "Name": "Object 140",
-        "IconPath": "ussr-R97_Object_140.png"
+        "FileName": "ussr-R97_Object_140.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T44_85",
         "Id": "R98",
         "Name": "T44 85",
-        "IconPath": "ussr-R98_T44_85.png"
+        "FileName": "ussr-R98_T44_85.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T44_85M",
         "Id": "R98",
         "Name": "T44 85M",
-        "IconPath": "ussr-R98_T44_85M.png"
+        "FileName": "ussr-R98_T44_85M.png"
     },
     {
         "Nation": "ussr",
         "CodeName": "T44_122",
         "Id": "R99",
         "Name": "T44 122",
-        "IconPath": "ussr-R99_T44_122.png"
+        "FileName": "ussr-R99_T44_122.png"
     }
 ]

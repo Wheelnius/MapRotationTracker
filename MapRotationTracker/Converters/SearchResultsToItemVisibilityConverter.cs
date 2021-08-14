@@ -23,7 +23,7 @@ namespace MapRotationTracker.Converters
                 return Visibility.Hidden;
             }
 
-            if (value is MapImage[] results)
+            if (value is Map[] results)
             {
                 int len = results.Length;
                 return int.Parse(parameter.ToString()) <= len ? Visibility.Visible : Visibility.Hidden;

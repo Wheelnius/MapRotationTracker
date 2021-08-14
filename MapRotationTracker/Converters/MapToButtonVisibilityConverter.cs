@@ -4,24 +4,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Data;
 
 namespace MapRotationTracker.Converters
 {
-    public class MapImageToSourceConverter : IValueConverter
+    public class MapToButtonVisibilityConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
             if (value == null)
-                return null;
+                return Visibility.Visible;
 
-            if (value is MapImage)
+            if (value is Map)
             {
-                MapImage map = value as MapImage;
-                return map.ImagePath;
+                Map map = value as Map;
+
+                if (map.Id == 0)
+                    return Visibility.Hidden;
             }
 
-            return null;
+            return Visibility.Visible;
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)

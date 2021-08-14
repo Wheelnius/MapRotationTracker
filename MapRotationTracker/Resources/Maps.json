@@ -3,348 +3,348 @@
         "Id": 0,
         "Name": "None",
         "FullName": "None",
-        "IconPath": "default_map.png"
+        "FileName": "default_map.png"
     },
     {
         "Id": 1,
         "Name": "Karelia",
         "CodeName": "01_karelia",
-        "IconPath": "01_karelia.png"
+        "FileName": "01_karelia.png"
     },
     {
         "Id": 2,
         "Name": "Malinovka",
         "CodeName": "02_malinovka",
-        "IconPath": "02_malinovka.png"
+        "FileName": "02_malinovka.png"
     },
     {
         "Id": 3,
         "Name": "Province",
         "CodeName": "03_campania_big",
-        "IconPath": "03_campania_big.png"
+        "FileName": "03_campania_big.png"
     },
     {
         "Id": 4,
         "Name": "Himmelsdorf",
         "CodeName": "04_himmelsdorf",
-        "IconPath": "04_himmelsdorf.png"
+        "FileName": "04_himmelsdorf.png"
     },
     {
         "Id": 5,
         "Name": "Prohorovka",
         "CodeName": "05_prohorovka",
-        "IconPath": "05_prohorovka.png"
+        "FileName": "05_prohorovka.png"
     },
     {
         "Id": 6,
         "Name": "Ensk",
         "CodeName": "06_ensk",
-        "IconPath": "06_ensk.png"
+        "FileName": "06_ensk.png"
     },
     {
         "Id": 7,
         "Name": "Lakeville",
         "CodeName": "07_lakeville",
-        "IconPath": "07_lakeville.png"
+        "FileName": "07_lakeville.png"
     },
     {
         "Id": 8,
         "Name": "Ruinberg",
         "CodeName": "08_ruinberg",
-        "IconPath": "08_ruinberg.png"
+        "FileName": "08_ruinberg.png"
     },
     {
         "Id": 101,
         "Name": "Overlord",
         "CodeName": "101_dday",
-        "IconPath": "101_dday.png"
+        "FileName": "101_dday.png"
     },
     {
         "Id": 105,
         "Name": "Berlin",
         "CodeName": "105_germany",
-        "IconPath": "105_germany.png"
+        "FileName": "105_germany.png"
     },
     {
         "Id": 10,
         "Name": "Mines",
         "CodeName": "10_hills",
-        "IconPath": "10_hills.png"
+        "FileName": "10_hills.png"
     },
     {
         "Id": 112,
         "Name": "Paris",
         "CodeName": "112_eiffel_tower_ctf",
-        "IconPath": "112_eiffel_tower_ctf.png"
+        "FileName": "112_eiffel_tower_ctf.png"
     },
     {
         "Id": 114,
         "Name": "Pilsen",
         "CodeName": "114_czech",
-        "IconPath": "114_czech.png"
+        "FileName": "114_czech.png"
     },
     {
         "Id": 115,
         "Name": "Glacier",
         "CodeName": "115_sweden",
-        "IconPath": "115_sweden.png"
+        "FileName": "115_sweden.png"
     },
     {
         "Id": 117,
         "Name": "Unknown",
         "CodeName": "117_canyon_ish",
-        "IconPath": "117_canyon_ish.png"
+        "FileName": "117_canyon_ish.png"
     },
     {
         "Id": 119,
         "Name": "Unknown",
         "CodeName": "119_turning_point_if",
-        "IconPath": "119_turning_point_if.png"
+        "FileName": "119_turning_point_if.png"
     },
     {
         "Id": 11,
         "Name": "Murovanka",
         "CodeName": "11_murovanka",
-        "IconPath": "11_murovanka.png"
+        "FileName": "11_murovanka.png"
     },
     {
         "Id": 120,
         "Name": "Unknown",
         "CodeName": "120_graf_zeppelin_ish",
-        "IconPath": "120_graf_zeppelin_ish.png"
+        "FileName": "120_graf_zeppelin_ish.png"
     },
     {
         "Id": 121,
         "Name": "Unknown",
         "CodeName": "121_lost_paradise_v",
-        "IconPath": "121_lost_paradise_v.png"
+        "FileName": "121_lost_paradise_v.png"
     },
     {
         "Id": 122,
         "Name": "Unknown",
         "CodeName": "122_frozen_land",
-        "IconPath": "122_frozen_land.png"
+        "FileName": "122_frozen_land.png"
     },
     {
         "Id": 123,
         "Name": "Unknown",
         "CodeName": "123_dalny_gg",
-        "IconPath": "123_dalny_gg.png"
+        "FileName": "123_dalny_gg.png"
     },
     {
         "Id": 125,
         "Name": "Unknown",
         "CodeName": "125_highground_v",
-        "IconPath": "125_highground_v.png"
+        "FileName": "125_highground_v.png"
     },
     {
         "Id": 126,
         "Name": "Unknown",
         "CodeName": "126_asia_ravine_ish",
-        "IconPath": "126_asia_ravine_ish.png"
+        "FileName": "126_asia_ravine_ish.png"
     },
     {
         "Id": 127,
         "Name": "Unknown",
         "CodeName": "127_japort",
-        "IconPath": "127_japort.png"
+        "FileName": "127_japort.png"
     },
     {
         "Id": 128,
         "Name": "Unknown",
         "CodeName": "128_last_frontier_v",
-        "IconPath": "128_last_frontier_v.png"
+        "FileName": "128_last_frontier_v.png"
     },
     {
         "Id": 13,
         "Name": "Erlenberg",
         "CodeName": "13_erlenberg",
-        "IconPath": "13_erlenberg.png"
+        "FileName": "13_erlenberg.png"
     },
     {
         "Id": 14,
         "Name": "Siegfried Line",
         "CodeName": "14_siegfried_line",
-        "IconPath": "14_siegfried_line.png"
+        "FileName": "14_siegfried_line.png"
     },
     {
         "Id": 17,
         "Name": "Widepark",
         "CodeName": "17_munchen",
-        "IconPath": "17_munchen.png"
+        "FileName": "17_munchen.png"
     },
     {
         "Id": 18,
         "Name": "Cliff",
         "CodeName": "18_cliff",
-        "IconPath": "18_cliff.png"
+        "FileName": "18_cliff.png"
     },
     {
         "Id": 19,
         "Name": "Abbey",
         "CodeName": "19_monastery",
-        "IconPath": "19_monastery.png"
+        "FileName": "19_monastery.png"
     },
     {
         "Id": 208,
         "Name": "Unknown",
         "CodeName": "208_bf_epic_normandy",
-        "IconPath": "208_bf_epic_normandy.png"
+        "FileName": "208_bf_epic_normandy.png"
     },
     {
         "Id": 209,
         "Name": "Unknown",
         "CodeName": "209_wg_epic_suburbia",
-        "IconPath": "209_wg_epic_suburbia.png"
+        "FileName": "209_wg_epic_suburbia.png"
     },
     {
         "Id": 212,
         "Name": "Unknown",
         "CodeName": "212_epic_random_valley",
-        "IconPath": "212_epic_random_valley.png"
+        "FileName": "212_epic_random_valley.png"
     },
     {
         "Id": 217,
         "Name": "Unknown",
         "CodeName": "217_er_alaska",
-        "IconPath": "217_er_alaska.png"
+        "FileName": "217_er_alaska.png"
     },
     {
         "Id": 222,
         "Name": "Unknown",
         "CodeName": "222_er_clime",
-        "IconPath": "222_er_clime.png"
+        "FileName": "222_er_clime.png"
     },
     {
         "Id": 23,
         "Name": "Westfield",
         "CodeName": "23_westfeld",
-        "IconPath": "23_westfeld.png"
+        "FileName": "23_westfeld.png"
     },
     {
         "Id": 250,
         "Name": "Unknown",
         "CodeName": "250_br_battle_city2-1",
-        "IconPath": "250_br_battle_city2-1.png"
+        "FileName": "250_br_battle_city2-1.png"
     },
     {
         "Id": 251,
         "Name": "Unknown",
         "CodeName": "251_br_battle_city3",
-        "IconPath": "251_br_battle_city3.png"
+        "FileName": "251_br_battle_city3.png"
     },
     {
         "Id": 28,
         "Name": "Sand River",
         "CodeName": "28_desert",
-        "IconPath": "28_desert.png"
+        "FileName": "28_desert.png"
     },
     {
         "Id": 29,
         "Name": "El Halluf",
         "CodeName": "29_el_hallouf",
-        "IconPath": "29_el_hallouf.png"
+        "FileName": "29_el_hallouf.png"
     },
     {
         "Id": 31,
         "Name": "Airfield",
         "CodeName": "31_airfield",
-        "IconPath": "31_airfield.png"
+        "FileName": "31_airfield.png"
     },
     {
         "Id": 33,
         "Name": "Fjords",
         "CodeName": "33_fjord",
-        "IconPath": "33_fjord.png"
+        "FileName": "33_fjord.png"
     },
     {
         "Id": 34,
         "Name": "Redshire",
         "CodeName": "34_redshire",
-        "IconPath": "34_redshire.png"
+        "FileName": "34_redshire.png"
     },
     {
         "Id": 35,
         "Name": "Steppes",
         "CodeName": "35_steppes",
-        "IconPath": "35_steppes.png"
+        "FileName": "35_steppes.png"
     },
     {
         "Id": 36,
         "Name": "Fishermans Bay",
         "CodeName": "36_fishing_bay",
-        "IconPath": "36_fishing_bay.png"
+        "FileName": "36_fishing_bay.png"
     },
     {
         "Id": 37,
         "Name": "Mountain Pass",
         "CodeName": "37_caucasus",
-        "IconPath": "37_caucasus.png"
+        "FileName": "37_caucasus.png"
     },
     {
         "Id": 38,
         "Name": "Arctic Region",
         "CodeName": "38_mannerheim_line",
-        "IconPath": "38_mannerheim_line.png"
+        "FileName": "38_mannerheim_line.png"
     },
     {
         "Id": 44,
         "Name": "Live Oaks",
         "CodeName": "44_north_america",
-        "IconPath": "44_north_america.png"
+        "FileName": "44_north_america.png"
     },
     {
         "Id": 45,
         "Name": "Highway",
         "CodeName": "45_north_america",
-        "IconPath": "45_north_america.png"
+        "FileName": "45_north_america.png"
     },
     {
         "Id": 47,
         "Name": "Serene Coast",
         "CodeName": "47_canada_a",
-        "IconPath": "47_canada_a.png"
+        "FileName": "47_canada_a.png"
     },
     {
         "Id": 59,
         "Name": "Empire Border",
         "CodeName": "59_asia_great_wall",
-        "IconPath": "59_asia_great_wall.png"
+        "FileName": "59_asia_great_wall.png"
     },
     {
         "Id": 60,
         "Name": "Pearl River",
         "CodeName": "60_asia_miao",
-        "IconPath": "60_asia_miao.png"
+        "FileName": "60_asia_miao.png"
     },
     {
         "Id": 63,
         "Name": "Tundra",
         "CodeName": "63_tundra",
-        "IconPath": "63_tundra.png"
+        "FileName": "63_tundra.png"
     },
     {
         "Id": 83,
         "Name": "Kharkov",
         "CodeName": "83_kharkiv",
-        "IconPath": "83_kharkiv.png"
+        "FileName": "83_kharkiv.png"
     },
     {
         "Id": 90,
         "Name": "Minsk",
         "CodeName": "90_minsk",
-        "IconPath": "90_minsk.png"
+        "FileName": "90_minsk.png"
     },
     {
         "Id": 95,
         "Name": "Ghost Town",
         "CodeName": "95_lost_city_ctf",
-        "IconPath": "95_lost_city_ctf.png"
+        "FileName": "95_lost_city_ctf.png"
     },
     {
         "Id": 99,
         "Name": "Studzianki",
         "CodeName": "99_poland",
-        "IconPath": "99_poland.png"
+        "FileName": "99_poland.png"
     }
 ]
