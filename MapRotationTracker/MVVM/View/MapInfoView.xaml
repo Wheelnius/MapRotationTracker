@@ -22,22 +22,36 @@
                     Background="#1F211F">
             </Border>
         </StackPanel>
-        <StackPanel Orientation="Horizontal" 
+        <StackPanel Orientation="Vertical" 
                     Margin="0,20,0,0" 
                     Background="#1F211F"
                     Height="245">
-            <ScrollViewer Width="760" Margin="20">
+            <StackPanel Orientation="Horizontal" Height="40" Width="800">
+                <Border Width="800" BorderBrush="DeepSkyBlue" BorderThickness="0,0,0,1.5">
+                    <Border.Effect>
+                        <DropShadowEffect Color="LightBlue" ShadowDepth="2"/>
+                    </Border.Effect>
+                </Border>
+            </StackPanel>
+            <ScrollViewer Width="800" Height="205" VerticalScrollBarVisibility="Hidden">
                 <ItemsControl ItemsSource="{Binding Tanks}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
-                            <Border>
-                                
+                            <Border BorderThickness="0,0,0,1" BorderBrush="DeepSkyBlue" Width="760" HorizontalAlignment="Center">
+                                <Border.Effect>
+                                    <DropShadowEffect Color="LightBlue" ShadowDepth="2"/>
+                                </Border.Effect>
+                                <StackPanel Orientation="Horizontal" Height="80">
+                                    <Image Source="{Binding Tank.Path}" Margin="20,0,0,0" Stretch="Fill" Width="80" Height="50"></Image>
+                                    <TextBlock Width="300" Margin="20,0,0,0" Foreground="White" FontSize="18" FontFamily="Calibri" Text="{Binding Tank.Name}" VerticalAlignment="Center"></TextBlock>
+                                    <TextBlock Width="100" Margin="20,0,0,0" Foreground="White" FontSize="18" FontFamily="Calibri" Text="{Binding Winrate}" VerticalAlignment="Center"></TextBlock>
+                                    <TextBlock Width="100" Margin="20,0,0,0" Foreground="White" FontSize="18" FontFamily="Calibri" Text="{Binding TimesPlayed}" VerticalAlignment="Center"></TextBlock>
+                                </StackPanel>
                             </Border>
                         </DataTemplate>
                     </ItemsControl.ItemTemplate>
                 </ItemsControl>
             </ScrollViewer>
         </StackPanel>
-        <TextBlock Foreground="White" Text="{Binding CurrentMap.Name}"></TextBlock>
     </StackPanel>
 </UserControl>

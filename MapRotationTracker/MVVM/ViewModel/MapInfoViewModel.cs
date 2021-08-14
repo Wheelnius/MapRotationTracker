@@ -21,9 +21,9 @@ namespace MapRotationTracker.MVVM.ViewModel
             }
         }
 
-        private Tank[] _tanks;
+        private TankStatistic[] _tanks;
 
-        public Tank[] Tanks
+        public TankStatistic[] Tanks
         {
             get { return _tanks; }
             set { _tanks = value;
@@ -34,7 +34,23 @@ namespace MapRotationTracker.MVVM.ViewModel
         public MapInfoViewModel()
         {
             var tanks = JsonConvert.DeserializeObject<Tank[]>(Encoding.UTF8.GetString(Properties.Resources.Tanks));
-            Tanks = tanks;
+            Random r = new Random();
+
+            Tanks = tanks.Select(m => new TankStatistic()
+            {
+                TimesPlayed = r.Next(0,100),
+                Winrate = (((double)r.Next(4000, 6000))/100).ToString() + '%',
+                Tank = new Tank()
+                {
+                    Nation = m.Nation,
+                    CodeName = m.CodeName,
+                    FileName = m.FileName,
+                    Name = m.Name,
+                    Path = @"/MapRotationTracker;component/Resources/" + m.FileName
+                }
+
+            }).OrderByDescending(t => t.TimesPlayed).Take(50).ToArray();
+
         }
     }
 }

@@ -35,7 +35,7 @@ namespace MapRotationTracker.MVVM.ViewModel
 
             var maps = JsonConvert.DeserializeObject<Map[]>(Encoding.UTF8.GetString(Properties.Resources.Maps));
 
-            this.Maps = maps.Select(m => new Map()
+            Maps = maps.Select(m => new Map()
             {
                 CodeName = m.CodeName,
                 FileName = m.FileName,
