@@ -56,7 +56,7 @@ namespace MapRotationTracker.Controls
         {
             return new MapImage()
             {
-                ImagePath = @"/MapRotationTracker;component/Images/default_map.png",
+                ImagePath = @"/MapRotationTracker;component/Resources/default_map.png",
                 MapName = "None"
             };
         }

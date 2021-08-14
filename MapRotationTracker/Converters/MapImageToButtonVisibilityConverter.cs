@@ -20,7 +20,7 @@ namespace MapRotationTracker.Converters
             {
                 MapImage map = value as MapImage;
 
-                if (map.Map == Enums.Map.Not_Played)
+                if (map.Map?.Id == 0)
                     return Visibility.Hidden;
             }
 

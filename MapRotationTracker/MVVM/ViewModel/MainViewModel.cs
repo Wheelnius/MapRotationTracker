@@ -68,7 +68,13 @@ namespace MapRotationTracker.MVVM.ViewModel
             MapInfoVM = new MapInfoViewModel();
             SettingsVM = new SettingsViewModel();
 
-            _mapImages = JsonConvert.DeserializeObject<MapImage[]>(File.ReadAllText(@"C:\Users\luxoi\source\repos\MapRotationTracker\MapRotationTracker\Images\images.json"));
+            var maps = JsonConvert.DeserializeObject<Map[]>(Encoding.UTF8.GetString(Properties.Resources.Maps));
+            _mapImages = maps.Select(m => new MapImage()
+            {
+                ImagePath = @"/MapRotationTracker;component/Resources/" + m.IconPath,
+                Map = m,
+                MapName = m.Name
+            }).ToArray();
 
             CurrentView = MapListVM;
 

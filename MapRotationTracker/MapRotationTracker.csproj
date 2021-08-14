@@ -6,58 +6,69 @@
     <UseWPF>true</UseWPF>
     <UseWindowsForms>true</UseWindowsForms>
     <Platforms>AnyCPU;x86</Platforms>
+    <ApplicationIcon />
+    <Win32Resource />
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Images\1.png" />
-    <None Remove="Images\10.png" />
-    <None Remove="Images\101.png" />
-    <None Remove="Images\105.png" />
-    <None Remove="Images\11.png" />
-    <None Remove="Images\112.png" />
-    <None Remove="Images\114.png" />
-    <None Remove="Images\115.png" />
-    <None Remove="Images\13.png" />
-    <None Remove="Images\14.png" />
-    <None Remove="Images\17.png" />
-    <None Remove="Images\18.png" />
-    <None Remove="Images\19.png" />
-    <None Remove="Images\2.png" />
-    <None Remove="Images\208.png" />
-    <None Remove="Images\209.png" />
-    <None Remove="Images\212.png" />
-    <None Remove="Images\217.png" />
-    <None Remove="Images\222.png" />
-    <None Remove="Images\23.png" />
-    <None Remove="Images\250.png" />
-    <None Remove="Images\251.png" />
-    <None Remove="Images\28.png" />
-    <None Remove="Images\29.png" />
-    <None Remove="Images\3.png" />
-    <None Remove="Images\31.png" />
-    <None Remove="Images\33.png" />
-    <None Remove="Images\34.png" />
-    <None Remove="Images\35.png" />
-    <None Remove="Images\36.png" />
-    <None Remove="Images\37.png" />
-    <None Remove="Images\38.png" />
-    <None Remove="Images\4.png" />
-    <None Remove="Images\44.png" />
-    <None Remove="Images\45.png" />
-    <None Remove="Images\47.png" />
-    <None Remove="Images\5.png" />
-    <None Remove="Images\59.png" />
-    <None Remove="Images\6.png" />
-    <None Remove="Images\60.png" />
-    <None Remove="Images\63.png" />
-    <None Remove="Images\7.png" />
-    <None Remove="Images\8.png" />
-    <None Remove="Images\83.png" />
-    <None Remove="Images\90.png" />
-    <None Remove="Images\95.png" />
-    <None Remove="Images\99.png" />
-    <None Remove="Images\default_map.png" />
-    <None Remove="Images\images.json" />
+    <None Remove="Resources\01_karelia.png" />
+    <None Remove="Resources\02_malinovka.png" />
+    <None Remove="Resources\03_campania_big.png" />
+    <None Remove="Resources\04_himmelsdorf.png" />
+    <None Remove="Resources\05_prohorovka.png" />
+    <None Remove="Resources\06_ensk.png" />
+    <None Remove="Resources\07_lakeville.png" />
+    <None Remove="Resources\08_ruinberg.png" />
+    <None Remove="Resources\101_dday.png" />
+    <None Remove="Resources\105_germany.png" />
+    <None Remove="Resources\10_hills.png" />
+    <None Remove="Resources\112_eiffel_tower_ctf.png" />
+    <None Remove="Resources\114_czech.png" />
+    <None Remove="Resources\115_sweden.png" />
+    <None Remove="Resources\117_canyon_ish.png" />
+    <None Remove="Resources\119_turning_point_if.png" />
+    <None Remove="Resources\11_murovanka.png" />
+    <None Remove="Resources\120_graf_zeppelin_ish.png" />
+    <None Remove="Resources\121_lost_paradise_v.png" />
+    <None Remove="Resources\122_frozen_land.png" />
+    <None Remove="Resources\123_dalny_gg.png" />
+    <None Remove="Resources\125_highground_v.png" />
+    <None Remove="Resources\126_asia_ravine_ish.png" />
+    <None Remove="Resources\127_japort.png" />
+    <None Remove="Resources\128_last_frontier_v.png" />
+    <None Remove="Resources\13_erlenberg.png" />
+    <None Remove="Resources\14_siegfried_line.png" />
+    <None Remove="Resources\17_munchen.png" />
+    <None Remove="Resources\18_cliff.png" />
+    <None Remove="Resources\19_monastery.png" />
+    <None Remove="Resources\208_bf_epic_normandy.png" />
+    <None Remove="Resources\209_wg_epic_suburbia.png" />
+    <None Remove="Resources\212_epic_random_valley.png" />
+    <None Remove="Resources\217_er_alaska.png" />
+    <None Remove="Resources\222_er_clime.png" />
+    <None Remove="Resources\23_westfeld.png" />
+    <None Remove="Resources\250_br_battle_city2-1.png" />
+    <None Remove="Resources\251_br_battle_city3.png" />
+    <None Remove="Resources\28_desert.png" />
+    <None Remove="Resources\29_el_hallouf.png" />
+    <None Remove="Resources\31_airfield.png" />
+    <None Remove="Resources\33_fjord.png" />
+    <None Remove="Resources\34_redshire.png" />
+    <None Remove="Resources\35_steppes.png" />
+    <None Remove="Resources\36_fishing_bay.png" />
+    <None Remove="Resources\37_caucasus.png" />
+    <None Remove="Resources\38_mannerheim_line.png" />
+    <None Remove="Resources\44_north_america.png" />
+    <None Remove="Resources\45_north_america.png" />
+    <None Remove="Resources\47_canada_a.png" />
+    <None Remove="Resources\59_asia_great_wall.png" />
+    <None Remove="Resources\60_asia_miao.png" />
+    <None Remove="Resources\63_tundra.png" />
+    <None Remove="Resources\83_kharkiv.png" />
+    <None Remove="Resources\90_minsk.png" />
+    <None Remove="Resources\95_lost_city_ctf.png" />
+    <None Remove="Resources\99_poland.png" />
+    <None Remove="Resources\default_map.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -65,161 +76,89 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Images\1.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Resource Include="Resources\01_karelia.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Images\10.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Resource Include="Resources\02_malinovka.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Images\101.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\105.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\11.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\112.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\114.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\115.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\13.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\14.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\17.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\18.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\19.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\2.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\208.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\209.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\212.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\217.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\222.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\23.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\250.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\251.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\28.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\29.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\3.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\31.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\33.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\34.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\35.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\36.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\37.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\38.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\4.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\44.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\45.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\47.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\5.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\59.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\6.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\60.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\63.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\7.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\8.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\83.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\90.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\95.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\99.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\default_map.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\images.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
+    <Resource Include="Resources\03_campania_big.png" />
+    <Resource Include="Resources\04_himmelsdorf.png" />
+    <Resource Include="Resources\05_prohorovka.png" />
+    <Resource Include="Resources\06_ensk.png" />
+    <Resource Include="Resources\07_lakeville.png" />
+    <Resource Include="Resources\08_ruinberg.png" />
+    <Resource Include="Resources\101_dday.png" />
+    <Resource Include="Resources\105_germany.png" />
+    <Resource Include="Resources\10_hills.png" />
+    <Resource Include="Resources\112_eiffel_tower_ctf.png" />
+    <Resource Include="Resources\114_czech.png" />
+    <Resource Include="Resources\115_sweden.png" />
+    <Resource Include="Resources\117_canyon_ish.png" />
+    <Resource Include="Resources\119_turning_point_if.png" />
+    <Resource Include="Resources\11_murovanka.png" />
+    <Resource Include="Resources\120_graf_zeppelin_ish.png" />
+    <Resource Include="Resources\121_lost_paradise_v.png" />
+    <Resource Include="Resources\122_frozen_land.png" />
+    <Resource Include="Resources\123_dalny_gg.png" />
+    <Resource Include="Resources\125_highground_v.png" />
+    <Resource Include="Resources\126_asia_ravine_ish.png" />
+    <Resource Include="Resources\127_japort.png" />
+    <Resource Include="Resources\128_last_frontier_v.png" />
+    <Resource Include="Resources\13_erlenberg.png" />
+    <Resource Include="Resources\14_siegfried_line.png" />
+    <Resource Include="Resources\17_munchen.png" />
+    <Resource Include="Resources\18_cliff.png" />
+    <Resource Include="Resources\19_monastery.png" />
+    <Resource Include="Resources\208_bf_epic_normandy.png" />
+    <Resource Include="Resources\209_wg_epic_suburbia.png" />
+    <Resource Include="Resources\212_epic_random_valley.png" />
+    <Resource Include="Resources\217_er_alaska.png" />
+    <Resource Include="Resources\222_er_clime.png" />
+    <Resource Include="Resources\23_westfeld.png" />
+    <Resource Include="Resources\250_br_battle_city2-1.png" />
+    <Resource Include="Resources\251_br_battle_city3.png" />
+    <Resource Include="Resources\28_desert.png" />
+    <Resource Include="Resources\29_el_hallouf.png" />
+    <Resource Include="Resources\31_airfield.png" />
+    <Resource Include="Resources\33_fjord.png" />
+    <Resource Include="Resources\34_redshire.png" />
+    <Resource Include="Resources\35_steppes.png" />
+    <Resource Include="Resources\36_fishing_bay.png" />
+    <Resource Include="Resources\37_caucasus.png" />
+    <Resource Include="Resources\38_mannerheim_line.png" />
+    <Resource Include="Resources\44_north_america.png" />
+    <Resource Include="Resources\45_north_america.png" />
+    <Resource Include="Resources\47_canada_a.png" />
+    <Resource Include="Resources\59_asia_great_wall.png" />
+    <Resource Include="Resources\60_asia_miao.png" />
+    <Resource Include="Resources\63_tundra.png" />
+    <Resource Include="Resources\83_kharkiv.png" />
+    <Resource Include="Resources\90_minsk.png" />
+    <Resource Include="Resources\95_lost_city_ctf.png" />
+    <Resource Include="Resources\99_poland.png" />
+    <Resource Include="Resources\default_map.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Update="Properties\Settings.Designer.cs">
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
