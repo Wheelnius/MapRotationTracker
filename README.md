@@ -1,3 +1,6 @@
+*DISCLAIMER*
+I do not claim own or claim to own any of the game resources used in this project. All rights belong to Wargaming Group Limited.
+
 # MapRotationTracker
 
 Refactoring project for the original Rotation Tracker. Currently focusing on applying the best MVVM practices, keeping code clean and consistent.
