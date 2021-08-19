@@ -33,7 +33,7 @@
                     </Border.Effect>
                 </Border>
             </StackPanel>
-            <ScrollViewer Width="800" Height="205" VerticalScrollBarVisibility="Hidden">
+            <ScrollViewer Width="800" Height="205" VerticalScrollBarVisibility="Auto" CanContentScroll="False">
                 <ItemsControl ItemsSource="{Binding Tanks}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>

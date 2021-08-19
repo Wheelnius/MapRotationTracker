@@ -23,17 +23,16 @@
             <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
                 <view:HomeView/>
             </DataTemplate>
-
             <DataTemplate DataType="{x:Type viewModel:MapListViewModel}">
                 <view:MapListView/>
             </DataTemplate>
-
             <DataTemplate DataType="{x:Type viewModel:MapInfoViewModel}">
                 <view:MapInfoView/>
             </DataTemplate>
             <DataTemplate DataType="{x:Type viewModel:SettingsViewModel}">
                 <view:SettingsView/>
             </DataTemplate>
+            
         </ResourceDictionary>
         
         

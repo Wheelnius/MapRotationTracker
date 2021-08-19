@@ -49,7 +49,7 @@ namespace MapRotationTracker.MVVM.ViewModel
                     Path = @"/MapRotationTracker;component/Resources/" + m.FileName
                 }
 
-            }).OrderByDescending(t => t.TimesPlayed).Take(50).ToArray();
+            }).OrderByDescending(t => t.TimesPlayed).Take(10).ToArray();
 
         }
     }

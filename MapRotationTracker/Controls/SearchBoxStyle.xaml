@@ -1,0 +1,87 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"                    
+                    xmlns:local="clr-namespace:MapRotationTracker.Controls"
+                    xmlns:converters="clr-namespace:MapRotationTracker.Converters" xmlns:viewModel="clr-namespace:MapRotationTracker.MVVM.ViewModel">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/MapRotationTracker;component/Style/SearchRadioButtonTheme.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <Style TargetType="local:SearchBox" 
+           BasedOn="{StaticResource {x:Type TextBox}}">
+        <Setter Property="Background" Value="Wheat"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:SearchBox">
+
+                    <ControlTemplate.Resources>
+                        <converters:SearchResultsToStackPanelSizeConverter x:Key="SearchResultsToStackPanelSizeConverter"/>
+                        <converters:SearchResultsToItemVisibilityConverter x:Key="SearchResultsToItemVisibilityConverter"/>
+                        <converters:SearchResultsToClipRectConverter x:Key="SearchResultsToClipRectConverter"/>
+                    </ControlTemplate.Resources>
+
+                    <Border CornerRadius="8" x:Name="SearchBorder"
+                            Background="#2F3F3F"
+                            Margin="0,10,0,0"
+                            Width="200"
+                            Height="{TemplateBinding SearchResults, Converter={StaticResource SearchResultsToStackPanelSizeConverter}, ConverterParameter=8}">
+                        <Border.Clip>
+                            <RectangleGeometry RadiusX="8" RadiusY="8" Rect="{Binding SearchResults, 
+    RelativeSource={RelativeSource AncestorType=local:SearchBox}, Converter={StaticResource SearchResultsToClipRectConverter}}"/>
+                        </Border.Clip>
+                        <Grid>
+                            <TextBox Margin="8,12,0,0"
+                                     Text="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Text, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                     BorderThickness="0"
+                                     Background="Transparent"
+                                     Foreground="White"
+                                     VerticalContentAlignment="Top"                                    
+                                     x:Name="SearchBox"
+                                     Height="{TemplateBinding Height}">
+                            </TextBox>
+                            <TextBlock IsHitTestVisible="False"
+                                       Text="Search maps.."
+                                       VerticalAlignment="Top"
+                                       HorizontalAlignment="Left"
+                                       FontSize="11"
+                                       Margin="10,12,0,0"
+                                       Foreground="DarkGray"
+                                       Grid.Column="1"
+                                       x:Name="SearchTextBlock"
+                                       Visibility="Hidden"
+                                       Height="{TemplateBinding Height}">
+                            </TextBlock>
+                            <StackPanel Orientation="Vertical" 
+                                        Width="{TemplateBinding Width}" 
+                                        Margin="0,35,0,0" 
+                                        x:Name="ResultsPanel"
+                                        Visibility="Visible">
+                                <ItemsControl ItemsSource="{TemplateBinding SearchResults}" DataContext="{Binding DataContext, RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=Window}}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Orientation="Horizontal">
+                                                <RadioButton Width="250"
+                                                    Style="{StaticResource SearchRadioButtonTheme}"
+                                                    Content="{Binding Name}"
+                                                    Command="{Binding Path=DataContext.SearchResultCommand,  RelativeSource={RelativeSource AncestorType={x:Type Window}}}" 
+                                                    CommandParameter="{Binding}">
+                                                </RadioButton>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <DataTrigger Binding="{Binding Text, ElementName=SearchBox}" Value="">
+                            <Setter Property="Height" TargetName="SearchBorder" Value="40"/>
+                            <Setter Property="Visibility" TargetName="ResultsPanel" Value="Hidden"/>
+                            <Setter Property="Visibility" TargetName="SearchTextBlock" Value="Visible"/>
+                        </DataTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

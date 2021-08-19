@@ -2,9 +2,16 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:MapRotationTracker.Controls"
                     xmlns:converters="clr-namespace:MapRotationTracker.Converters">
+
+    <SolidColorBrush x:Key="MapNameLabelBackground" Color="LightGray" Opacity="0.4"/>
+    <SolidColorBrush x:Key="MapNameLabelStroke" Color="#2F2F2F"/>
+    <SolidColorBrush x:Key="MapNameLabelForeground" Color="Black"/>
+
+    <SolidColorBrush x:Key="MapButtonBackground" Color="Transparent"/>
+
     <Style TargetType="local:MapButton" 
            BasedOn="{StaticResource {x:Type Button}}">
-        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Background" Value="{StaticResource MapButtonBackground}"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="local:MapButton">
@@ -22,19 +29,18 @@
                             <Image x:Name="MapIcon" Stretch="Fill" Source="{TemplateBinding Map, Converter={StaticResource MapToSourceConverter}}" Opacity="0.9"/>
                             
                             <Rectangle x:Name="TextRectangle"
-                                Stroke="#2F2F2F"
+                                Stroke="{StaticResource MapNameLabelStroke}"
                                 Width="{TemplateBinding Size, Converter={StaticResource ButtonSizeToRectWidthConverter}}"
                                 Visibility="{TemplateBinding Map, Converter={StaticResource MapToButtonVisibilityConverter}}"
                                 Height="20" 
                                 Margin="0,20,0,0"
                                 VerticalAlignment="Top"
-                                Fill="LightGray"
-                                Opacity="0.4"/>
+                                Fill="{StaticResource MapNameLabelBackground}"/>
                             
                             <TextBlock x:Name="MapNameLabel" Text="{TemplateBinding Map, Converter={StaticResource MapToNameConverter}}"                                     
                                 FontSize="15"
                                 Visibility="{TemplateBinding Map, Converter={StaticResource MapToButtonVisibilityConverter}}"
-                                Foreground="Black"
+                                Foreground="{StaticResource MapNameLabelForeground}"
                                 Margin="0,20,0,0"
                                 VerticalAlignment="Top"
                                 HorizontalAlignment="Center"/>

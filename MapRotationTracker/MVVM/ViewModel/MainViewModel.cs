@@ -1,4 +1,5 @@
-﻿using MapRotationTracker.Core;
+﻿using MapRotationTracker.Controls;
+using MapRotationTracker.Core;
 using MapRotationTracker.MVVM.Model;
 using Newtonsoft.Json;
 using System;

@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:MapRotationTracker"
         xmlns:viewModel="clr-namespace:MapRotationTracker.MVVM.ViewModel"
         xmlns:view="clr-namespace:MapRotationTracker.MVVM.View"
+        xmlns:custom="clr-namespace:MapRotationTracker.Controls"
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="1120"
         WindowStyle="None"
@@ -74,17 +75,19 @@
                 </RadioButton>
 
             </StackPanel>
-
-            <TextBox Width="250"
-                     
-                     VerticalAlignment="Top"
-                     HorizontalAlignment="Left"
-                     Margin="5"
-                     Grid.Column="1"
-                     Grid.RowSpan="2"
-                     Panel.ZIndex="1"
-                     Style="{StaticResource SearchTextBox}">
-            </TextBox>
+          
+            <custom:SearchBox   Width="250"
+                                VerticalAlignment="Top"
+                                HorizontalAlignment="Left"
+                                Margin="5"
+                                Grid.Column="1"
+                                Grid.RowSpan="2"
+                                Panel.ZIndex="1"
+                                SearchResults="{Binding SearchResults}"
+                                ButtonCommand="{Binding SearchResultCommand}"
+                                Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"
+                                ResultCount="8">
+            </custom:SearchBox>
 
             <ContentControl Grid.Row="1"
                             Grid.Column="1"

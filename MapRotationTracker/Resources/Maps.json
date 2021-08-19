@@ -91,13 +91,13 @@
     },
     {
         "Id": 117,
-        "Name": "Unknown",
+        "Name": "Canyon",
         "CodeName": "117_canyon_ish",
         "FileName": "117_canyon_ish.png"
     },
     {
         "Id": 119,
-        "Name": "Unknown",
+        "Name": "Volga",
         "CodeName": "119_turning_point_if",
         "FileName": "119_turning_point_if.png"
     },
@@ -109,49 +109,49 @@
     },
     {
         "Id": 120,
-        "Name": "Unknown",
+        "Name": "Airshipyard",
         "CodeName": "120_graf_zeppelin_ish",
         "FileName": "120_graf_zeppelin_ish.png"
     },
     {
         "Id": 121,
-        "Name": "Unknown",
+        "Name": "Oyster Bay",
         "CodeName": "121_lost_paradise_v",
         "FileName": "121_lost_paradise_v.png"
     },
     {
         "Id": 122,
-        "Name": "Unknown",
+        "Name": "Avalanche",
         "CodeName": "122_frozen_land",
         "FileName": "122_frozen_land.png"
     },
     {
         "Id": 123,
-        "Name": "Unknown",
+        "Name": "Far East",
         "CodeName": "123_dalny_gg",
         "FileName": "123_dalny_gg.png"
     },
     {
         "Id": 125,
-        "Name": "Unknown",
+        "Name": "Foothills",
         "CodeName": "125_highground_v",
         "FileName": "125_highground_v.png"
     },
     {
         "Id": 126,
-        "Name": "Unknown",
+        "Name": "Place of Power",
         "CodeName": "126_asia_ravine_ish",
         "FileName": "126_asia_ravine_ish.png"
     },
     {
         "Id": 127,
-        "Name": "Unknown",
+        "Name": "Safe Haven",
         "CodeName": "127_japort",
         "FileName": "127_japort.png"
     },
     {
         "Id": 128,
-        "Name": "Unknown",
+        "Name": "Outpost",
         "CodeName": "128_last_frontier_v",
         "FileName": "128_last_frontier_v.png"
     },
@@ -187,31 +187,31 @@
     },
     {
         "Id": 208,
-        "Name": "Unknown",
+        "Name": "Normandie",
         "CodeName": "208_bf_epic_normandy",
         "FileName": "208_bf_epic_normandy.png"
     },
     {
         "Id": 209,
-        "Name": "Unknown",
+        "Name": "Kraftwerk",
         "CodeName": "209_wg_epic_suburbia",
         "FileName": "209_wg_epic_suburbia.png"
     },
     {
         "Id": 212,
-        "Name": "Unknown",
+        "Name": "Nebelburg",
         "CodeName": "212_epic_random_valley",
         "FileName": "212_epic_random_valley.png"
     },
     {
         "Id": 217,
-        "Name": "Unknown",
+        "Name": "Klondike",
         "CodeName": "217_er_alaska",
         "FileName": "217_er_alaska.png"
     },
     {
         "Id": 222,
-        "Name": "Unknown",
+        "Name": "Hinterland",
         "CodeName": "222_er_clime",
         "FileName": "222_er_clime.png"
     },
@@ -223,13 +223,13 @@
     },
     {
         "Id": 250,
-        "Name": "Unknown",
+        "Name": "Dreamland",
         "CodeName": "250_br_battle_city2-1",
         "FileName": "250_br_battle_city2-1.png"
     },
     {
         "Id": 251,
-        "Name": "Unknown",
+        "Name": "Arzagir",
         "CodeName": "251_br_battle_city3",
         "FileName": "251_br_battle_city3.png"
     },

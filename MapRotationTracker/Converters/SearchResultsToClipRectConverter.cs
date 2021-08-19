@@ -9,33 +9,22 @@ using System.Windows.Data;
 
 namespace MapRotationTracker.Converters
 {
-    public class SearchResultsToStackPanelSizeConverter : DependencyObject, IValueConverter
+    public class SearchResultsToClipRectConverter : IValueConverter
     {
-        //public static DependencyProperty MaxElementsProperty = DependencyProperty.Register("MaxElements", typeof(int), typeof(SearchResultsToStackPanelSizeConverter), new PropertyMetadata(5));
-
-        //public int MaxElements
-        //{
-        //    get => (int)GetValue(MaxElementsProperty);
-        //    set => SetValue(MaxElementsProperty, value);
-        //}
-
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
-            //SetValue(MaxElementsProperty, parameter);
-
             if (value is null)
-                return 40;
+                return new Rect(0d, 0d, 200d, 40d);
 
             if (value is Map[] results)
             {
                 var maxHeight = GetMaxSize(results.Length);
                 var limitedMaxHeight = GetMaxSize(5);
-
-
-                return maxHeight <= limitedMaxHeight ? maxHeight : limitedMaxHeight;
+                
+                return new Rect(0d, 0d, 200d, maxHeight <= limitedMaxHeight ? maxHeight : limitedMaxHeight);
             }
 
-            return 40;
+            return new Rect(0d, 0d, 200d, 40d);
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
@@ -45,16 +34,16 @@ namespace MapRotationTracker.Converters
 
         private int GetMaxSize(int count)
         {
-            var maxLen = (count - 1) * 30 + 65;
+            var maxLen = (count - 1) * 30 + 60;
 
             return count switch
             {
                 0 => 40,
-                1 => 65,
-                2 => 95,
-                3 => 125,
-                4 => 155,
-                5 => 185,
+                1 => 64,
+                2 => 94,
+                3 => 124,
+                4 => 154,
+                5 => 184,
                 _ => maxLen
             };
         }
