@@ -54,12 +54,7 @@ namespace MapRotationTracker.Controls
 
         public static Map GetDefaultMap()
         {
-            return new Map()
-            {
-                Path = @"/MapRotationTracker;component/Resources/default_map.png",
-                Name = "None"
-            };
+            return Cache.MapById[0].FirstOrDefault();
         }
-
     }
 }

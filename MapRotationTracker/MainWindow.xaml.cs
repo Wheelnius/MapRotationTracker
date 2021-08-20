@@ -1,4 +1,5 @@
-﻿using MapRotationTracker.MVVM.ViewModel;
+﻿using MapRotationTracker.MVVM.Model;
+using MapRotationTracker.MVVM.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;

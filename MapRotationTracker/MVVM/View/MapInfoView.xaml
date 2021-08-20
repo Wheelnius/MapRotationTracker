@@ -26,27 +26,39 @@
                     Margin="0,20,0,0" 
                     Background="#1F211F"
                     Height="245">
-            <StackPanel Orientation="Horizontal" Height="40" Width="800">
-                <Border Width="800" BorderBrush="DeepSkyBlue" BorderThickness="0,0,0,1.5">
-                    <Border.Effect>
-                        <DropShadowEffect Color="LightBlue" ShadowDepth="2"/>
-                    </Border.Effect>
+            <StackPanel Orientation="Horizontal" Height="30" Width="800">
+                <Border Width="800" BorderBrush="#4F4F4F" BorderThickness="0,0,0,1.5">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                        <StackPanel Width="124" Height="40"></StackPanel>
+                        <StackPanel Width="324" VerticalAlignment="Bottom">
+                            <TextBlock Text="Tank" Foreground="Gray" HorizontalAlignment="Left"/>
+                        </StackPanel>
+                        <StackPanel Width="124" VerticalAlignment="Bottom">
+                            <TextBlock Text="Winrate" Foreground="Gray" HorizontalAlignment="Left"/>
+                        </StackPanel>
+                        <StackPanel Width="124" VerticalAlignment="Bottom">
+                            <TextBlock Text="Times Played" Foreground="Gray" HorizontalAlignment="Left"/>
+                        </StackPanel>
+                    </StackPanel>
                 </Border>
             </StackPanel>
-            <ScrollViewer Width="800" Height="205" VerticalScrollBarVisibility="Auto" CanContentScroll="False">
+            <ScrollViewer Style="{StaticResource SlickScrollViewer}" Width="800" Height="215" VerticalScrollBarVisibility="Auto" CanContentScroll="False">
+                
                 <ItemsControl ItemsSource="{Binding Tanks}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
-                            <Border BorderThickness="0,0,0,1" BorderBrush="DeepSkyBlue" Width="760" HorizontalAlignment="Center">
-                                <Border.Effect>
-                                    <DropShadowEffect Color="LightBlue" ShadowDepth="2"/>
-                                </Border.Effect>
-                                <StackPanel Orientation="Horizontal" Height="80">
-                                    <Image Source="{Binding Tank.Path}" Margin="20,0,0,0" Stretch="Fill" Width="80" Height="50"></Image>
+                            <Border BorderThickness="0,0,0,1" BorderBrush="#4F4F4F" Width="760" HorizontalAlignment="Center">
+                                <StackPanel Orientation="Horizontal" Height="50">
+                                    <Image Source="{Binding Tank.Path}" Margin="20,0,0,0" Stretch="Fill" Width="64" Height="40">
+                                        <Image.Effect>
+                                            <DropShadowEffect Color="DarkSeaGreen" ShadowDepth="2"/>
+                                        </Image.Effect>
+                                    </Image>
                                     <TextBlock Width="300" Margin="20,0,0,0" Foreground="White" FontSize="18" FontFamily="Calibri" Text="{Binding Tank.Name}" VerticalAlignment="Center"></TextBlock>
                                     <TextBlock Width="100" Margin="20,0,0,0" Foreground="White" FontSize="18" FontFamily="Calibri" Text="{Binding Winrate}" VerticalAlignment="Center"></TextBlock>
                                     <TextBlock Width="100" Margin="20,0,0,0" Foreground="White" FontSize="18" FontFamily="Calibri" Text="{Binding TimesPlayed}" VerticalAlignment="Center"></TextBlock>
                                 </StackPanel>
+
                             </Border>
                         </DataTemplate>
                     </ItemsControl.ItemTemplate>

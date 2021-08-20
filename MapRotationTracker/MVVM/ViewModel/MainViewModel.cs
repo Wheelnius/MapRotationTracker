@@ -23,7 +23,7 @@ namespace MapRotationTracker.MVVM.ViewModel
         public MapInfoViewModel MapInfoVM;
         public SettingsViewModel SettingsVM;
 
-
+        private ReplayManagerService _replayManagerService;
         private Map[] _maps;
         private object _currentView;
 
@@ -69,15 +69,10 @@ namespace MapRotationTracker.MVVM.ViewModel
             MapInfoVM = new MapInfoViewModel();
             SettingsVM = new SettingsViewModel();
 
-            var maps = JsonConvert.DeserializeObject<Map[]>(Encoding.UTF8.GetString(Properties.Resources.Maps));
-            _maps = maps.Select(m => new Map()
-            {
-                CodeName = m.CodeName,
-                FileName = m.FileName,
-                Id = m.Id,
-                Name = m.Name,
-                Path = @"/MapRotationTracker;component/Resources/" + m.FileName
-            }).ToArray();
+            _replayManagerService = new ReplayManagerService(MapListVM, MapInfoVM);
+            _replayManagerService.Start();
+
+            _maps = Cache.Maps;
 
             CurrentView = MapListVM;
 

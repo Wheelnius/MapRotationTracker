@@ -1,4 +1,5 @@
 ﻿using MapRotationTracker.Core;
+using MapRotationTracker.MVVM.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,14 +13,22 @@ namespace MapRotationTracker.MVVM.ViewModel
     {
         public RelayCommand ReplaysFolderCommand { get; set; }
 
-        private string _replaysPath;
-
         public string ReplaysPath
         {
-            get { return _replaysPath; }
+            get => Settings.ReplaysPath;
             set
             {
-                _replaysPath = value;
+                Settings.ReplaysPath = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public bool StartWithWindows
+        {
+            get => Settings.StartWithWindows;
+            set
+            {
+                Settings.StartWithWindows = value;
                 OnPropertyChanged();
             }
         }
@@ -28,28 +37,8 @@ namespace MapRotationTracker.MVVM.ViewModel
         {
             ReplaysFolderCommand = new RelayCommand(o =>
             {
-                SelectReplaysFolder();
+                ReplaysPath = Settings.SelectReplaysFolder();
             });
-        }
-
-        private void SelectReplaysFolder()
-        {
-            FolderBrowserDialog folderBrowserDialog = new();
-            _ = folderBrowserDialog.ShowDialog();
-
-            string replaysPath = folderBrowserDialog.SelectedPath;
-
-            if (replaysPath is null or "")
-            {
-                Properties.Settings.Default.ReplaysFolder = "";
-                Properties.Settings.Default.Save();
-            }
-            else
-            {
-                ReplaysPath = replaysPath;
-                Properties.Settings.Default.ReplaysFolder = replaysPath;
-                Properties.Settings.Default.Save();
-            }
         }
     }
 }

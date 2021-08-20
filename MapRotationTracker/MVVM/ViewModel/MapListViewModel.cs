@@ -33,16 +33,7 @@ namespace MapRotationTracker.MVVM.ViewModel
                 mainView.CurrentView = mainView.MapInfoVM;          
             });
 
-            var maps = JsonConvert.DeserializeObject<Map[]>(Encoding.UTF8.GetString(Properties.Resources.Maps));
-
-            Maps = maps.Select(m => new Map()
-            {
-                CodeName = m.CodeName,
-                FileName = m.FileName,
-                Id = m.Id,
-                Name = m.Name,
-                Path = @"/MapRotationTracker;component/Resources/" + m.FileName
-            }).ToArray();
+            Maps = Cache.Maps;
         }
     }
 }

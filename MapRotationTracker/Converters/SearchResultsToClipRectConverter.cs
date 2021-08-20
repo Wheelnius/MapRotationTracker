@@ -32,7 +32,7 @@ namespace MapRotationTracker.Converters
             throw new NotImplementedException();
         }
 
-        private int GetMaxSize(int count)
+        private static int GetMaxSize(int count)
         {
             var maxLen = (count - 1) * 30 + 60;
 

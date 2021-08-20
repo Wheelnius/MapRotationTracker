@@ -3,5 +3,6 @@
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="MapRotationTracker;component/Controls/MapButtonStyle.xaml"/>
         <ResourceDictionary Source="MapRotationTracker;component/Controls/SearchBoxStyle.xaml"/>
+        <ResourceDictionary Source="MapRotationTracker;component/Controls/ToastrNotificationStyle.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>

@@ -18,6 +18,8 @@
                 <ResourceDictionary Source="Style/ToggleButtonTheme.xaml"/>
                 <ResourceDictionary Source="Style/DropShadowButtonTheme.xaml"/>
                 <ResourceDictionary Source="Style/BackgroundImageTheme.xaml"/>
+                <ResourceDictionary Source="Style/SlickScrollBarTheme.xaml"/>
+
             </ResourceDictionary.MergedDictionaries>
 
             <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">

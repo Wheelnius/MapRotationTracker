@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"                    
+                    xmlns:local="clr-namespace:MapRotationTracker.Controls"
+                    xmlns:converters="clr-namespace:MapRotationTracker.Converters" 
+                    xmlns:viewModel="clr-namespace:MapRotationTracker.MVVM.ViewModel">
+    <Style TargetType="local:ToastrNotification">
+        <Style.Setters>
+            
+        </Style.Setters>
+    </Style>
+</ResourceDictionary>
