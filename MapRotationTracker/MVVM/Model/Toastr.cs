@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MapRotationTracker.Core;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,10 +10,23 @@ namespace MapRotationTracker.MVVM.Model
     public class Toastr
     {
         public string Message { get; set; }
+        public bool Visible { get; set; }
 
-        /// <summary>
-        /// Set to 0 if unlimited / waiting for update.
-        /// </summary>
-        public int Duration { get; set; }
+        public static Toastr Show(string message)
+        {
+            return new Toastr() 
+            { 
+                Message = message,
+                Visible = true
+            };
+        }
+
+        public static Toastr Hide()
+        {
+            return new Toastr()
+            {
+                Visible = false
+            };
+        }
     }
 }

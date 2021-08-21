@@ -13,7 +13,7 @@
         ResizeMode="NoResize"
         Background="Transparent"
         AllowsTransparency="True">
-    
+
     <Window.DataContext>
         <viewModel:MainViewModel/>
     </Window.DataContext>
@@ -26,7 +26,7 @@
                 <GradientStop Color="#212121" Offset="1"/>
             </LinearGradientBrush>
         </Border.Background>
-        
+
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="200"/>
@@ -38,10 +38,6 @@
                 <RowDefinition Height="75"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-
-            <Image Style="{StaticResource BackgroundImage}">
-                
-            </Image>
 
             <TextBlock Text="Map Tracker"
                        VerticalAlignment="Center"
@@ -75,7 +71,7 @@
                 </RadioButton>
 
             </StackPanel>
-          
+
             <custom:SearchBox   Width="250"
                                 VerticalAlignment="Top"
                                 HorizontalAlignment="Left"
@@ -86,8 +82,11 @@
                                 SearchResults="{Binding SearchResults}"
                                 ButtonCommand="{Binding SearchResultCommand}"
                                 Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"
-                                ResultCount="8">
-            </custom:SearchBox>
+                                ResultCount="8"/>
+
+            <custom:ToastrNotification x:Name="toastrNotification" Grid.Column="1"
+                                       Width="530" 
+                                       Height="40" Margin="249,-75,41,70"/>
 
             <ContentControl Grid.Row="1"
                             Grid.Column="1"

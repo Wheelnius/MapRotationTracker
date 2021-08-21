@@ -29,7 +29,7 @@ namespace MapRotationTracker.MVVM.ViewModel
 
         public object CurrentView
         {
-            get { return _currentView; }
+            get => _currentView;
             set
             {
                 _currentView = value;
@@ -41,7 +41,7 @@ namespace MapRotationTracker.MVVM.ViewModel
 
         public string SearchText
         {
-            get { return _searchText; }
+            get => _searchText;
             set
             {
                 _searchText = value;
@@ -54,10 +54,22 @@ namespace MapRotationTracker.MVVM.ViewModel
 
         public Map[] SearchResults
         {
-            get { return _searchResults; }
+            get => _searchResults;
             set
             {
                 _searchResults = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private Toastr _toastr;
+
+        public Toastr Toastr
+        {
+            get => _toastr;
+            set
+            {
+                _toastr = value;
                 OnPropertyChanged();
             }
         }
@@ -72,6 +84,7 @@ namespace MapRotationTracker.MVVM.ViewModel
             _replayManagerService = new ReplayManagerService(MapListVM, MapInfoVM);
             _replayManagerService.Start();
 
+            Toastr = Toastr.Show("Loading Replay file data in the background...");
             _maps = Cache.Maps;
 
             CurrentView = MapListVM;
@@ -79,6 +92,7 @@ namespace MapRotationTracker.MVVM.ViewModel
             SettingsViewCommand = new RelayCommand(o =>
             {
                 CurrentView = SettingsVM;
+                Toastr = Toastr.Hide();
             });
 
             HomeViewCommand = new RelayCommand(o =>
@@ -88,6 +102,7 @@ namespace MapRotationTracker.MVVM.ViewModel
 
             MapListViewCommand = new RelayCommand(o =>
             {
+                Toastr = Toastr.Show("Loading Replay file data in the background...");
                 CurrentView = MapListVM;
             });
 

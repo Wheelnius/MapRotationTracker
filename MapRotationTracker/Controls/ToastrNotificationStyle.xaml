@@ -5,7 +5,96 @@
                     xmlns:viewModel="clr-namespace:MapRotationTracker.MVVM.ViewModel">
     <Style TargetType="local:ToastrNotification">
         <Style.Setters>
-            
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="local:ToastrNotification">
+                        <ControlTemplate.Resources>
+                            <converters:ToastrToTextConverter x:Key="ToastrToTextConverter"/>
+                            <converters:ToastrToBooleanConverter x:Key="ToastrToBooleanConverter"/>
+
+                        </ControlTemplate.Resources>
+                        <Border Name="ToastrBox"
+                                Background="White" 
+                                BorderBrush="Gray" 
+                                CornerRadius="10"
+                                Opacity="0.8"
+                                RenderTransformOrigin="0.5,0.5"
+                                Height="{TemplateBinding Height}" 
+                                Width="{TemplateBinding Width}">
+                            <Grid>
+                                <TextBlock HorizontalAlignment="Center" 
+                                       VerticalAlignment="Center" 
+                                       Name="templateTextBlock" 
+                                       Text="{Binding Toastr, Converter={StaticResource ToastrToTextConverter}}"/>
+                                <Image
+                                    HorizontalAlignment="Right"
+                                    Margin="0,0,20,0"
+                                        Source="/Resources/spinner_black.png"
+                                        Width="32"
+                                        Height="32"
+                                        RenderTransformOrigin="0.5, 0.5" 
+                                        Visibility="Visible">
+                                    <Image.RenderTransform>
+                                        <RotateTransform x:Name="noFreeze" />
+                                    </Image.RenderTransform>
+                                    <Image.Triggers>
+                                        <EventTrigger RoutedEvent="Loaded">
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <DoubleAnimation
+                                                        Storyboard.TargetProperty="(Image.RenderTransform).(RotateTransform.Angle)"
+                                                        To="360" Duration="0:0:1" RepeatBehavior="Forever"/>
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </EventTrigger>
+                                    </Image.Triggers>
+                                </Image>
+                            </Grid>
+
+                            <Border.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Border.RenderTransform>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <DataTrigger Binding="{Binding Toastr, Converter={StaticResource ToastrToBooleanConverter}}" Value="True">
+                                <DataTrigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="ToastrBox" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+                                                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                                                <EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="70">
+                                                    <EasingDoubleKeyFrame.EasingFunction>
+                                                        <BackEase EasingMode="EaseIn"/>
+                                                    </EasingDoubleKeyFrame.EasingFunction>
+                                                </EasingDoubleKeyFrame>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </DataTrigger.EnterActions>
+                                <DataTrigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="ToastrBox" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+                                                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="70"/>
+                                                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="0">
+                                                    <EasingDoubleKeyFrame.EasingFunction>
+                                                        <BackEase EasingMode="EaseOut"/>
+                                                    </EasingDoubleKeyFrame.EasingFunction>
+                                                </EasingDoubleKeyFrame>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </DataTrigger.ExitActions>
+                            </DataTrigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
         </Style.Setters>
     </Style>
 </ResourceDictionary>

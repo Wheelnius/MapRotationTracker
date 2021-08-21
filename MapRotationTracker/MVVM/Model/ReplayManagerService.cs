@@ -14,7 +14,7 @@ namespace MapRotationTracker.MVVM.Model
 {
     public class ReplayManagerService
     {
-        private static readonly Regex RReplayName = new Regex(@"\.wotreplay$", RegexOptions.Compiled);
+        private static readonly Regex RReplayName = new(@"\.wotreplay$", RegexOptions.Compiled);
 
         private MapListViewModel _mapListViewModel;
         private MapInfoViewModel _mapInfoViewModel;

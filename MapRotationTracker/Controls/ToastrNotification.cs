@@ -15,7 +15,7 @@ namespace MapRotationTracker.Controls
     {
         public static readonly DependencyProperty ToastrProperty = DependencyProperty.Register("Toastr", typeof(Toastr), typeof(ToastrNotification));
 
-        public Toastr ResultCount
+        public Toastr Toastr
         {
             get => (Toastr)GetValue(ToastrProperty);
             set => SetValue(ToastrProperty, value);

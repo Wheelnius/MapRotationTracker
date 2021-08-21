@@ -479,6 +479,7 @@
     <None Remove="Resources\poland-Pl21_CS_63.png" />
     <None Remove="Resources\poland-Pl22_CS_59.png" />
     <None Remove="Resources\poland-Pl23_CS_53.png" />
+    <None Remove="Resources\spinner_black.png" />
     <None Remove="Resources\sweden-S01_Strv_74_A2.png" />
     <None Remove="Resources\sweden-S02_Strv_M42.png" />
     <None Remove="Resources\sweden-S03_Strv_M38.png" />
@@ -1411,6 +1412,7 @@
     <Resource Include="Resources\poland-Pl21_CS_63.png" />
     <Resource Include="Resources\poland-Pl22_CS_59.png" />
     <Resource Include="Resources\poland-Pl23_CS_53.png" />
+    <Resource Include="Resources\spinner_black.png" />
     <Resource Include="Resources\sweden-S01_Strv_74_A2.png" />
     <Resource Include="Resources\sweden-S02_Strv_M42.png" />
     <Resource Include="Resources\sweden-S03_Strv_M38.png" />
