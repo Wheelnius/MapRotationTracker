@@ -15,7 +15,7 @@ namespace MapRotationTracker.MVVM.ViewModel
 
         public Map CurrentMap
         {
-            get { return _currentMap; }
+            get => _currentMap;
             set { _currentMap = value;
                 OnPropertyChanged();
             }
@@ -25,7 +25,7 @@ namespace MapRotationTracker.MVVM.ViewModel
 
         public TankStatistic[] Tanks
         {
-            get { return _tanks; }
+            get => _tanks;
             set { _tanks = value;
                 OnPropertyChanged();
             }

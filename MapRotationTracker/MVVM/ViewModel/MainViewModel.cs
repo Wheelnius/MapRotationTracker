@@ -76,15 +76,16 @@ namespace MapRotationTracker.MVVM.ViewModel
 
         public MainViewModel()
         {
+
             HomeVM = new HomeViewModel();
             MapListVM = new MapListViewModel(this);
             MapInfoVM = new MapInfoViewModel();
             SettingsVM = new SettingsViewModel();
 
-            _replayManagerService = new ReplayManagerService(MapListVM, MapInfoVM);
+            _replayManagerService = new ReplayManagerService(this);
             _replayManagerService.Start();
 
-            Toastr = Toastr.Show("Loading Replay file data in the background...");
+            Toastr = new Toastr();
             _maps = Cache.Maps;
 
             CurrentView = MapListVM;
@@ -92,7 +93,6 @@ namespace MapRotationTracker.MVVM.ViewModel
             SettingsViewCommand = new RelayCommand(o =>
             {
                 CurrentView = SettingsVM;
-                Toastr = Toastr.Hide();
             });
 
             HomeViewCommand = new RelayCommand(o =>
@@ -102,7 +102,6 @@ namespace MapRotationTracker.MVVM.ViewModel
 
             MapListViewCommand = new RelayCommand(o =>
             {
-                Toastr = Toastr.Show("Loading Replay file data in the background...");
                 CurrentView = MapListVM;
             });
 
