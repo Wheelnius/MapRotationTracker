@@ -42,7 +42,6 @@ namespace MapRotationTracker.MVVM.Model
 
         private void Callback(object state)
         {
-
             MainViewModel.Toastr = Toastr.Show("Loading and caching replay files...", out Guid process);
             var savedReplays = ReplayManager.LoadRoamingReplays();
             ReplayManager.UpdateReplayData(savedReplays);

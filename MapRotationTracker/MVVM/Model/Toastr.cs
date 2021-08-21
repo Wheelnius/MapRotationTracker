@@ -49,5 +49,19 @@ namespace MapRotationTracker.MVVM.Model
                 Visible = false
             };
         }
+
+        /// <summary>
+        /// Removes all processes and hides toastr.
+        /// </summary>
+        /// <returns></returns>
+        public static Toastr Hide()
+        {
+            _processes.Clear();
+
+            return new Toastr()
+            {
+                Visible = false
+            };
+        }
     }
 }
