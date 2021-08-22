@@ -10,12 +10,17 @@
         <StackPanel Orientation="Horizontal" 
                     Height="100" 
                     Background="#1F211F">
+            <TextBlock Text="{Binding CurrentMap.TimesPlayed}" 
+                       FontSize="18"
+                       Foreground="White"
+                       HorizontalAlignment="Center" 
+                       VerticalAlignment="Center"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" 
                     Height="300" 
                     Margin="0,20,0,0">
             <Border Width="300" Background="#1F211F">
-                <Image Source="{Binding CurrentMap.Path}"></Image>
+                <Image Source="{Binding CurrentMap.Map.Path}"></Image>
             </Border>
             <Border Width="480" 
                     Margin="20,0,0,0"

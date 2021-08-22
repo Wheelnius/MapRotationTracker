@@ -15,10 +15,10 @@ namespace MapRotationTracker.Converters
             if (value == null)
                 return null;
 
-            if (value is Map)
+            if (value is MapStatistic)
             {
-                Map map = value as Map;
-                return map.Path;
+                MapStatistic map = value as MapStatistic;
+                return map.Map.Path;
             }
 
             return null;

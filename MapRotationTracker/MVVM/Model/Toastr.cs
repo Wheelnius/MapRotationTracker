@@ -16,7 +16,7 @@ namespace MapRotationTracker.MVVM.Model
 
         public static Toastr Show(string message, out Guid processGuid)
         {
-            processGuid = new Guid();
+            processGuid = Guid.NewGuid();
             _processes.Add(processGuid, message);
 
             return new Toastr() 
@@ -62,6 +62,32 @@ namespace MapRotationTracker.MVVM.Model
             {
                 Visible = false
             };
+        }
+
+        /// <summary>
+        /// Tries to update existing toastr, creates a new one if it doesn't exist
+        /// </summary>
+        /// <param name="existingProcessGuid"></param>
+        /// <param name="message"></param>
+        /// <param name="processGuid"></param>
+        /// <returns></returns>
+        public static Toastr Update(Guid existingProcessGuid, string message, out Guid processGuid)
+        {
+            if (_processes.ContainsKey(existingProcessGuid))
+            {
+                processGuid = existingProcessGuid;
+                _processes[existingProcessGuid] = message;
+
+                return new Toastr()
+                {
+                    Message = message,
+                    Visible = true
+                };
+            }
+            else
+            {
+                return Toastr.Show(message, out processGuid);
+            }
         }
     }
 }

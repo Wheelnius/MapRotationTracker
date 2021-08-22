@@ -11,9 +11,9 @@ namespace MapRotationTracker.MVVM.ViewModel
 {
     class MapInfoViewModel : ObservableObject
     {
-        private Map _currentMap;
+        private MapStatistic _currentMap;
 
-        public Map CurrentMap
+        public MapStatistic CurrentMap
         {
             get => _currentMap;
             set { _currentMap = value;

@@ -16,11 +16,11 @@ namespace MapRotationTracker.Converters
             if (value == null)
                 return Visibility.Visible;
 
-            if (value is Map)
+            if (value is MapStatistic)
             {
-                Map map = value as Map;
+                MapStatistic map = value as MapStatistic;
 
-                if (map.Id == 0)
+                if (map.Map.Id == 0)
                     return Visibility.Hidden;
             }
 

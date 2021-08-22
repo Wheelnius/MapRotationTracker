@@ -113,7 +113,7 @@ namespace MapRotationTracker.MVVM.ViewModel
                 {
                     case MapListViewModel:
                     case MapInfoViewModel:
-                        MapInfoVM.CurrentMap = (Map)o;
+                        MapInfoVM.CurrentMap = (MapStatistic)o;
                         CurrentView = MapInfoVM;
                         break;
                     case HomeViewModel:

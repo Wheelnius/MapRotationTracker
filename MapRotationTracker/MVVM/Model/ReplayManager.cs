@@ -22,19 +22,20 @@ namespace MapRotationTracker.MVVM.Model
 
         public static List<Replay> LoadRoamingReplays()
         {
-            _ = Directory.CreateDirectory(TempDirectory);
-            string[] files = Directory.GetFiles(TempDirectory);
-
-            string tempFile = files.FirstOrDefault(f => Path.GetFileName(f) == TempFileName);
-
-            if (tempFile is null)
-            {
-                return new List<Replay>();
-            }
-
             try
             {
+                _ = Directory.CreateDirectory(TempDirectory);
+                string[] files = Directory.GetFiles(TempDirectory);
+
+                string tempFile = files.FirstOrDefault(f => Path.GetFileName(f) == TempFileName);
+
+                if (tempFile is null)
+                {
+                    return new List<Replay>();
+                }
+
                 return JsonConvert.DeserializeObject<List<Replay>>(File.ReadAllText(tempFile));
+
             }
             catch (Exception e)
             {
@@ -43,35 +44,54 @@ namespace MapRotationTracker.MVVM.Model
             }
         }
 
-        public static void SaveRoamingReplays(List<Replay> currentReplays)
+        public static bool SaveRoamingReplays(List<Replay> currentReplays)
         {
-            _ = Directory.CreateDirectory(TempDirectory);
-            string json = JsonConvert.SerializeObject(currentReplays);
-            string filePath = Path.Combine(TempDirectory, TempFileName);
-            File.WriteAllText(filePath, json);
+            try
+            {
+                _ = Directory.CreateDirectory(TempDirectory);
+                string json = JsonConvert.SerializeObject(currentReplays);
+                string filePath = Path.Combine(TempDirectory, TempFileName);
+                File.WriteAllText(filePath, json);
+                return true;
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(e);
+                return false;
+            }
+
         }
 
-        /// <summary>
-        /// Requires Settings.ReplayPath validation
-        /// </summary>
-        /// <param name="loadedReplays"></param>
-        /// <returns></returns>
-        public static void UpdateReplayData(List<Replay> currentReplays)
+        public static bool UpdateReplayData(List<Replay> currentReplays)
         {
             ILookup<string, Replay> loadedReplays = currentReplays.ToLookup(c => c.FileName);
-            List<string> missingReplays = new List<string>();
+            List<string> missingReplays = new();
 
-            IEnumerable<string> replayNames = Directory
-                .GetFiles(Settings.ReplaysPath)
-                .Select(r => Path.GetFileName(r))
-                .Where(r => RReplayName.IsMatch(r));
-
-            foreach (string replayName in replayNames)
+            if (!Directory.Exists(Settings.ReplaysPath))
             {
-                if (!loadedReplays[replayName].Any())
+                Debug.WriteLine($"{Settings.ReplaysPath} does not exist.");
+                return false;
+            }
+
+            try
+            {
+                IEnumerable<string> replayNames = Directory
+                    .GetFiles(Settings.ReplaysPath)
+                    .Select(r => Path.GetFileName(r))
+                    .Where(r => RReplayName.IsMatch(r));
+
+                foreach (string replayName in replayNames)
                 {
-                    missingReplays.Add(Path.Combine(Settings.ReplaysPath, replayName));
+                    if (!loadedReplays[replayName].Any())
+                    {
+                        missingReplays.Add(Path.Combine(Settings.ReplaysPath, replayName));
+                    }
                 }
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(e);
+                return false;
             }
 
             foreach (string missingReplayPath in missingReplays)
@@ -94,6 +114,8 @@ namespace MapRotationTracker.MVVM.Model
                     Debug.WriteLine(e);
                 }
             }
+
+            return true;
         }
     }
 }

@@ -20,13 +20,13 @@ namespace MapRotationTracker.Controls
             Large
         }
 
-        public static DependencyProperty MapProperty = DependencyProperty.Register("Map", typeof(Map), typeof(MapButton), new PropertyMetadata(GetDefaultMap()));
+        public static DependencyProperty MapProperty = DependencyProperty.Register("Map", typeof(MapStatistic), typeof(MapButton), new PropertyMetadata(GetDefaultMap()));
         public static DependencyProperty SizeProperty = DependencyProperty.Register("Size", typeof(ButtonSize), typeof(MapButton), new PropertyMetadata(ButtonSize.Small));
         public static DependencyProperty IsNameVisibleProperty = DependencyProperty.Register("IsNameVisible", typeof(bool), typeof(MapButton), new PropertyMetadata(true));
 
-        public Map Map
+        public MapStatistic Map
         {
-            get => (Map)GetValue(MapProperty);
+            get => (MapStatistic)GetValue(MapProperty);
             set => SetValue(MapProperty, value);
         }
 
@@ -52,9 +52,13 @@ namespace MapRotationTracker.Controls
             base.OnApplyTemplate();
         }
 
-        public static Map GetDefaultMap()
+        public static MapStatistic GetDefaultMap()
         {
-            return Cache.MapById[0].FirstOrDefault();
+            return new MapStatistic()
+            {
+                Map = Cache.MapById[0].FirstOrDefault(),
+                TimesPlayed = 0
+            };
         }
     }
 }

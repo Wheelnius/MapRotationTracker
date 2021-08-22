@@ -12,6 +12,8 @@ namespace MapRotationTracker.MVVM.Model
         private const string _defaultImagePath = @"/MapRotationTracker;component/Resources/";
         private static Map[] _maps;
         private static ILookup<int, Map> _mapById;
+        private static ILookup<string, Map> _mapByName;
+        public static bool Loaded { get; set; }
 
         public static string DefaultImagePath => _defaultImagePath;
 
@@ -34,7 +36,16 @@ namespace MapRotationTracker.MVVM.Model
             }
             set => _mapById = value;
         }
-        public static bool Loaded { get; set; }
+
+        public static ILookup<string, Map> MapByName
+        {
+            get
+            {
+                if (!Loaded) LoadCache();
+                return _mapByName;
+            }
+            set => _mapByName = value;
+        }
 
         public static void LoadCache()
         {
@@ -45,6 +56,7 @@ namespace MapRotationTracker.MVVM.Model
             }
 
             MapById = _maps.ToLookup(m => m.Id);
+            MapByName = _maps.ToLookup(m => m.CodeName);
             Loaded = true;
         }
 

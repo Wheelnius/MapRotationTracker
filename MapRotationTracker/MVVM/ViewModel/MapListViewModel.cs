@@ -13,14 +13,14 @@ namespace MapRotationTracker.MVVM.ViewModel
     {
         public RelayCommand MapInfoCommand { get; set; }
 
-        private Map[] _maps;
+        private MapStatistic[] _mapStatistics;
 
-        public Map[] Maps
+        public MapStatistic[] MapStatistics
         {
-            get { return _maps; }
+            get { return _mapStatistics; }
             set
             {
-                _maps = value;
+                _mapStatistics = value;
                 OnPropertyChanged();
             }
         }
@@ -29,11 +29,9 @@ namespace MapRotationTracker.MVVM.ViewModel
         {
             MapInfoCommand = new RelayCommand(o =>
             {
-                mainView.MapInfoVM.CurrentMap = (Map)o;
+                mainView.MapInfoVM.CurrentMap = (MapStatistic)o;
                 mainView.CurrentView = mainView.MapInfoVM;          
             });
-
-            Maps = Cache.Maps;
         }
     }
 }
