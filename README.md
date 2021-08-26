@@ -19,3 +19,7 @@ Old project:
 
 New project (Work in progress):
 ![GitHub Logo](Preview/Screenshot_7.png)
+
+26/08/2021 Update:
+![GitHub Logo](Preview/Screenshot_10.png)
+![GitHub Logo](Preview/Screenshot_11.png)
