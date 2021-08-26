@@ -39,17 +39,14 @@
                             <TextBlock Text="Tank" Foreground="Gray" HorizontalAlignment="Left"/>
                         </StackPanel>
                         <StackPanel Width="124" VerticalAlignment="Bottom">
-                            <TextBlock Text="Winrate" Foreground="Gray" HorizontalAlignment="Left"/>
-                        </StackPanel>
-                        <StackPanel Width="124" VerticalAlignment="Bottom">
                             <TextBlock Text="Times Played" Foreground="Gray" HorizontalAlignment="Left"/>
                         </StackPanel>
                     </StackPanel>
                 </Border>
             </StackPanel>
             <ScrollViewer Style="{StaticResource SlickScrollViewer}" Width="800" Height="215" VerticalScrollBarVisibility="Auto" CanContentScroll="False">
-                
-                <ItemsControl ItemsSource="{Binding Tanks}">
+
+                <ItemsControl ItemsSource="{Binding CurrentMap.TankStatistics}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
                             <Border BorderThickness="0,0,0,1" BorderBrush="#4F4F4F" Width="760" HorizontalAlignment="Center">
@@ -60,7 +57,6 @@
                                         </Image.Effect>
                                     </Image>
                                     <TextBlock Width="300" Margin="20,0,0,0" Foreground="White" FontSize="18" FontFamily="Calibri" Text="{Binding Tank.Name}" VerticalAlignment="Center"></TextBlock>
-                                    <TextBlock Width="100" Margin="20,0,0,0" Foreground="White" FontSize="18" FontFamily="Calibri" Text="{Binding Winrate}" VerticalAlignment="Center"></TextBlock>
                                     <TextBlock Width="100" Margin="20,0,0,0" Foreground="White" FontSize="18" FontFamily="Calibri" Text="{Binding TimesPlayed}" VerticalAlignment="Center"></TextBlock>
                                 </StackPanel>
 

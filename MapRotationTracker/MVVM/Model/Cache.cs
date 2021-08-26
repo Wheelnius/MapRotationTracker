@@ -11,10 +11,14 @@ namespace MapRotationTracker.MVVM.Model
     {
         private const string _defaultImagePath = @"/MapRotationTracker;component/Resources/";
         private static Map[] _maps;
+        private static Tank[] _tanks;
+
         private static ILookup<int, Map> _mapById;
         private static ILookup<string, Map> _mapByName;
-        public static bool Loaded { get; set; }
 
+        private static ILookup<string, Tank> _tankByName;
+
+        public static bool Loaded { get; set; }
         public static string DefaultImagePath => _defaultImagePath;
 
         public static Map[] Maps
@@ -47,16 +51,37 @@ namespace MapRotationTracker.MVVM.Model
             set => _mapByName = value;
         }
 
+        public static ILookup<string, Tank> TankByName
+        {
+            get
+            {
+                if (!Loaded) LoadCache();
+                return _tankByName;
+            }
+            set => _tankByName = value;
+        }
+
         public static void LoadCache()
         {
             _maps = JsonConvert.DeserializeObject<Map[]>(Encoding.UTF8.GetString(Properties.Resources.Maps));
+            _tanks = JsonConvert.DeserializeObject<Tank[]>(Encoding.UTF8.GetString(Properties.Resources.Tanks));
+
             foreach (var map in _maps)
             {
                 map.Path = DefaultImagePath + map.FileName;
             }
 
+            foreach (var tank in _tanks)
+            {
+                tank.Path = DefaultImagePath + tank.FileName;
+            }
+
             MapById = _maps.ToLookup(m => m.Id);
             MapByName = _maps.ToLookup(m => m.CodeName);
+
+            //TODO should probably just update the json later
+            TankByName = _tanks.ToLookup(t => t.FileName.Replace(".png", ""));
+
             Loaded = true;
         }
 

@@ -23,6 +23,7 @@ namespace MapRotationTracker.MVVM.Model
 
         private readonly ReplayManager _replayManager;
         public ReplayManager ReplayManager { get => _replayManager; }
+        public bool IsFinished => _isFinished;
 
         private static Replay[] Replays { get; set; }
 
@@ -34,15 +35,15 @@ namespace MapRotationTracker.MVVM.Model
 
         public void Start()
         {
-            _timer = new Timer(Callback, null, 5000, 10000);
+            _timer = new Timer(Callback, null, 1000, 10000);
         }
 
-        public void Stop()
+        public static void Stop()
         {
             _timer.Dispose();
         }
 
-        private void Callback(object state)
+        public void Callback(object state)
         {
             if (!_isFinished)
             {
@@ -76,7 +77,7 @@ namespace MapRotationTracker.MVVM.Model
             }
             else
             {
-                MainViewModel.Toastr = Toastr.Update(toastrProcessGuid, "Failed to update replays. Check Settings if the path is correct.", out _);
+                MainViewModel.Toastr = Toastr.Update(toastrProcessGuid, "Only loaded replays from cache. Check Settings if the path is correct.", out _);
                 Thread.Sleep(3000);
             }
 

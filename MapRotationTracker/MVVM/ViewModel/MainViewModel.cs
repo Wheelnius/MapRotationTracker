@@ -105,15 +105,28 @@ namespace MapRotationTracker.MVVM.ViewModel
                 CurrentView = MapListVM;
             });
 
-            SearchResultCommand = new RelayCommand(o =>
+            SearchResultCommand = new RelayCommand(async o =>
             {
                 SearchText = "";
+                if ((MapListVM.MapStatistics is null || !MapListVM.MapStatistics.Any()) && _replayManagerService.IsFinished)
+                {
+                    await Task.Run(() => _replayManagerService.Callback(null));
+                }
+
+                var mapStats = MapListVM.MapStatistics.Where(s => s.Map.Id == ((Map)o).Id).FirstOrDefault();
+                if (mapStats is null)
+                {
+                    mapStats = new MapStatistic
+                    {
+                        Map = (Map)o
+                    };
+                }
 
                 switch (CurrentView)
                 {
                     case MapListViewModel:
                     case MapInfoViewModel:
-                        MapInfoVM.CurrentMap = (MapStatistic)o;
+                        MapInfoVM.CurrentMap = mapStats;
                         CurrentView = MapInfoVM;
                         break;
                     case HomeViewModel:
