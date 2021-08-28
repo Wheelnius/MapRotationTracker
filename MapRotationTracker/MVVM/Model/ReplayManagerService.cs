@@ -20,6 +20,7 @@ namespace MapRotationTracker.MVVM.Model
 
         private readonly MainViewModel _mainViewModel;
         private MainViewModel MainViewModel { get => _mainViewModel; }
+        private Toastr _toastr;
 
         private readonly ReplayManager _replayManager;
         public ReplayManager ReplayManager { get => _replayManager; }
@@ -33,9 +34,16 @@ namespace MapRotationTracker.MVVM.Model
             _replayManager = new ReplayManager();
         }
 
+        internal ReplayManagerService(Toastr toastr, MainViewModel mainViewModel)
+        {
+            _mainViewModel = mainViewModel;
+            _replayManager = new ReplayManager();
+            _toastr = toastr;
+        }
+
         public void Start()
         {
-            _timer = new Timer(Callback, null, 1000, 10000);
+            _timer = new Timer(Callback, null, 5000, 10000);
         }
 
         public static void Stop()
@@ -52,7 +60,8 @@ namespace MapRotationTracker.MVVM.Model
             }
 
             _isFinished = false;
-            MainViewModel.Toastr = Toastr.Show("Loading and caching replay files...", out Guid process);
+            //MainViewModel.Toastr = Toastr.Show("Loading and caching replay files...", out Guid process);
+            _toastr.Show("Loading and caching replay files...", 2000, out Guid process);
 
             var replays = ScanReplays(process);
             var mapStats = replays
@@ -62,7 +71,7 @@ namespace MapRotationTracker.MVVM.Model
                 .ToArray();
             MainViewModel.MapListVM.MapStatistics = mapStats;
 
-            MainViewModel.Toastr = Toastr.Hide(process);
+            //MainViewModel.Toastr = Toastr.Hide(process);
             _isFinished = true;
         }
 
@@ -73,12 +82,14 @@ namespace MapRotationTracker.MVVM.Model
             if (ReplayManager.UpdateReplayData(savedReplays))
             {
                 _ = ReplayManager.SaveRoamingReplays(savedReplays);
-                Thread.Sleep(1000);
+                //Thread.Sleep(1000);
             }
             else
             {
-                MainViewModel.Toastr = Toastr.Update(toastrProcessGuid, "Only loaded replays from cache. Check Settings if the path is correct.", out _);
-                Thread.Sleep(3000);
+                //MainViewModel.Toastr = Toastr.Update(toastrProcessGuid, "Only loaded replays from cache. Check Settings if the path is correct.", out _);
+                //Thread.Sleep(3000);
+                _toastr.Update(toastrProcessGuid, "Only loaded replays from cache. Check Settings if the path is correct.", 3000);
+
             }
 
             return savedReplays;

@@ -82,10 +82,13 @@ namespace MapRotationTracker.MVVM.ViewModel
             MapInfoVM = new MapInfoViewModel();
             SettingsVM = new SettingsViewModel();
 
-            _replayManagerService = new ReplayManagerService(this);
+
+            Toastr = new Toastr(this);
+
+            //_replayManagerService = new ReplayManagerService(this);
+            _replayManagerService = new ReplayManagerService(Toastr, this);
             _replayManagerService.Start();
 
-            Toastr = new Toastr();
             _maps = Cache.Maps;
 
             CurrentView = MapListVM;

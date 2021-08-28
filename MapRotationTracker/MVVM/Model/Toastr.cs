@@ -1,8 +1,11 @@
 ﻿using MapRotationTracker.Core;
+using MapRotationTracker.MVVM.ViewModel;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace MapRotationTracker.MVVM.Model
@@ -13,6 +16,15 @@ namespace MapRotationTracker.MVVM.Model
         public bool Visible { get; set; }
 
         private static IDictionary<Guid, string> _processes = new Dictionary<Guid, string>();
+        private MainViewModel MainViewModel { get; }
+        private Timer _timer;
+
+        internal Toastr(MainViewModel mainViewModel)
+        {
+            this.MainViewModel = mainViewModel;
+        }
+
+        public Toastr() { }
 
         public static Toastr Show(string message, out Guid processGuid)
         {
@@ -24,6 +36,62 @@ namespace MapRotationTracker.MVVM.Model
                 Message = message,
                 Visible = true
             };
+        }
+
+        public void Show(string message, int delay, out Guid processGuid)
+        {
+            Debug.WriteLine("Started..");
+            processGuid = Guid.NewGuid();
+            _processes.Add(processGuid, message);
+
+            MainViewModel.Toastr = new Toastr()
+            {
+                Message = message,
+                Visible = true
+            };
+
+            
+            _timer = new Timer(Hide, processGuid, delay, 10000000);
+        }
+
+        private void Hide(object state)
+        {
+            Debug.WriteLine("Finished..");
+            _timer.Dispose();
+            var guid = (Guid)state;
+
+            _processes.Remove(guid);
+
+            if (_processes.Any())
+            {
+                MainViewModel.Toastr = new Toastr()
+                {
+                    Message = _processes.First().Value,
+                    Visible = true
+                };
+            }
+
+            MainViewModel.Toastr = new Toastr()
+            {
+                Visible = false
+            };
+        }
+
+        public void Update(Guid existingProcessGuid, string message, int delay)
+        {
+            if (_processes.ContainsKey(existingProcessGuid))
+            {
+                _processes[existingProcessGuid] = message;
+                _timer.Dispose();
+
+                _timer = new Timer(Hide, existingProcessGuid, 1, delay);
+
+                MainViewModel.Toastr = new Toastr()
+                {
+                    Message = message,
+                    Visible = true
+                };
+            }
         }
 
         /// <summary>
