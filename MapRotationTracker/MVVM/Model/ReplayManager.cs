@@ -13,11 +13,9 @@ namespace MapRotationTracker.MVVM.Model
     public class ReplayManager
     {
         private static readonly Regex RReplayName = new(@"^[0-9]{8}_[0-9]{4}_.*?(\.wotreplay)$", RegexOptions.Compiled);
-
         private static readonly string TempDirectory = Path.Combine(
                 Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData),
                 "Rota Tracker", "temp");
-
         private static readonly string TempFileName = "temp.json";
 
         public static List<Replay> LoadRoamingReplays()

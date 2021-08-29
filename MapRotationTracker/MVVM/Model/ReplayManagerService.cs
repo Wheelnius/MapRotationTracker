@@ -13,17 +13,16 @@ namespace MapRotationTracker.MVVM.Model
     public class ReplayManagerService
     {
         private Timer _timer;
-        private readonly MapListViewModel _mapListViewModel;
         private readonly FilterViewModel _filterViewModel;
         private readonly ToastrFactory _toastrFactory;
+        private readonly DataProvider _dataProvider;
 
         public ReplayManager ReplayManager { get; }
         public bool IsFinished { get; private set; } = true;
-        public MapStatistic[] MapStatistics { get; set; }
 
-        internal ReplayManagerService(ToastrFactory toastrFactory, MapListViewModel mapListViewModel, FilterViewModel filterViewModel)
+        internal ReplayManagerService(ToastrFactory toastrFactory, DataProvider dataProvider, FilterViewModel filterViewModel)
         {
-            _mapListViewModel = mapListViewModel;
+            _dataProvider = dataProvider;
             ReplayManager = new ReplayManager();
             _toastrFactory = toastrFactory;
             _filterViewModel = filterViewModel;
@@ -73,8 +72,8 @@ namespace MapRotationTracker.MVVM.Model
                 .OrderByDescending(s => s.TimesPlayed)
                 .ToArray();
 
-            MapStatistics = mapStats;
-            UpdateViewModelData();
+            _dataProvider.MapStatistics = mapStats;
+            TriggerDataUpdate();
 
             IsFinished = true;
         }
@@ -95,45 +94,15 @@ namespace MapRotationTracker.MVVM.Model
             return savedReplays;
         }
 
-        private void UpdateViewModelData()
+        public void TriggerDataUpdate()
         {
-            if (MapStatistics is null)
+            if (_dataProvider.MapStatistics is null)
             {
                 ForceExec();
                 return;
             }
 
-            switch (_filterViewModel.LocalSetting)
-            {
-                default:
-                case "All":
-                    _mapListViewModel.MapStatistics = MapStatistics;
-                    break;
-                case "30":
-                    _mapListViewModel.MapStatistics = MapStatistics
-                        .SelectMany(m => m.Replays)
-                        .Where(r => DateTime.Parse(r.DateTime, CultureInfo.GetCultureInfo("de-DE")) > DateTime.Now.AddDays(-30))
-                        .GroupBy(r => r.MapName)
-                        .Select(g => g.ToStatistic())
-                        .ToArray();
-                    break;
-                case "7":
-                    _mapListViewModel.MapStatistics = MapStatistics
-                        .SelectMany(m => m.Replays)
-                        .Where(r => DateTime.Parse(r.DateTime, CultureInfo.GetCultureInfo("de-DE")) > DateTime.Now.AddDays(-7))
-                        .GroupBy(r => r.MapName)
-                        .Select(g => g.ToStatistic())
-                        .ToArray();
-                    break;
-                case "1":
-                    _mapListViewModel.MapStatistics = MapStatistics
-                        .SelectMany(m => m.Replays)
-                        .Where(r => DateTime.Parse(r.DateTime, CultureInfo.GetCultureInfo("de-DE")) > DateTime.Now.AddDays(-1))
-                        .GroupBy(r => r.MapName)
-                        .Select(g => g.ToStatistic())
-                        .ToArray();
-                    break;
-            }
+            _dataProvider.UpdateViewModelData(_filterViewModel.LocalSetting);
         }
     }
 }

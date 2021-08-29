@@ -35,7 +35,6 @@
                              Height="50"
                              Foreground="White"
                              FontSize="14"
-                             IsChecked="True"
                              Style="{StaticResource RadioButtonTheme}">
             </RadioButton>
         </StackPanel>
@@ -45,6 +44,7 @@
                          Height="50"
                          Foreground="White"
                          FontSize="14"
+                         IsChecked="True"
                          Style="{StaticResource RadioButtonTheme}"
                          Command="{Binding AllTimeCommand}">
             </RadioButton>

@@ -1,9 +1,7 @@
 ﻿using MapRotationTracker.MVVM.Model;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Globalization;
 
 namespace MapRotationTracker.Extensions
 {
@@ -44,6 +42,20 @@ namespace MapRotationTracker.Extensions
                     TimesPlayed = g.Count()
                 })
                 .OrderByDescending(t => t.TimesPlayed)
+                .ToArray();
+        }
+
+        public static MapStatistic[] FilterByAge(this MapStatistic[] mapStatistics, int lastDaysCount, IFormatProvider dateTimeCulture)
+        {
+            if (mapStatistics is null)
+                return null;
+
+            return mapStatistics
+                .SelectMany(m => m.Replays)
+                .Where(r => DateTime.Parse(r.DateTime, dateTimeCulture) > DateTime.Now.AddDays(-lastDaysCount))
+                .GroupBy(r => r.MapName)
+                .Select(g => g.ToStatistic())
+                .OrderByDescending(s => s.TimesPlayed)
                 .ToArray();
         }
     }

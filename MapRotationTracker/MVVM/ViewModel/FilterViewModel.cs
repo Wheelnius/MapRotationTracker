@@ -1,4 +1,5 @@
 ﻿using MapRotationTracker.Core;
+using MapRotationTracker.MVVM.Model;
 
 namespace MapRotationTracker.MVVM.ViewModel
 {
@@ -8,6 +9,7 @@ namespace MapRotationTracker.MVVM.ViewModel
         public RelayCommand Days30Command { get; set; }
         public RelayCommand Days7Command { get; set; }
         public RelayCommand Days1Command { get; set; }
+        public DataProvider DataProvider { get; set; }
 
         private string _localSetting;
 
@@ -18,11 +20,14 @@ namespace MapRotationTracker.MVVM.ViewModel
             {
                 _localSetting = value;
                 OnPropertyChanged();
+                DataProvider.UpdateViewModelData(value);
             }
         }
 
-        public FilterViewModel()
+        public FilterViewModel(DataProvider dataProvider)
         {
+            this.DataProvider = dataProvider;
+
             AllTimeCommand = new RelayCommand(o =>
             {
                 LocalSetting = "All";

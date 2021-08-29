@@ -25,6 +25,7 @@ namespace MapRotationTracker.MVVM.ViewModel
         public FilterViewModel FilterVM;
 
         private ReplayManagerService _replayManagerService;
+        private DataProvider _dataProvider;
         private Map[] _maps;
         private object _currentView;
         private object _currentFilterView;
@@ -94,12 +95,14 @@ namespace MapRotationTracker.MVVM.ViewModel
             MapListVM = new MapListViewModel(this);
             MapInfoVM = new MapInfoViewModel();
             SettingsVM = new SettingsViewModel();
-            FilterVM = new FilterViewModel();
 
             _toastrFactory = new ToastrFactory(this);
             Toastr = Toastr.GetHiddenToastr();
+            _dataProvider = new DataProvider(MapListVM, MapInfoVM);
 
-            _replayManagerService = new ReplayManagerService(_toastrFactory, MapListVM, FilterVM);
+            FilterVM = new FilterViewModel(_dataProvider);
+
+            _replayManagerService = new ReplayManagerService(_toastrFactory, _dataProvider, FilterVM);
             _replayManagerService.Start();
             _maps = Cache.Maps;
 
@@ -131,20 +134,11 @@ namespace MapRotationTracker.MVVM.ViewModel
 
                 await _replayManagerService.ForceExecAsync();
 
-                Map searchMap = o as Map;
-
-                var mapStats = MapListVM.MapStatistics
-                .Where(s => s.Map.Id == searchMap.Id)
-                .FirstOrDefault() ?? new MapStatistic
-                {
-                    Map = searchMap
-                };
-
                 switch (CurrentView)
                 {
                     case MapListViewModel:
                     case MapInfoViewModel:
-                        MapInfoVM.CurrentMap = mapStats;
+                        MapInfoVM.CurrentMap = _dataProvider.GetMapStatistics(o as Map);
                         CurrentView = MapInfoVM;
                         break;
                     case HomeViewModel:
