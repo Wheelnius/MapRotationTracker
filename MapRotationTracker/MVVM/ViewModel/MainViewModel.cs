@@ -26,6 +26,7 @@ namespace MapRotationTracker.MVVM.ViewModel
         private ReplayManagerService _replayManagerService;
         private Map[] _maps;
         private object _currentView;
+        private ToastrFactory _toastrFactory;
 
         public object CurrentView
         {
@@ -82,10 +83,11 @@ namespace MapRotationTracker.MVVM.ViewModel
             MapInfoVM = new MapInfoViewModel();
             SettingsVM = new SettingsViewModel();
 
-            _replayManagerService = new ReplayManagerService(this);
-            _replayManagerService.Start();
+            _toastrFactory = new ToastrFactory(this);
+            Toastr = Toastr.GetHiddenToastr();
 
-            Toastr = new Toastr();
+            _replayManagerService = new ReplayManagerService(_toastrFactory, this);
+            _replayManagerService.Start();
             _maps = Cache.Maps;
 
             CurrentView = MapListVM;
