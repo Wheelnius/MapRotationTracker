@@ -94,6 +94,12 @@
                             Content="{Binding CurrentView}">
             </ContentControl>
 
+            <ContentControl Grid.Row="1"
+                            Grid.Column="2"
+                            Margin="10,10,25,10"
+                            Content="{Binding CurrentFilterView}">
+            </ContentControl>
+
         </Grid>
     </Border>
 </Window>

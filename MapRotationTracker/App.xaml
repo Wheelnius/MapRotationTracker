@@ -33,7 +33,10 @@
             <DataTemplate DataType="{x:Type viewModel:SettingsViewModel}">
                 <view:SettingsView/>
             </DataTemplate>
-            
+            <DataTemplate DataType="{x:Type viewModel:FilterViewModel}">
+                <view:FilterView/>
+            </DataTemplate>
+
         </ResourceDictionary>
         
     </Application.Resources>

@@ -22,10 +22,13 @@ namespace MapRotationTracker.MVVM.ViewModel
         public HomeViewModel HomeVM;
         public MapInfoViewModel MapInfoVM;
         public SettingsViewModel SettingsVM;
+        public FilterViewModel FilterVM;
 
         private ReplayManagerService _replayManagerService;
         private Map[] _maps;
         private object _currentView;
+        private object _currentFilterView;
+
         private ToastrFactory _toastrFactory;
 
         public object CurrentView
@@ -34,6 +37,16 @@ namespace MapRotationTracker.MVVM.ViewModel
             set
             {
                 _currentView = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public object CurrentFilterView
+        {
+            get => _currentFilterView;
+            set
+            {
+                _currentFilterView = value;
                 OnPropertyChanged();
             }
         }
@@ -77,52 +90,55 @@ namespace MapRotationTracker.MVVM.ViewModel
 
         public MainViewModel()
         {
-
             HomeVM = new HomeViewModel();
             MapListVM = new MapListViewModel(this);
             MapInfoVM = new MapInfoViewModel();
             SettingsVM = new SettingsViewModel();
+            FilterVM = new FilterViewModel();
 
             _toastrFactory = new ToastrFactory(this);
             Toastr = Toastr.GetHiddenToastr();
 
-            _replayManagerService = new ReplayManagerService(_toastrFactory, this);
+            _replayManagerService = new ReplayManagerService(_toastrFactory, MapListVM, FilterVM);
             _replayManagerService.Start();
             _maps = Cache.Maps;
 
             CurrentView = MapListVM;
+            CurrentFilterView = FilterVM;
 
             SettingsViewCommand = new RelayCommand(o =>
             {
                 CurrentView = SettingsVM;
+                CurrentFilterView = null;
             });
 
             HomeViewCommand = new RelayCommand(o =>
             {
                 CurrentView = HomeVM;
+                CurrentFilterView = null;
             });
 
             MapListViewCommand = new RelayCommand(o =>
             {
                 CurrentView = MapListVM;
+                CurrentFilterView = FilterVM;
             });
 
             SearchResultCommand = new RelayCommand(async o =>
             {
+                CurrentFilterView = FilterVM;
                 SearchText = "";
-                if ((MapListVM.MapStatistics is null || !MapListVM.MapStatistics.Any()) && _replayManagerService.IsFinished)
-                {
-                    await Task.Run(() => _replayManagerService.Callback(null));
-                }
 
-                var mapStats = MapListVM.MapStatistics.Where(s => s.Map.Id == ((Map)o).Id).FirstOrDefault();
-                if (mapStats is null)
+                await _replayManagerService.ForceExecAsync();
+
+                Map searchMap = o as Map;
+
+                var mapStats = MapListVM.MapStatistics
+                .Where(s => s.Map.Id == searchMap.Id)
+                .FirstOrDefault() ?? new MapStatistic
                 {
-                    mapStats = new MapStatistic
-                    {
-                        Map = (Map)o
-                    };
-                }
+                    Map = searchMap
+                };
 
                 switch (CurrentView)
                 {
