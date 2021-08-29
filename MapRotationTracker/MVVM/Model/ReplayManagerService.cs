@@ -1,44 +1,27 @@
 ﻿using MapRotationTracker.Extensions;
 using MapRotationTracker.MVVM.ViewModel;
-using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO;
 using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace MapRotationTracker.MVVM.Model
 {
     public class ReplayManagerService
     {
         private static Timer _timer;
-        private bool _isFinished = true;
-
         private readonly MainViewModel _mainViewModel;
-        private MainViewModel MainViewModel { get => _mainViewModel; }
-        private Toastr _toastr;
+        private readonly ToastrFactory _toastrFactory;
 
-        private readonly ReplayManager _replayManager;
-        public ReplayManager ReplayManager { get => _replayManager; }
-        public bool IsFinished => _isFinished;
+        public ReplayManager ReplayManager { get; }
+        public bool IsFinished { get; private set; } = true;
 
-        private static Replay[] Replays { get; set; }
-
-        internal ReplayManagerService(MainViewModel mainViewModel)
+        internal ReplayManagerService(ToastrFactory toastrFactory, MainViewModel mainViewModel)
         {
             _mainViewModel = mainViewModel;
-            _replayManager = new ReplayManager();
-        }
-
-        internal ReplayManagerService(Toastr toastr, MainViewModel mainViewModel)
-        {
-            _mainViewModel = mainViewModel;
-            _replayManager = new ReplayManager();
-            _toastr = toastr;
+            ReplayManager = new ReplayManager();
+            _toastrFactory = toastrFactory;
         }
 
         public void Start()
@@ -53,26 +36,23 @@ namespace MapRotationTracker.MVVM.Model
 
         public void Callback(object state)
         {
-            if (!_isFinished)
+            if (!IsFinished)
             {
                 Debug.WriteLine("Job not finished. Waiting...");
                 return;
             }
 
-            _isFinished = false;
-            //MainViewModel.Toastr = Toastr.Show("Loading and caching replay files...", out Guid process);
-            _toastr.Show("Loading and caching replay files...", 2000, out Guid process);
+            IsFinished = false;
+            _toastrFactory.Show("Loading and caching replay files...", 2000, out Guid process);
 
-            var replays = ScanReplays(process);
-            var mapStats = replays
+            List<Replay> replays = ScanReplays(process);
+            MapStatistic[] mapStats = replays
                 .GroupBy(r => r.MapName)
                 .Select(g => g.ToStatistic())
                 .OrderByDescending(s => s.TimesPlayed)
                 .ToArray();
-            MainViewModel.MapListVM.MapStatistics = mapStats;
-
-            //MainViewModel.Toastr = Toastr.Hide(process);
-            _isFinished = true;
+            _mainViewModel.MapListVM.MapStatistics = mapStats;
+            IsFinished = true;
         }
 
         private List<Replay> ScanReplays(Guid toastrProcessGuid)
@@ -82,14 +62,10 @@ namespace MapRotationTracker.MVVM.Model
             if (ReplayManager.UpdateReplayData(savedReplays))
             {
                 _ = ReplayManager.SaveRoamingReplays(savedReplays);
-                //Thread.Sleep(1000);
             }
             else
             {
-                //MainViewModel.Toastr = Toastr.Update(toastrProcessGuid, "Only loaded replays from cache. Check Settings if the path is correct.", out _);
-                //Thread.Sleep(3000);
-                _toastr.Update(toastrProcessGuid, "Only loaded replays from cache. Check Settings if the path is correct.", 3000);
-
+                _toastrFactory.Update(toastrProcessGuid, "Only loaded replays from cache. Check Settings if the path is correct.", 3000);
             }
 
             return savedReplays;
